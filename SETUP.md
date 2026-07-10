@@ -22,3 +22,14 @@ Create a public repository with the exact same name as your GitHub username, the
 
 No email or Discord fields are included.
 LinkedIn is set to: https://www.linkedin.com/in/moeinghezelbash/
+
+
+The profile now shows age as `Uptime` only, not the raw birth date.
+If GitHub Actions has not run yet, open the `Actions` tab, click `Update profile terminal`, and use `Run workflow` once manually.
+
+
+Updated layout changes:
+- Larger/coarser ASCII portrait
+- `Uptime` shown instead of `Life`
+- `Born` removed
+- Role set to `Technical Operations Manager`

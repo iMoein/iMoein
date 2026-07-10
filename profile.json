@@ -10,7 +10,7 @@
     "iOS",
     "Android"
   ],
-  "role": "Business Development / DevOps-minded Builder",
+  "role": "Technical Operations Manager",
   "ide": "VSCode",
   "programming_languages": [
     "TypeScript",
@@ -37,7 +37,7 @@
   "ascii": {
     "source_image": "assets/profile.png",
     "output": "assets/photo-ascii.txt",
-    "columns": 82,
+    "columns": 58,
     "keyboard_only": true
   }
 }

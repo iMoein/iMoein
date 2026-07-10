@@ -182,7 +182,7 @@ def text_line(x: int, y: int, text: str, color: str = FG, size: float = 14, weig
     )
 
 
-def info_line(x: int, y: int, label: str, value: str, width: int = 65) -> str:
+def info_line(x: int, y: int, label: str, value: str, width: int = 58) -> str:
     label_txt = f"{label}:"
     dots_count = max(3, width - len(label_txt) - len(value))
     dots = " " + "." * dots_count + " "
@@ -201,7 +201,7 @@ def section_title(x: int, y: int, title: str) -> str:
     return text_line(x, y, left + ("─" * right_len), WHITE, 14, "700")
 
 
-def truncate(value: str, max_len: int = 58) -> str:
+def truncate(value: str, max_len: int = 49) -> str:
     return value if len(value) <= max_len else value[: max_len - 3] + "..."
 
 
@@ -212,10 +212,9 @@ def generate_svg() -> str:
     stats = fetch_github_stats(username, token)
 
     years, months, days = age_parts(cfg["birth_datetime"])
-    birth = dt.datetime.fromisoformat(cfg["birth_datetime"])
     ascii_lines = ASCII_PATH.read_text(encoding="utf-8").splitlines()
 
-    width, height = 1120, 620
+    width, height = 1180, 620
     lines = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
         f'<rect width="{width}" height="{height}" rx="14" fill="{BG}"/>',
@@ -223,24 +222,23 @@ def generate_svg() -> str:
     ]
 
     # Left: true keyboard-character ASCII portrait. No embedded raster image.
-    x_ascii, y_ascii = 18, 22
-    font_size, line_h = 7.65, 10.75
-    for i, line in enumerate(ascii_lines[:52]):
+    x_ascii, y_ascii = 16, 18
+    font_size, line_h = 10.8, 13.7
+    for i, line in enumerate(ascii_lines[:40]):
         # Subtle terminal-like tonal change while keeping every pixel as characters.
-        color = "#f0f6fc" if i < 20 else "#d1d7e0" if i < 35 else "#8b949e"
+        color = "#f0f6fc" if i < 16 else "#d1d7e0" if i < 28 else "#8b949e"
         lines.append(text_line(x_ascii, int(y_ascii + i * line_h), line, color, font_size))
 
-    x, y = 440, 28
+    x, y = 560, 28
     lines.append(section_title(x, y, f"{username}@github"))
     y += 38
 
-    born_value = birth.strftime("%d %b %Y, %H:%M")
+    uptime_value = f"{years} years, {months} months, {days} days"
     info = [
         ("Name", cfg["name"]),
         ("OS", ", ".join(cfg["os"])),
-        ("Born", born_value),
-        ("Life", f"{years} years, {months} months, {days} days"),
-        ("Role", cfg["role"]),
+        ("Uptime", uptime_value),
+        ("Role", cfg.get("role", "Technical Operations Manager")),
         ("IDE", cfg["ide"]),
         ("Languages.Program", ", ".join(cfg["programming_languages"])),
         ("Languages.Tools", ", ".join(cfg["tools"])),
