@@ -1,6 +1,6 @@
 {
   "name": "Moein Ghezelbash",
-  "github_username": "imoein",
+  "github_username": "iMoein",
   "linkedin": "https://www.linkedin.com/in/moeinghezelbash/",
   "birth_datetime": "1989-12-21T12:00:00",
   "os": [
@@ -17,15 +17,13 @@
     "JavaScript",
     "Python",
     "SQL",
-    "Bash",
-    "PHP"
+    "Bash"
   ],
   "tools": [
     "Docker",
     "Git",
     "Linux",
-    "CI/CD",
-    "Oracle APEX"
+    "CI/CD"
   ],
   "focus": [
     "APIs",
@@ -37,7 +35,8 @@
   "ascii": {
     "source_image": "assets/profile.png",
     "output": "assets/photo-ascii.txt",
-    "columns": 58,
+    "columns": 68,
     "keyboard_only": true
-  }
+  },
+  "kernel": "XNU, NT, Linux"
 }

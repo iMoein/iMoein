@@ -24,16 +24,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate terminal SVG
+      - name: Regenerate ASCII portrait
+        run: python scripts/image_to_keyboard_ascii.py assets/profile.png assets/photo-ascii.txt --cols 68
+
+      - name: Generate terminal SVG and refresh README cache-buster
         env:
           GH_USERNAME: ${{ github.repository_owner }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_profile.py
 
-      - name: Commit updated SVG
+      - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal.svg
-          git diff --cached --quiet || git commit -m "chore: update profile terminal"
+          git add assets/profile.png assets/photo-ascii.txt assets/terminal.svg README.md
+          git diff --cached --quiet || git commit -m "chore: refresh profile terminal"
           git push

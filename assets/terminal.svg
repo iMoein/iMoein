@@ -1,53 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="620" viewBox="0 0 1180 620">
-<rect width="1180" height="620" rx="14" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="675" viewBox="0 0 1180 675">
+<rect width="1180" height="675" rx="14" fill="#0d1117"/>
 <style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>
-<text x="16" y="18" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">                   -+#%%%%@%%%##*=-</text>
-<text x="16" y="31" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">                :+#%@@@@@@@@@@@@@@%#+-</text>
-<text x="16" y="45" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">               -#@@%%%%@@@@@@@%%%%@@@%*:</text>
-<text x="16" y="59" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">              =%@%@@@@%%%%%%%%@@@@@@%%@#:</text>
-<text x="16" y="72" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">             =@%@%#+==----=++++*##%%@%%@#:</text>
-<text x="16" y="86" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            :%%%*-:::::::::::---=*###@@%@*</text>
-<text x="16" y="100" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            :%@%-:...........::-=++*#%@%%*</text>
-<text x="16" y="113" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            :#@%=:::::.:.....:--=+++*#%%@=</text>
-<text x="16" y="127" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">             =@*-:::::::::::::-=+*#**+*%%:</text>
-<text x="16" y="141" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">             :@=-++**##*=:::+#%%%%%%#+=@*</text>
-<text x="16" y="155" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            .:+=--+++##*-::=%%#*###%#==%#*:</text>
-<text x="16" y="168" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            .:--:::::--::::=##+=+*++*+-**#:</text>
-<text x="16" y="182" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            ::=-::::::::.::=+*+====+===#%=</text>
-<text x="16" y="196" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">            .::=:..:....:::+#**+-==++=+#*:</text>
-<text x="16" y="209" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">         ....::*=:.::::=*+*%@%#+=++***%+:</text>
-<text x="16" y="223" fill="#f0f6fc" font-size="10.8" font-weight="400" xml:space="preserve">       .......:=#-::=++*##*#%%%#*###%@=::...</text>
-<text x="16" y="237" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">     .........::##=+@%*+++*#%%@@@%%@%#::......</text>
-<text x="16" y="250" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">    ...........::#%*#--+**##%#%%%%@%%=::.........</text>
-<text x="16" y="264" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">  ..............::+@%*=-+###%#%%%%%%#-=-::..........</text>
-<text x="16" y="278" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve"> .............:::::+#@%###%%%%%@@@@#+:* =::::.........</text>
-<text x="16" y="292" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve"> ........:::::::=*::-+#%@@@@@@@@%#+=-=%  %+-::::::......</text>
-<text x="16" y="305" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve"> ....::::::=+*%  *::.-=+**####*+=---=#       #*=-:::::...</text>
-<text x="16" y="319" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve"> :::::-=*%       +:.::::--===:      *            %*+=::::</text>
-<text x="16" y="333" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve"> =+#%            =::::=++*+:                          #+=</text>
-<text x="16" y="346" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">                %:::=%@@@@@%*:</text>
-<text x="16" y="360" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">               @+:::-=%%%%@@#-   :#</text>
-<text x="16" y="374" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">               @=:.:::#@%%%=</text>
-<text x="16" y="387" fill="#d1d7e0" font-size="10.8" font-weight="400" xml:space="preserve">               %::.::-%%%@*</text>
-<text x="16" y="401" fill="#8b949e" font-size="10.8" font-weight="400" xml:space="preserve">               #::.:-%%%%@%:</text>
-<text x="16" y="415" fill="#8b949e" font-size="10.8" font-weight="400" xml:space="preserve">               #:.::%@%@%@%:</text>
-<text x="16" y="429" fill="#8b949e" font-size="10.8" font-weight="400" xml:space="preserve">              @*:::*@%@@%@%:</text>
-<text x="560" y="28" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ imoein@github ────────────────────────────────────────────────────</text>
-<text x="560" y="66" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Name:</tspan><tspan fill="#4f5968"> ..................................... </tspan><tspan fill="#a5d6ff" font-weight="700">Moein Ghezelbash</tspan></text>
-<text x="560" y="94" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">OS:</tspan><tspan fill="#4f5968"> .......... </tspan><tspan fill="#a5d6ff" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS, Android</tspan></text>
-<text x="560" y="122" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Uptime:</tspan><tspan fill="#4f5968"> ........................ </tspan><tspan fill="#a5d6ff" font-weight="700">36 years, 6 months, 19 days</tspan></text>
-<text x="560" y="150" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Role:</tspan><tspan fill="#4f5968"> ......................... </tspan><tspan fill="#a5d6ff" font-weight="700">Technical Operations Manager</tspan></text>
-<text x="560" y="178" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">IDE:</tspan><tspan fill="#4f5968"> ................................................ </tspan><tspan fill="#a5d6ff" font-weight="700">VSCode</tspan></text>
-<text x="560" y="206" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Languages.Program:</tspan><tspan fill="#4f5968"> ... </tspan><tspan fill="#a5d6ff" font-weight="700">TypeScript, JavaScript, Python, SQL, Bash, PHP</tspan></text>
-<text x="560" y="234" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Languages.Tools:</tspan><tspan fill="#4f5968"> .... </tspan><tspan fill="#a5d6ff" font-weight="700">Docker, Git, Linux, CI/CD, Oracle APEX</tspan></text>
-<text x="560" y="262" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Focus:</tspan><tspan fill="#4f5968"> ..................... </tspan><tspan fill="#a5d6ff" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
-<text x="560" y="302" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ Contact ──────────────────────────────────────────────────────────</text>
-<text x="560" y="338" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">LinkedIn:</tspan><tspan fill="#4f5968"> .................. </tspan><tspan fill="#a5d6ff" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
-<text x="560" y="384" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ GitHub Stats ─────────────────────────────────────────────────────</text>
-<text x="560" y="420" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Repos:</tspan><tspan fill="#4f5968"> ............................. </tspan><tspan fill="#a5d6ff" font-weight="700">— | Stars: — | Forks: —</tspan></text>
-<text x="560" y="448" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Followers:</tspan><tspan fill="#4f5968"> ................................ </tspan><tspan fill="#a5d6ff" font-weight="700">— | Following: —</tspan></text>
-<text x="560" y="476" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Contribs.1y:</tspan><tspan fill="#4f5968"> ............................. </tspan><tspan fill="#a5d6ff" font-weight="700">— | Commits.1y: —</tspan></text>
-<text x="560" y="504" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">PRs/Issues.1y:</tspan><tspan fill="#4f5968"> ............................ </tspan><tspan fill="#a5d6ff" font-weight="700">— PRs | — Issues</tspan></text>
-<text x="560" y="532" font-size="14" xml:space="preserve"><tspan fill="#ff9950" font-weight="700">Top.Langs:</tspan><tspan fill="#4f5968"> ............................................... </tspan><tspan fill="#a5d6ff" font-weight="700">—</tspan></text>
-<text x="560" y="586" fill="#7d8590" font-size="12" font-weight="400" xml:space="preserve">Last updated: 2026-07-10 14:18 UTC</text>
+<text x="16" y="20" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                          ?)jvJCLCXx)[</text>
+<text x="16" y="31" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                      ?x0a8@$$$$$$$$$%*Zc|+</text>
+<text x="16" y="42" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                    \qB$$$$$@@@@@@@@$$$$$$8qt</text>
+<text x="16" y="53" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                   u$$$@BBB@@@@@@@@@@@@@B@$$$a|</text>
+<text x="16" y="65" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                 ^L$@B@$$$$$$$$$$$$$$$$$$@@@@$$x</text>
+<text x="16" y="76" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                Id$B$$$$8*bOJUZdbdqbkMB$$$$$$@@$u</text>
+<text x="16" y="87" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                O$B$@bz/?i&quot;^,,:i-?[}1tcLwk*%$$@@$n</text>
+<text x="16" y="99" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">               !8@@Mj!:^&#x27;...&#x27;^:;li_?[{\xzLQq8$$@@MI</text>
+<text x="16" y="110" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">               ?$@@0il,`.....`&quot;:;!_?]{/nzUCZh@@@$*&quot;</text>
+<text x="16" y="121" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">               :W$@Z-l&quot;`....&#x27;,;I;!~_]1txvzJOw&amp;$B@Z</text>
+<text x="16" y="133" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                Z@%X+I&#x27;......^Il:,;!_[)/xcJ0YZ%@$/</text>
+<text x="16" y="144" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                |$q_]}/|{{}-_i~lI;-(jUQZwbbpY/p$M^</text>
+<text x="16" y="155" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">                ^%C-LZmpa*B8k0\;]rb&amp;8@&amp;8%8&amp;&amp;O\J$J</text>
+<text x="16" y="166" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">               ?+YU+}\m0vo#wZj~.-LW##Ud8aWWd0/Y@pw[</text>
+<text x="16" y="178" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">              .[i[n!,I--_)ft]:,&#x27;~LhZUxcJLZmm0jxaZ#f</text>
+<text x="16" y="189" fill="#f0f6fc" font-size="9.1" font-weight="400" xml:space="preserve">               &quot;^jni,...&#x27;`^.&#x27;:;&quot;]YZLx/||tjrcX|x#mZl</text>
+<text x="16" y="200" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">               &#x27;:]c+;&#x27;.....&#x27;;:^`[uJwz/\)(\rcr(JoMt</text>
+<text x="16" y="212" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">              ..:IL1l:^^^&quot;i~-[l;)U0mmvrjfuXUvc*pc`</text>
+<text x="16" y="223" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">            ....&#x27;;CQ+!;;;i:^jbmUk$@#pXfjvYJL0oou,</text>
+<text x="16" y="234" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">           .......-&amp;c_iI_|tvOaMah8B%hwLUULq#&amp;B1`...</text>
+<text x="16" y="246" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">         ..........OWc[{h$$hqLJCZk#8$$$&amp;doB%$w........</text>
+<text x="16" y="257" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">       ............I&amp;&amp;Zc&amp;djrvxnXCwaMM#W@&amp;%B@Wl..........</text>
+<text x="16" y="268" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">     ...............iM$*m\~[ub#W&amp;&amp;Wkqwk&amp;@$@Bv&#x27;.............</text>
+<text x="16" y="279" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">    .................,Q$Bkn[[tCa#aqZw#B$$@&amp;hxjX`.............</text>
+<text x="16" y="291" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">    ..................lv#$8kpwhhp*MW8$$@BB#Q~+$h[..............</text>
+<text x="16" y="302" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">   .................iY^11UW$$$$$@$$$$@@$Bbn]~uB  q}..............</text>
+<text x="16" y="313" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">  .............&#x27;l{xQ O.!{]|Yq*W8B%&amp;8%%*Zn1]}/M     kX/_&quot;..........</text>
+<text x="16" y="325" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">  .........;{vm*     x...~}1|jzLOmdpJt[_-?]{d          &amp;pz1;......</text>
+<text x="16" y="336" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">  ....&#x27;I(Uh          \....&#x27;!?[{|fj[^                       %kU(l..</text>
+<text x="16" y="347" fill="#d6dde6" font-size="9.1" font-weight="400" xml:space="preserve">  {nQb#              )....._vufx_                               hY</text>
+<text x="16" y="359" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                   @Mi...n#%$$$$%0?</text>
+<text x="16" y="370" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                   @j..,Ub@BW@@@$$$Y</text>
+<text x="16" y="381" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                   B?  }! /$%$$$$aj     f</text>
+<text x="16" y="392" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                   o;     i@%@@@Y</text>
+<text x="16" y="404" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  $C      J@8$$Bl</text>
+<text x="16" y="415" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  $t     n$&amp;$$@$/</text>
+<text x="16" y="426" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  B|    /$%8$$B$U</text>
+<text x="16" y="438" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  B1   &quot;&amp;@8%$$@$Q</text>
+<text x="16" y="449" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  #:   n$%8B$$B$X</text>
+<text x="16" y="460" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  m   &#x27;*@88%B@B@}</text>
+<text x="16" y="472" fill="#9aa7b7" font-size="9.1" font-weight="400" xml:space="preserve">                  Q   ]@8%%BBB@M:</text>
+<text x="560" y="28" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ imoein@github ────────────────────────────────────────────</text>
+<text x="560" y="68" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Name:</tspan><tspan fill="#5f6b7a"> ................................... </tspan><tspan fill="#b6d7ff" font-weight="700">Moein Ghezelbash</tspan></text>
+<text x="560" y="96" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">OS:</tspan><tspan fill="#5f6b7a"> ........ </tspan><tspan fill="#b6d7ff" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS, Android</tspan></text>
+<text x="560" y="124" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Kernel:</tspan><tspan fill="#5f6b7a"> ................................... </tspan><tspan fill="#b6d7ff" font-weight="700">XNU, NT, Linux</tspan></text>
+<text x="560" y="152" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Uptime:</tspan><tspan fill="#5f6b7a"> ...................... </tspan><tspan fill="#b6d7ff" font-weight="700">36 years, 6 months, 19 days</tspan></text>
+<text x="560" y="180" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">UnixTime:</tspan><tspan fill="#5f6b7a"> ...................................... </tspan><tspan fill="#b6d7ff" font-weight="700">630244800</tspan></text>
+<text x="560" y="208" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Role:</tspan><tspan fill="#5f6b7a"> ....................... </tspan><tspan fill="#b6d7ff" font-weight="700">Technical Operations Manager</tspan></text>
+<text x="560" y="236" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">IDE:</tspan><tspan fill="#5f6b7a"> .............................................. </tspan><tspan fill="#b6d7ff" font-weight="700">VSCode</tspan></text>
+<text x="560" y="264" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Languages.Program:</tspan><tspan fill="#5f6b7a"> ... </tspan><tspan fill="#b6d7ff" font-weight="700">TypeScript, JavaScript, Python, SQL, Bash</tspan></text>
+<text x="560" y="292" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Languages.Tools:</tspan><tspan fill="#5f6b7a"> ............... </tspan><tspan fill="#b6d7ff" font-weight="700">Docker, Git, Linux, CI/CD</tspan></text>
+<text x="560" y="320" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Focus:</tspan><tspan fill="#5f6b7a"> ................... </tspan><tspan fill="#b6d7ff" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
+<text x="560" y="362" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ Contact ──────────────────────────────────────────────────</text>
+<text x="560" y="398" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">LinkedIn:</tspan><tspan fill="#5f6b7a"> ................ </tspan><tspan fill="#b6d7ff" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
+<text x="560" y="444" fill="#f0f6fc" font-size="14" font-weight="700" xml:space="preserve">─ GitHub Stats ─────────────────────────────────────────────</text>
+<text x="560" y="480" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Repos:</tspan><tspan fill="#5f6b7a"> ........................... </tspan><tspan fill="#b6d7ff" font-weight="700">0 | Stars: 0 | Forks: 0</tspan></text>
+<text x="560" y="508" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Followers:</tspan><tspan fill="#5f6b7a"> .............................. </tspan><tspan fill="#b6d7ff" font-weight="700">0 | Following: 0</tspan></text>
+<text x="560" y="536" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Contribs.1y:</tspan><tspan fill="#5f6b7a"> ........................... </tspan><tspan fill="#b6d7ff" font-weight="700">0 | Commits.1y: 0</tspan></text>
+<text x="560" y="564" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">PRs/Issues.1y:</tspan><tspan fill="#5f6b7a"> .......................... </tspan><tspan fill="#b6d7ff" font-weight="700">0 PRs | 0 Issues</tspan></text>
+<text x="560" y="592" font-size="14" xml:space="preserve"><tspan fill="#ff9d57" font-weight="700">Top.Langs:</tspan><tspan fill="#5f6b7a"> ............................................. </tspan><tspan fill="#b6d7ff" font-weight="700">—</tspan></text>
+<text x="560" y="641" fill="#8b949e" font-size="12" font-weight="400" xml:space="preserve">Last updated: 2026-07-10 14:31 UTC</text>
 </svg>

@@ -1,35 +1,31 @@
 # GitHub Profile Terminal
 
-This profile banner uses a real keyboard-character ASCII portrait.
+This version fixes the GitHub profile refresh issue by regenerating both:
+- `assets/terminal.svg`
+- `README.md` with a cache-busting raw GitHub URL
 
-## Update
+That means the profile overview should refresh much more reliably after each workflow run.
+
+## Local regenerate
 
 ```bash
 pip install -r requirements.txt
+python scripts/image_to_keyboard_ascii.py assets/profile.png assets/photo-ascii.txt --cols 68
 python scripts/generate_profile.py
 ```
 
-## Replace the photo and regenerate the keyboard ASCII
-
-```bash
-python scripts/image_to_keyboard_ascii.py assets/profile.png assets/photo-ascii.txt --cols 82
-python scripts/generate_profile.py
-```
-
-## GitHub Profile README
-
-Create a public repository with the exact same name as your GitHub username, then put these files in it.
-
-No email or Discord fields are included.
-LinkedIn is set to: https://www.linkedin.com/in/moeinghezelbash/
-
-
-The profile now shows age as `Uptime` only, not the raw birth date.
-If GitHub Actions has not run yet, open the `Actions` tab, click `Update profile terminal`, and use `Run workflow` once manually.
-
-
-Updated layout changes:
-- Larger/coarser ASCII portrait
-- `Uptime` shown instead of `Life`
+## What changed
+- Cleaner keyboard-only ASCII portrait
+- Bigger portrait on the left
 - `Born` removed
+- `Life` renamed to `Uptime`
 - Role set to `Technical Operations Manager`
+- README auto-refreshes with a cache-busting image URL
+
+
+Latest changes:
+- Removed PHP
+- Removed Oracle APEX
+- Added Kernel line
+- Added UnixTime line based on birth datetime
+- Kept age-style Uptime
