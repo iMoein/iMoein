@@ -1,0 +1,43 @@
+{
+  "name": "Moein Ghezelbash",
+  "github_username": "imoein",
+  "linkedin": "https://www.linkedin.com/in/moeinghezelbash/",
+  "birth_datetime": "1989-12-21T12:00:00",
+  "os": [
+    "macOS",
+    "Windows 10",
+    "Ubuntu 24.04",
+    "iOS",
+    "Android"
+  ],
+  "role": "Business Development / DevOps-minded Builder",
+  "ide": "VSCode",
+  "programming_languages": [
+    "TypeScript",
+    "JavaScript",
+    "Python",
+    "SQL",
+    "Bash",
+    "PHP"
+  ],
+  "tools": [
+    "Docker",
+    "Git",
+    "Linux",
+    "CI/CD",
+    "Oracle APEX"
+  ],
+  "focus": [
+    "APIs",
+    "BI",
+    "CRM",
+    "WebSocket",
+    "Infra"
+  ],
+  "ascii": {
+    "source_image": "assets/profile.png",
+    "output": "assets/photo-ascii.txt",
+    "columns": 82,
+    "keyboard_only": true
+  }
+}
