@@ -10,7 +10,7 @@
     "iOS",
     "Android"
   ],
-  "kernel": "Darwin/XNU, NT, Linux",
+  "kernel": "Darwin/XNU, Windows NT, Linux",
   "role": "Technical Operations Manager",
   "editor": "VSCode",
   "programming_languages": [
