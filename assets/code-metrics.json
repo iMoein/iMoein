@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-10T14:58:03+00:00",
+  "repo_count_seen": 5,
+  "repo_count_lines": 5,
+  "repo_count_movement": 4,
+  "lines_total": 77031,
+  "lines_added": 231078,
+  "lines_deleted": 58760,
+  "top_langs": [
+    "json",
+    "css",
+    "js",
+    "php",
+    "py"
+  ]
+}

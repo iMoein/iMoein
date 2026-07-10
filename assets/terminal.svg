@@ -1,62 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="720" viewBox="0 0 1180 720">
-<rect width="1180" height="720" rx="14" fill="#0b1220"/>
-<rect x="12" y="12" width="1156" height="696" rx="12" fill="#0d1117" stroke="#1f2937" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700">
+<rect width="1180" height="700" rx="14" fill="#0b1220"/>
+<rect x="12" y="12" width="1156" height="676" rx="12" fill="#0d1117" stroke="#1f2937" stroke-width="1"/>
 <style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>
-<text x="24" y="28" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                         .-=+*####**+=:.</text>
-<text x="24" y="40" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                      .=*%@@@@@@@@@@@@@%#+:</text>
-<text x="24" y="52" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                     :#@@@%%%%%%%%%%%%%@@@@#:</text>
-<text x="24" y="65" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                    -%@%@@@@@%%@@@@@@@@@@%%@%-</text>
-<text x="24" y="77" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                  .+@@@%#*+--::-====+*#%%%@%%@+</text>
-<text x="24" y="90" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                  .@%%+:...........::-=+**%@%%@-</text>
-<text x="24" y="102" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                 .-@@#............:::-==++*%%%%-......</text>
-<text x="24" y="114" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">                 ..%@#:.............:--==+*#@@%........</text>
-<text x="24" y="127" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">            .......*@=.............::-=+***=#@*.........</text>
-<text x="24" y="139" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">            .......-%:+**###*++..-*#%%%%%%#-*@:........</text>
-<text x="24" y="152" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">             .....:.*::-++##*+:..+%##*####*=+%*=.......</text>
-<text x="24" y="164" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">            ........=:.....::....+*+--=++++==#*+.......</text>
-<text x="24" y="176" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">           .........+:...........=++--:--==-+%*........</text>
-<text x="24" y="189" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">          ..........=-.......:..:+**+---=++=#*-.........</text>
-<text x="24" y="201" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">          ..........-#:......=#**@%#+=-=+**%#:.............</text>
-<text x="24" y="214" fill="#f9fafb" font-size="10.0" font-weight="400" xml:space="preserve">        .............*#:.:+*###*##%%%#*+*%@@...............</text>
-<text x="24" y="226" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        ..............@#=*%*+==++*#%%%%#%%@=..............</text>
-<text x="24" y="238" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        ...............%%#+.:=*##%#***%%%%*................</text>
-<text x="24" y="251" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        ................*%%*--+#%%**#%%%%%+:+..............</text>
-<text x="24" y="263" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        .................=*@%%%%#%%%@@@@%+.:@%=............</text>
-<text x="24" y="276" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        ............:-*+.::=*%%%@%%%%%#+-::*%@@%+-........</text>
-<text x="24" y="288" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        .......:=+#%@@@-....:-=+***+=-:.::+@%%%@@@@%#+-..</text>
-<text x="24" y="300" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">        ..:-+#%@@@@@%%%-.....::::........-%%%@@%%%%@@@@@#*=:.</text>
-<text x="24" y="313" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">    :-+*%%@@@@@%%%%%%%%:...-+#**+:  .....#@%@@@@@@@%%%%@@@@@%#*=-.</text>
-<text x="24" y="325" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">..-#@@@@@@%%%%%@@@@@%@+...*@@%@@@@#:....*@%@@@@@@@@@@@@%%%%%@@@@@%#+</text>
-<text x="24" y="338" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">.:@@%%%%%%@@@@@@@@@@%@-..:.:%%%%@*-....=@%@@@@@@@@@@@@@@@@@@%%%%%@@@</text>
-<text x="24" y="350" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">.#%%@@@@@@@@@@@@@@@%@%......%%%@=......%%%@@@@@@@@@@@@@@@@@@@@@@@%%%</text>
-<text x="24" y="362" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">-@%@@@@@@@@@@@@@@@@%@*.....*%%%@=.....*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="375" fill="#d1d5db" font-size="10.0" font-weight="400" xml:space="preserve">*%%@@@@@@@@@@@@@@@@%@+....#@%@%@*....=@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="387" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@=...=@%%@%@*...:%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="400" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%%:...%%%%%%@+...%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="412" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%@%...-@%%%%%@-..*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="424" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%@%:..*%%%%%%%..=@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="437" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%%@:..%%%%%%%#.:@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="449" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@-.-@%%%%%@+.%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="24" y="462" fill="#9ca3af" font-size="10.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@=.*@%%%%%@=*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-<text x="585" y="30" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">- imoein@github -------------------------------------------------</text>
-<text x="585" y="72" fill="#86efac" font-size="13" font-weight="700" xml:space="preserve">$ systemctl status profile.service</text>
-<text x="585" y="102" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Name:</tspan><tspan fill="#4b5563"> ....................................... </tspan><tspan fill="#bfdbfe" font-weight="700">Moein Ghezelbash</tspan></text>
-<text x="585" y="129" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#4b5563"> ............ </tspan><tspan fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS, Android</tspan></text>
-<text x="585" y="156" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#4b5563"> ................................ </tspan><tspan fill="#bfdbfe" font-weight="700">Darwin/XNU, NT, Linux</tspan></text>
-<text x="585" y="183" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#4b5563"> .......................... </tspan><tspan fill="#86efac" font-weight="700">36 years, 6 months, 19 days</tspan></text>
-<text x="585" y="210" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#4b5563"> ......................................... </tspan><tspan fill="#86efac" font-weight="700">1783695045</tspan></text>
-<text x="585" y="237" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#4b5563"> ........................... </tspan><tspan fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
-<text x="585" y="264" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#4b5563"> ............................................... </tspan><tspan fill="#bfdbfe" font-weight="700">VSCode</tspan></text>
-<text x="585" y="291" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Langs:</tspan><tspan fill="#4b5563"> ............. </tspan><tspan fill="#bfdbfe" font-weight="700">TypeScript, JavaScript, Python, SQL, Bash</tspan></text>
-<text x="585" y="318" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Toolchain:</tspan><tspan fill="#4b5563"> ......................... </tspan><tspan fill="#bfdbfe" font-weight="700">Docker, Git, Linux, CI/CD</tspan></text>
-<text x="585" y="345" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Services:</tspan><tspan fill="#4b5563"> .................... </tspan><tspan fill="#bfdbfe" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
-<text x="585" y="388" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">- network -------------------------------------------------------</text>
-<text x="585" y="424" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LinkedIn:</tspan><tspan fill="#4b5563"> .................... </tspan><tspan fill="#bfdbfe" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
-<text x="585" y="472" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">- telemetry -----------------------------------------------------</text>
-<text x="585" y="508" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#4b5563"> ........................................... </tspan><tspan fill="#86efac" font-weight="700">84,781</tspan></text>
-<text x="585" y="535" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Added:</tspan><tspan fill="#4b5563"> ......................................... </tspan><tspan fill="#86efac" font-weight="700">+91,519</tspan></text>
-<text x="585" y="562" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Deleted:</tspan><tspan fill="#4b5563"> ........................................ </tspan><tspan fill="#fca5a5" font-weight="700">-6,738</tspan></text>
-<text x="585" y="589" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Commits.1y:</tspan><tspan fill="#4b5563"> .............................................. </tspan><tspan fill="#bfdbfe" font-weight="700">759</tspan></text>
-<text x="585" y="616" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#4b5563"> ........................... </tspan><tspan fill="#bfdbfe" font-weight="700">CSS, JavaScript, Python</tspan></text>
-<text x="585" y="686" fill="#9ca3af" font-size="12" font-weight="400" xml:space="preserve">Last updated: 2026-07-10 14:50 UTC</text>
+<text x="18" y="22" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                         .-=+*####**+=:.</text>
+<text x="18" y="33" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                      .=*%@@@@@@@@@@@@@%#+:</text>
+<text x="18" y="44" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                     :#@@@%%%%%%%%%%%%%@@@@#:</text>
+<text x="18" y="55" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                    -%@%@@@@@%%@@@@@@@@@@%%@%-</text>
+<text x="18" y="66" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                  .+@@@%#*+--::-====+*#%%%@%%@+</text>
+<text x="18" y="77" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                  .@%%+:...........::-=+**%@%%@-</text>
+<text x="18" y="88" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                 .-@@#............:::-==++*%%%%-......</text>
+<text x="18" y="100" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">                 ..%@#:.............:--==+*#@@%........</text>
+<text x="18" y="111" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">            .......*@=.............::-=+***=#@*.........</text>
+<text x="18" y="122" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">            .......-%:+**###*++..-*#%%%%%%#-*@:........</text>
+<text x="18" y="133" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">             .....:.*::-++##*+:..+%##*####*=+%*=.......</text>
+<text x="18" y="144" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">            ........=:.....::....+*+--=++++==#*+.......</text>
+<text x="18" y="155" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">           .........+:...........=++--:--==-+%*........</text>
+<text x="18" y="166" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">          ..........=-.......:..:+**+---=++=#*-.........</text>
+<text x="18" y="178" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">          ..........-#:......=#**@%#+=-=+**%#:.............</text>
+<text x="18" y="189" fill="#f8fafc" font-size="9.0" font-weight="400" xml:space="preserve">        .............*#:.:+*###*##%%%#*+*%@@...............</text>
+<text x="18" y="200" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        ..............@#=*%*+==++*#%%%%#%%@=..............</text>
+<text x="18" y="211" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        ...............%%#+.:=*##%#***%%%%*................</text>
+<text x="18" y="222" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        ................*%%*--+#%%**#%%%%%+:+..............</text>
+<text x="18" y="233" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        .................=*@%%%%#%%%@@@@%+.:@%=............</text>
+<text x="18" y="245" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        ............:-*+.::=*%%%@%%%%%#+-::*%@@%+-........</text>
+<text x="18" y="256" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        .......:=+#%@@@-....:-=+***+=-:.::+@%%%@@@@%#+-..</text>
+<text x="18" y="267" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">        ..:-+#%@@@@@%%%-.....::::........-%%%@@%%%%@@@@@#*=:.</text>
+<text x="18" y="278" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">    :-+*%%@@@@@%%%%%%%%:...-+#**+:  .....#@%@@@@@@@%%%%@@@@@%#*=-.</text>
+<text x="18" y="289" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">..-#@@@@@@%%%%%@@@@@%@+...*@@%@@@@#:....*@%@@@@@@@@@@@@%%%%%@@@@@%#+</text>
+<text x="18" y="300" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">.:@@%%%%%%@@@@@@@@@@%@-..:.:%%%%@*-....=@%@@@@@@@@@@@@@@@@@@%%%%%@@@</text>
+<text x="18" y="311" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">.#%%@@@@@@@@@@@@@@@%@%......%%%@=......%%%@@@@@@@@@@@@@@@@@@@@@@@%%%</text>
+<text x="18" y="323" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">-@%@@@@@@@@@@@@@@@@%@*.....*%%%@=.....*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="334" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">*%%@@@@@@@@@@@@@@@@%@+....#@%@%@*....=@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="345" fill="#e2e8f0" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@=...=@%%@%@*...:%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="356" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%%:...%%%%%%@+...%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="367" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%@%...-@%%%%%@-..*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="378" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%@%:..*%%%%%%%..=@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="389" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@%%@:..%%%%%%%#.:@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="401" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@-.-@%%%%%@+.%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="18" y="412" fill="#94a3b8" font-size="9.0" font-weight="400" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%@=.*@%%%%%@=*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+<text x="585" y="48" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">─ imoein@server ──────────────────────────────────────────</text>
+<text x="585" y="88" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Name:</tspan><tspan fill="#4b5563"> ..................................... </tspan><tspan fill="#bfdbfe" font-weight="700">Moein Ghezelbash</tspan></text>
+<text x="585" y="115" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#4b5563"> .......... </tspan><tspan fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS, Android</tspan></text>
+<text x="585" y="142" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#4b5563"> ...................... </tspan><tspan fill="#bfdbfe" font-weight="700">Darwin/XNU, Windows NT, Linux</tspan></text>
+<text x="585" y="169" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#4b5563"> ........................ </tspan><tspan fill="#86efac" font-weight="700">36 years, 6 months, 19 days</tspan></text>
+<text x="585" y="196" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#4b5563"> ....................................... </tspan><tspan fill="#86efac" font-weight="700">1783695483</tspan></text>
+<text x="585" y="223" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#4b5563"> ......................... </tspan><tspan fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
+<text x="585" y="250" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#4b5563"> ............................................. </tspan><tspan fill="#bfdbfe" font-weight="700">VSCode</tspan></text>
+<text x="585" y="277" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Langs:</tspan><tspan fill="#4b5563"> ........... </tspan><tspan fill="#bfdbfe" font-weight="700">TypeScript, JavaScript, Python, SQL, Bash</tspan></text>
+<text x="585" y="304" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Toolchain:</tspan><tspan fill="#4b5563"> ....................... </tspan><tspan fill="#bfdbfe" font-weight="700">Docker, Git, Linux, CI/CD</tspan></text>
+<text x="585" y="331" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Services:</tspan><tspan fill="#4b5563"> .................. </tspan><tspan fill="#bfdbfe" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
+<text x="585" y="374" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">─ network ────────────────────────────────────────────────</text>
+<text x="585" y="410" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LinkedIn:</tspan><tspan fill="#4b5563"> .................. </tspan><tspan fill="#bfdbfe" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
+<text x="585" y="458" fill="#f9fafb" font-size="14" font-weight="700" xml:space="preserve">─ telemetry ──────────────────────────────────────────────</text>
+<text x="585" y="494" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#4b5563"> ......................................... </tspan><tspan fill="#86efac" font-weight="700">77,031</tspan></text>
+<text x="585" y="521" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Added:</tspan><tspan fill="#4b5563"> ...................................... </tspan><tspan fill="#86efac" font-weight="700">+231,078</tspan></text>
+<text x="585" y="548" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Deleted:</tspan><tspan fill="#4b5563"> ..................................... </tspan><tspan fill="#fca5a5" font-weight="700">-58,760</tspan></text>
+<text x="585" y="575" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Net:</tspan><tspan fill="#4b5563"> ........................................ </tspan><tspan fill="#86efac" font-weight="700">+172,318</tspan></text>
+<text x="585" y="602" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Line.Source:</tspan><tspan fill="#4b5563"> ............... </tspan><tspan fill="#fde68a" font-weight="700">git ls-files / default branches</tspan></text>
+<text x="585" y="629" font-size="14" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#4b5563"> .......................... </tspan><tspan fill="#bfdbfe" font-weight="700">json, css, js, php, py</tspan></text>
+<text x="585" y="664" fill="#9ca3af" font-size="12" font-weight="400" xml:space="preserve">Last updated: 2026-07-10 14:58 UTC</text>
 </svg>
