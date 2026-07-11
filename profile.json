@@ -3,40 +3,15 @@
   "github_username": "iMoein",
   "linkedin": "https://www.linkedin.com/in/moeinghezelbash/",
   "birth_datetime": "1989-12-21T12:00:00",
-  "os": [
-    "macOS",
-    "Windows 10",
-    "Ubuntu 24.04",
-    "iOS",
-    "Android"
-  ],
-  "kernel": "Darwin/XNU, Windows NT, Linux",
+  "os": ["macOS", "Windows 10", "Ubuntu 24.04", "iOS", "Android"],
+  "kernel": "XNU / NT / Linux",
   "role": "Technical Operations Manager",
-  "editor": "VSCode",
-  "programming_languages": [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "SQL",
-    "Bash"
-  ],
-  "toolchain": [
-    "Docker",
-    "Git",
-    "Linux",
-    "CI/CD"
-  ],
-  "services": [
-    "APIs",
-    "BI",
-    "CRM",
-    "WebSocket",
-    "Infra"
-  ],
-  "ascii": {
-    "source_image": "assets/profile.png",
-    "output": "assets/photo-ascii.txt",
-    "columns": 68,
-    "keyboard_only": true
+  "ide": "VSCode",
+  "programming_languages": ["TypeScript", "JavaScript", "Python", "SQL", "Bash"],
+  "tools": ["Docker", "Git", "Linux", "CI/CD"],
+  "focus": ["APIs", "BI", "CRM", "WebSocket", "Infra"],
+  "stats": {
+    "include_private_repos_with_pat": true,
+    "max_repos_to_clone": 80
   }
 }

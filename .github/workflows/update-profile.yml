@@ -24,13 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Regenerate ASCII portrait
-        run: python scripts/image_to_keyboard_ascii.py assets/profile.png assets/photo-ascii.txt --cols 68
-
-      - name: Generate terminal SVG, README and code metrics
+      - name: Generate server terminal SVG and refresh README cache-buster
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: python scripts/generate_profile.py
 
@@ -38,6 +36,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/photo-ascii.txt assets/terminal.svg assets/code-metrics.json README.md
-          git diff --cached --quiet || git commit -m "chore: refresh server terminal profile"
+          git add assets/terminal.svg README.md
+          git diff --cached --quiet || git commit -m "chore: refresh server profile terminal"
           git push

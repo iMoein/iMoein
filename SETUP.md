@@ -1,39 +1,29 @@
-# GitHub Profile Terminal v8
+# GitHub Profile Terminal v9
 
-This version fixes line counting.
+This version removes the ASCII/photo block completely and replaces it with server-style runtime and GitHub activity telemetry.
 
-## What changed
+## Metrics
 
-- Removed repo / follower / star / fork counters.
-- Removed PHP and Oracle APEX.
-- `Lines.Code` is calculated by cloning public repositories and counting tracked code/text files with `git ls-files`.
-- `Lines.Added` and `Lines.Deleted` are calculated from GitHub code-frequency stats when GitHub has generated them.
-- The script no longer uses the default workflow `GITHUB_TOKEN` for cross-repository stats.
-- If GitHub stats are not ready, the SVG shows `sync pending` instead of a misleading `0`.
-- A cache file is saved at `assets/code-metrics.json`.
+- `Uptime`: age shown like a server uptime
+- `UnixTime`: timestamp based on birth datetime
+- `GitHub.ActiveDays`: number of contribution-calendar days with activity
+- `GitHub.FirstActive`: earliest active contribution day found
+- `GitHub.DaysOnline`: days elapsed since first active contribution day
+- `Lines.Code`: current code lines counted by cloning public repositories and scanning tracked files
 
-## Optional token for better results
+## Optional token for better stats
 
-Public repositories should work without a token. For private repositories or higher rate limits, create a GitHub token and add it as this repository secret:
+For public repositories, the default `GITHUB_TOKEN` is usually enough. For private repositories or more complete contribution stats, add a repository secret:
 
 ```text
 PROFILE_STATS_TOKEN
 ```
 
-Required permission for public-only stats: public repository read access.
-Required permission if you want private repositories included: repository read access.
+Use a GitHub personal access token with read access to the repositories you want included.
 
-## Local regenerate without hitting GitHub
-
-```bash
-pip install -r requirements.txt
-SKIP_GITHUB_FETCH=1 python scripts/generate_profile.py
-```
-
-## Full local regenerate
+## Local regenerate
 
 ```bash
 pip install -r requirements.txt
-python scripts/image_to_keyboard_ascii.py assets/profile.png assets/photo-ascii.txt --cols 68
 python scripts/generate_profile.py
 ```
