@@ -420,15 +420,24 @@ def text(x: int, y: int, value: str, color: str = FG, size: float = 14, weight: 
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" xml:space="preserve">{escape(value)}</text>'
 
 
-def tspan_line(x: int, y: int, label: str, value: str, width: int = 57, value_color: str = BLUE) -> str:
+def tspan_line(
+    x: int,
+    y: int,
+    label: str,
+    value: str,
+    value_x: int,
+    value_color: str = BLUE,
+    size: float = 13,
+) -> str:
     label_txt = f"{label}:"
-    dots_count = max(3, width - len(label_txt) - len(value))
+    char_width = size * 0.62
+    dots_count = max(3, int((value_x - x) / char_width) - len(label_txt) - 1)
     dots = " " + "." * dots_count + " "
     return (
-        f'<text x="{x}" y="{y}" font-size="14" xml:space="preserve">'
+        f'<text x="{x}" y="{y}" font-size="{size}" xml:space="preserve">'
         f'<tspan fill="{ORANGE}" font-weight="700">{escape(label_txt)}</tspan>'
         f'<tspan fill="{DIM}">{escape(dots)}</tspan>'
-        f'<tspan fill="{value_color}" font-weight="700">{escape(value)}</tspan>'
+        f'<tspan x="{value_x}" fill="{value_color}" font-weight="700">{escape(value)}</tspan>'
         f'</text>'
     )
 
@@ -465,10 +474,7 @@ def generate_svg() -> str:
     username = cfg["github_username"]
 
     years, months, days, hours, minutes = age_parts(cfg["birth_datetime"])
-    uptime = (
-        f"{plural(years, 'year')}, {plural(months, 'month')}, {plural(days, 'day')}, "
-        f"{plural(hours, 'hour')}, {minutes} min"
-    )
+    uptime = f"{years}y {months}mo {days}d {hours}h {minutes}m"
     unix_time = str(age_seconds(cfg["birth_datetime"]))
 
     width, height = 1120, 620
@@ -496,7 +502,7 @@ def generate_svg() -> str:
         ("UnixTime", unix_time, CYAN),
     ]
     for label, value, color in runtime_lines:
-        out.append(tspan_line(58, y, label, truncate(value, 43), width=50, value_color=color))
+        out.append(tspan_line(58, y, label, truncate(value, 39), value_x=188, value_color=color))
         y += 26
 
     out += box(38, 312, 500, 232, "toolchain")
@@ -509,7 +515,7 @@ def generate_svg() -> str:
         ("LinkedIn", "linkedin.com/in/moeinghezelbash", BLUE),
     ]
     for label, value, color in tool_lines:
-        out.append(tspan_line(58, y, label, truncate(value, 43), width=50, value_color=color))
+        out.append(tspan_line(58, y, label, truncate(value, 39), value_x=188, value_color=color))
         y += 28
 
     # Right column: GitHub activity / code telemetry.
@@ -524,7 +530,7 @@ def generate_svg() -> str:
         ("Contributions", fmt_int(stats.get("total_contributions")), BLUE),
     ]
     for label, value, color in activity_lines:
-        out.append(tspan_line(590, y, label, truncate(value, 42), width=50, value_color=color))
+        out.append(tspan_line(590, y, label, truncate(value, 34), value_x=780, value_color=color))
         y += 30
 
     out += box(570, 342, 512, 202, "code telemetry")
@@ -538,7 +544,7 @@ def generate_svg() -> str:
         ("Top.Langs", ", ".join(top_langs) if top_langs else "sync pending", BLUE),
     ]
     for label, value, color in code_lines:
-        out.append(tspan_line(590, y, label, truncate(value, 42), width=50, value_color=color))
+        out.append(tspan_line(590, y, label, truncate(value, 34), value_x=780, value_color=color))
         y += 28
 
     updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
