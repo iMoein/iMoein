@@ -6,7 +6,7 @@
   "os": ["macOS", "Windows 10", "Ubuntu 24.04", "iOS", "Android"],
   "kernel": "XNU / NT / Linux",
   "role": "Technical Operations Manager",
-  "ide": "VSCode",
+  "ide": "VS Code 1.128.0 (Universal)",
   "programming_languages": ["TypeScript", "JavaScript", "Python", "SQL", "Bash"],
   "tools": ["Docker", "Git", "Linux", "CI/CD"],
   "focus": ["APIs", "BI", "CRM", "WebSocket", "Infra"],

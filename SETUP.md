@@ -4,10 +4,11 @@ This version removes the ASCII/photo block completely and replaces it with serve
 
 ## Metrics
 
-- `Uptime`: age shown like a server uptime
-- `UnixTime`: timestamp based on birth datetime
+- `Uptime`: age shown like a server uptime, including hours and minutes
+- `UnixTime`: age in seconds since birth datetime
 - `GitHub.ActiveDays`: number of contribution-calendar days with activity
 - `GitHub.FirstActive`: earliest active contribution day found
+- `GitHub.LastActive`: latest active contribution day found
 - `GitHub.DaysOnline`: days elapsed since first active contribution day
 - `Lines.Code`: current code lines counted by cloning public repositories and scanning tracked files
 

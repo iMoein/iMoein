@@ -108,7 +108,7 @@ def github_graphql(query: str, variables: dict[str, Any], auth_token: str | None
         return None
 
 
-def age_parts(birth_iso: str) -> tuple[int, int, int]:
+def age_parts(birth_iso: str) -> tuple[int, int, int, int, int]:
     birth = dt.datetime.fromisoformat(birth_iso)
     now = dt.datetime.now()
     years = now.year - birth.year
@@ -131,7 +131,16 @@ def age_parts(birth_iso: str) -> tuple[int, int, int]:
             cursor = nxt
         else:
             break
-    return years, months, (now.date() - cursor.date()).days
+    remaining = now - cursor
+    hours = remaining.seconds // 3600
+    minutes = (remaining.seconds % 3600) // 60
+    return years, months, remaining.days, hours, minutes
+
+
+def age_seconds(birth_iso: str) -> int:
+    birth = dt.datetime.fromisoformat(birth_iso)
+    now = dt.datetime.now(birth.tzinfo) if birth.tzinfo else dt.datetime.now()
+    return max(0, int((now - birth).total_seconds()))
 
 
 def iso_utc(day: dt.date, end_of_day: bool = False) -> str:
@@ -140,16 +149,35 @@ def iso_utc(day: dt.date, end_of_day: bool = False) -> str:
     return f"{day.isoformat()}T00:00:00Z"
 
 
+def fetch_latest_public_activity(username: str, auth_token: str | None) -> str | None:
+    data = api_get(
+        f"https://api.github.com/users/{urllib.parse.quote(username)}/events/public?per_page=1",
+        auth_token,
+    )
+    if not isinstance(data, list) or not data:
+        return None
+    created_at = data[0].get("created_at")
+    if not isinstance(created_at, str):
+        return None
+    try:
+        event_time = dt.datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+    except ValueError:
+        return created_at
+    return event_time.strftime("%Y-%m-%d %H:%M UTC")
+
+
 def fetch_contribution_activity(username: str, created_at: str | None, auth_token: str | None) -> dict[str, Any]:
+    public_last_active = fetch_latest_public_activity(username, auth_token)
     if not auth_token:
         return {
             "active_days": None,
             "first_active": None,
+            "last_active": public_last_active,
             "days_since_first": None,
             "total_contributions": None,
         }
 
-    today = dt.datetime.now(dt.UTC).date()
+    today = dt.datetime.now(dt.timezone.utc).date()
     if created_at:
         start_day = dt.datetime.fromisoformat(created_at.replace("Z", "+00:00")).date()
     else:
@@ -209,15 +237,20 @@ def fetch_contribution_activity(username: str, created_at: str | None, auth_toke
         return {
             "active_days": None,
             "first_active": None,
+            "last_active": public_last_active,
             "days_since_first": None,
             "total_contributions": total_contributions or None,
         }
 
     first_active = min(active_dates)
+    last_active = max(active_dates)
+    if public_last_active and public_last_active[:10] >= last_active:
+        last_active = public_last_active
     first_active_date = dt.date.fromisoformat(first_active)
     return {
         "active_days": len(active_dates),
         "first_active": first_active,
+        "last_active": last_active,
         "days_since_first": (today - first_active_date).days,
         "total_contributions": total_contributions,
     }
@@ -378,6 +411,11 @@ def fmt_value(value: Any) -> str:
     return str(value)
 
 
+def plural(value: int, unit: str) -> str:
+    suffix = "" if value == 1 else "s"
+    return f"{value} {unit}{suffix}"
+
+
 def text(x: int, y: int, value: str, color: str = FG, size: float = 14, weight: str = "400") -> str:
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}" xml:space="preserve">{escape(value)}</text>'
 
@@ -426,10 +464,12 @@ def generate_svg() -> str:
     stats = collect_stats(cfg)
     username = cfg["github_username"]
 
-    years, months, days = age_parts(cfg["birth_datetime"])
-    birth_dt = dt.datetime.fromisoformat(cfg["birth_datetime"])
-    uptime = f"{years} years, {months} months, {days} days"
-    unix_time = str(int(birth_dt.timestamp()))
+    years, months, days, hours, minutes = age_parts(cfg["birth_datetime"])
+    uptime = (
+        f"{plural(years, 'year')}, {plural(months, 'month')}, {plural(days, 'day')}, "
+        f"{plural(hours, 'hour')}, {minutes} min"
+    )
+    unix_time = str(age_seconds(cfg["birth_datetime"]))
 
     width, height = 1120, 620
     out: list[str] = [
@@ -479,6 +519,7 @@ def generate_svg() -> str:
         ("GitHub.Created", fmt_value(stats.get("github_created")), BLUE),
         ("GitHub.ActiveDays", fmt_int(stats.get("active_days")), GREEN),
         ("GitHub.FirstActive", fmt_value(stats.get("first_active")), CYAN),
+        ("GitHub.LastActive", fmt_value(stats.get("last_active")), CYAN),
         ("GitHub.DaysOnline", fmt_int(stats.get("days_since_first")), GREEN),
         ("Contributions", fmt_int(stats.get("total_contributions")), BLUE),
     ]
@@ -500,12 +541,12 @@ def generate_svg() -> str:
         out.append(tspan_line(590, y, label, truncate(value, 42), width=50, value_color=color))
         y += 28
 
-    updated = dt.datetime.now(dt.UTC).strftime("%Y-%m-%d %H:%M UTC")
+    updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     out.append(text(58, height - 42, f"last update: {updated}", MUTED, 12, "400"))
     out.append(text(860, height - 42, "cache-busted README image", DIM, 12, "400"))
     out.append("</svg>")
 
-    write_readme(dt.datetime.now(dt.UTC).strftime("%Y%m%d%H%M%S"))
+    write_readme(dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S"))
     return "\n".join(out)
 
 
