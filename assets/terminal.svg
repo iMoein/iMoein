@@ -12,8 +12,8 @@
 <text x="58" y="146" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
 <text x="58" y="172" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS...</tspan></text>
 <text x="58" y="198" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">XNU / NT / Linux</tspan></text>
-<text x="58" y="224" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 6mo 22d 10h 13m</tspan></text>
-<text x="58" y="250" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1153736025</tspan></text>
+<text x="58" y="224" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 6mo 22d 11h 15m</tspan></text>
+<text x="58" y="250" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1153739745</tspan></text>
 <rect x="38" y="312" width="500" height="232" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="56" y="328" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">toolchain</text>
 <text x="58" y="352" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">VS Code 1.128.0 (Universal)</tspan></text>
@@ -36,6 +36,6 @@
 <text x="590" y="438" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">26</tspan></text>
 <text x="590" y="466" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">27</tspan></text>
 <text x="590" y="494" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">JavaScript, TypeScript, PHP, Py...</tspan></text>
-<text x="58" y="578" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">last update: 2026-07-13 22:13 UTC</text>
+<text x="58" y="578" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">last update: 2026-07-13 23:15 UTC</text>
 <text x="860" y="578" fill="#475569" font-size="12" font-weight="400" xml:space="preserve">cache-busted README image</text>
 </svg>
