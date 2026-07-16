@@ -12,8 +12,8 @@
 <text x="58" y="146" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
 <text x="58" y="172" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS...</tspan></text>
 <text x="58" y="198" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">XNU / NT / Linux</tspan></text>
-<text x="58" y="224" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 6mo 25d 4h 43m</tspan></text>
-<text x="58" y="250" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1153975425</tspan></text>
+<text x="58" y="224" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 6mo 25d 6h 33m</tspan></text>
+<text x="58" y="250" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1153982039</tspan></text>
 <rect x="38" y="312" width="500" height="232" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="56" y="328" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">toolchain</text>
 <text x="58" y="352" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">VS Code 1.128.0 (Universal)</tspan></text>
@@ -26,16 +26,16 @@
 <text x="590" y="120" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.Created:</tspan><tspan fill="#475569"> ....... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">2015-07-20</tspan></text>
 <text x="590" y="150" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.ActiveDays:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#86efac" font-weight="700">505</tspan></text>
 <text x="590" y="180" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.FirstActive:</tspan><tspan fill="#475569"> ... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2015-07-21</tspan></text>
-<text x="590" y="210" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.LastActive:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-07-16</tspan></text>
+<text x="590" y="210" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.LastActive:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-07-16 17:44 UTC</tspan></text>
 <text x="590" y="240" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.DaysOnline:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#86efac" font-weight="700">4,013</tspan></text>
-<text x="590" y="270" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">14,231</tspan></text>
+<text x="590" y="270" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">14,235</tspan></text>
 <rect x="570" y="342" width="512" height="202" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="588" y="358" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">code telemetry</text>
-<text x="590" y="382" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">780,118</tspan></text>
-<text x="590" y="410" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Files.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">3,541</tspan></text>
-<text x="590" y="438" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">26</tspan></text>
-<text x="590" y="466" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">27</tspan></text>
+<text x="590" y="382" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">785,185</tspan></text>
+<text x="590" y="410" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Files.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">3,570</tspan></text>
+<text x="590" y="438" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">27</tspan></text>
+<text x="590" y="466" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">28</tspan></text>
 <text x="590" y="494" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">JavaScript, TypeScript, PHP, Py...</tspan></text>
-<text x="58" y="578" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">last update: 2026-07-16 16:43 UTC</text>
+<text x="58" y="578" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">last update: 2026-07-16 18:33 UTC</text>
 <text x="860" y="578" fill="#475569" font-size="12" font-weight="400" xml:space="preserve">cache-busted README image</text>
 </svg>
