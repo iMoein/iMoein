@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iMoein/iMoein/main/assets/terminal.svg?v=20260807210108" alt="Moein Ghezelbash GitHub server profile" width="1120" />
+  <img src="https://raw.githubusercontent.com/iMoein/iMoein/main/assets/terminal.svg?v=20260807215719" alt="Moein Ghezelbash GitHub server profile" width="1120" />
 </p>
