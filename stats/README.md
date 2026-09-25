@@ -1,6 +1,6 @@
 # Telemetry snapshots
 
-`yesterday.json` contains privacy-safe, aggregate development activity for the previous local calendar day.
+`yesterday.json` contains the latest successfully processed privacy-safe aggregate development snapshot. During catch-up, the file advances through each missed local calendar day one commit at a time until it reaches yesterday.
 
 Published fields:
 

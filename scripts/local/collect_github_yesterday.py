@@ -88,10 +88,9 @@ def owned_repositories(session: requests.Session) -> list[dict[str, Any]]:
     return repos
 
 
-def previous_local_day() -> tuple[dt.date, dt.datetime, dt.datetime]:
-    now = dt.datetime.now().astimezone()
-    day = now.date() - dt.timedelta(days=1)
-    start = dt.datetime.combine(day, dt.time.min, tzinfo=now.tzinfo)
+def local_day_window(day: dt.date) -> tuple[dt.date, dt.datetime, dt.datetime]:
+    local_tz = dt.datetime.now().astimezone().tzinfo
+    start = dt.datetime.combine(day, dt.time.min, tzinfo=local_tz)
     end = start + dt.timedelta(days=1)
     return day, start.astimezone(dt.timezone.utc), end.astimezone(dt.timezone.utc)
 def repo_activity(
@@ -144,12 +143,19 @@ def repo_activity(
 
 
 def main() -> None:
-    if len(sys.argv) != 2:
-        raise SystemExit("usage: collect_github_yesterday.py /path/to/stats/yesterday.json")
+    if len(sys.argv) not in (2, 3):
+        raise SystemExit(
+            "usage: collect_github_yesterday.py /path/to/stats/yesterday.json [YYYY-MM-DD]"
+        )
 
     output_path = Path(sys.argv[1]).expanduser().resolve()
+    if len(sys.argv) == 3:
+        day = dt.date.fromisoformat(sys.argv[2])
+    else:
+        day = dt.datetime.now().astimezone().date() - dt.timedelta(days=1)
+
     session = make_session(github_token())
-    day, start, end = previous_local_day()
+    day, start, end = local_day_window(day)
     repos = owned_repositories(session)
 
     totals = {

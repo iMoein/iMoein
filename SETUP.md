@@ -1,4 +1,4 @@
-# GitHub Profile Telemetry v10
+# GitHub Profile Telemetry v11
 
 This repository powers the live developer telemetry card shown on the `iMoein` GitHub profile.
 
@@ -90,14 +90,22 @@ Install or refresh the macOS agent from the repository:
 bash scripts/local/install_launchagent.sh
 ```
 
-The LaunchAgent checks hourly, but a successful telemetry publish is limited to once per local calendar day. If GitHub is unreachable, the run is skipped and retried later rather than marking the day complete.
+The LaunchAgent checks hourly. It stores the **last activity date successfully processed**, not merely the last day the agent ran. If GitHub is unreachable, state is not advanced.
 
-The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
+When the Mac comes back online after one or more full offline days, the publisher calculates every missing calendar day in order, creates one telemetry commit per missing date, rebases once against the latest remote branch, and pushes the backlog. State advances only after the push succeeds, so a failed collection, rebase, or push is retried on the next hourly run.
+
+The current state file is:
+
+```text
+$HOME/.local/state/imoein-profile-sync/last-processed-date
+```
+
+The legacy `last-success-date` state is ignored for backlog decisions and removed after a successful v11 sync. The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
 
 GitHub credentials are read through the existing macOS Git credential helper. No token is stored in this repository.
 ## Daily snapshot semantics
 
-The previous local calendar day is converted to UTC boundaries for GitHub API queries.
+Each target local calendar day is converted to UTC boundaries for GitHub API queries. The collector accepts an optional explicit `YYYY-MM-DD` date, which is what allows the publisher to reconstruct missed days after the Mac has been offline.
 
 Only commits attributed by GitHub to the profile owner are counted. Merge commits are excluded to avoid double-counting merged history.
 
