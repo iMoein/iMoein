@@ -13,9 +13,21 @@ UID_NOW="$(id -u)"
 
 mkdir -p "$BIN_DIR" "$LAUNCH_DIR" "$LOG_DIR"
 
-install -m 700   "$SOURCE_DIR/collect_github_yesterday.py"   "$BIN_DIR/collect-github-yesterday.py"
+install -m 700 \
+  "$SOURCE_DIR/collect_github_yesterday.py" \
+  "$BIN_DIR/collect-github-yesterday.py"
 
-install -m 700   "$SOURCE_DIR/publish_daily_telemetry.sh"   "$BIN_DIR/publish-github-profile-telemetry.sh"
+install -m 700 \
+  "$SOURCE_DIR/update_history.py" \
+  "$BIN_DIR/update-history.py"
+
+install -m 700 \
+  "$SOURCE_DIR/backfill_history.py" \
+  "$BIN_DIR/backfill-history.py"
+
+install -m 700 \
+  "$SOURCE_DIR/publish_daily_telemetry.sh" \
+  "$BIN_DIR/publish-github-profile-telemetry.sh"
 
 launchctl bootout "gui/$UID_NOW/$OLD_LABEL" >/dev/null 2>&1 || true
 rm -f "$OLD_PLIST"
@@ -58,3 +70,5 @@ echo "Installed $LABEL"
 echo "LaunchAgent: $PLIST"
 echo "Publisher: $BIN_DIR/publish-github-profile-telemetry.sh"
 echo "Collector: $BIN_DIR/collect-github-yesterday.py"
+echo "History updater: $BIN_DIR/update-history.py"
+echo "History backfill: $BIN_DIR/backfill-history.py"

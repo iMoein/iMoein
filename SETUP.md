@@ -1,4 +1,4 @@
-# GitHub Profile Telemetry v11
+# GitHub Profile Telemetry v12
 
 This repository powers the live developer telemetry card shown on the `iMoein` GitHub profile.
 
@@ -15,7 +15,9 @@ The public README intentionally stays minimal and renders only the generated SVG
 - `github // activity` — account age, active days, first/last activity, contributions, visible repositories
 - `toolchain // stack` — editor, languages, tools, technical focus
 - `codebase // inventory` — aggregate code lines, tracked code files, repositories scanned, top languages
-- `yesterday // development activity` — commits, added/deleted lines, net change, active repositories
+- `yesterday // development activity` — latest daily snapshot
+- `14d // code change velocity` — added/deleted line bars with a commit trend line
+- `365d // activity heatmap` — GitHub-style heatmap based on total changed lines per day
 
 ## Daily activity privacy model
 
@@ -31,9 +33,11 @@ macOS LaunchAgent
       |
       +--> query owned GitHub repositories
       |
-      +--> aggregate previous-day Git additions/deletions
+      +--> aggregate daily Git additions/deletions
       |
       +--> update profile.json + stats/yesterday.json
+      |
+      +--> upsert stats/history.json
       |
       +--> commit and push
                 |
@@ -42,7 +46,8 @@ macOS LaunchAgent
                 |
                 +--> collect GitHub profile/codebase metrics
                 +--> regenerate assets/terminal.svg
-                +--> refresh README cache-buster
+                +--> generate assets/activity.svg
+                +--> refresh README cache-busters
 ```
 
 GitHub Actions is event-driven for telemetry/config changes and also runs once per day as a safety refresh. Generated SVG/README commits do not recursively trigger the workflow.
@@ -72,7 +77,7 @@ Generate the dashboard:
 python3 scripts/generate_profile.py
 ```
 
-The generator reads `profile.json` and, when present, `stats/yesterday.json`. Repository line scanning uses a bounded parallel clone pool (`max_parallel_clones`, default `4`) to reduce refresh time without creating excessive concurrent Git traffic.
+The generator reads `profile.json`, `stats/yesterday.json`, and `stats/history.json`. It produces both the overview terminal SVG and the analytics SVG. Repository line scanning uses a bounded parallel clone pool (`max_parallel_clones`, default `4`) to reduce refresh time without creating excessive concurrent Git traffic.
 
 ## Local macOS automation
 
@@ -81,6 +86,8 @@ The local automation uses:
 ```text
 $HOME/Scripts/publish-github-profile-telemetry.sh
 $HOME/Scripts/collect-github-yesterday.py
+$HOME/Scripts/update-history.py
+$HOME/Scripts/backfill-history.py
 $HOME/Library/LaunchAgents/com.imoein.github-profile-telemetry.plist
 ```
 
@@ -100,7 +107,7 @@ The current state file is:
 $HOME/.local/state/imoein-profile-sync/last-processed-date
 ```
 
-The legacy `last-success-date` state is ignored for backlog decisions and removed after a successful v11 sync. The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
+The legacy `last-success-date` state is ignored for backlog decisions and removed after a successful v12 sync. The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
 
 GitHub credentials are read through the existing macOS Git credential helper. No token is stored in this repository.
 ## Daily snapshot semantics
@@ -112,6 +119,30 @@ Only commits attributed by GitHub to the profile owner are counted. Merge commit
 The profile repository itself is excluded from daily development totals so that telemetry automation does not inflate its own activity.
 
 Line counts are Git diff statistics, not a productivity score. Generated files, dependency lockfiles, formatting changes, and large refactors can legitimately produce large values.
+
+## Rolling analytics history
+
+`stats/history.json` keeps up to 400 daily aggregate snapshots. Each daily or catch-up run upserts the processed date, so missed offline days are preserved in chronological order.
+
+The initial yearly history can be rebuilt without issuing one REST request per commit:
+
+```bash
+python3 scripts/local/backfill_history.py stats/history.json 365
+```
+
+The backfill utility uses GitHub GraphQL commit history pages so additions and deletions are fetched in batches. Repository names are used only in memory to calculate active-repository counts and are never written to the public history file.
+
+The analytics SVG uses:
+
+- 14 calendar days for the bar chart
+- green bars for additions
+- red bars for deletions
+- a blue line for commit count
+- 365 calendar days for the heatmap
+- `lines_added + lines_deleted` as heatmap intensity
+- quantile-based intensity buckets so one unusually large refactor does not flatten the rest of the year
+
+Days containing only empty commits remain dark in the heatmap because no code lines changed.
 
 ## Repository hygiene
 

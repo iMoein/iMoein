@@ -1,0 +1,3289 @@
+{
+  "days": [
+    {
+      "date": "2025-09-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-09-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-09-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-09-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-09-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-09-30",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-10",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-15",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 215,
+      "lines_deleted": 1,
+      "net_lines": 214,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-18",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 214,
+      "lines_deleted": 0,
+      "net_lines": 214,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-23",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-24",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-30",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-10-31",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-01",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 107,
+      "lines_deleted": 0,
+      "net_lines": 107,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-07",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 1489,
+      "lines_deleted": 0,
+      "net_lines": 1489,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-08",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 6,
+      "lines_deleted": 4,
+      "net_lines": 2,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-09",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 773,
+      "lines_deleted": 509,
+      "net_lines": 264,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-10",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 389,
+      "lines_deleted": 253,
+      "net_lines": 136,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-12",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 668,
+      "lines_deleted": 55,
+      "net_lines": 613,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-15",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 230938,
+      "lines_deleted": 34,
+      "net_lines": 230904,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-16",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 3064033,
+      "lines_deleted": 985,
+      "net_lines": 3063048,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-19",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 2,
+      "lines_deleted": 3294209,
+      "net_lines": -3294207,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-21",
+      "repos_checked": 35,
+      "commits": 49,
+      "lines_added": 3838,
+      "lines_deleted": 601,
+      "net_lines": 3237,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-22",
+      "repos_checked": 35,
+      "commits": 59,
+      "lines_added": 18136,
+      "lines_deleted": 3238,
+      "net_lines": 14898,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-23",
+      "repos_checked": 35,
+      "commits": 40,
+      "lines_added": 7672,
+      "lines_deleted": 462,
+      "net_lines": 7210,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-24",
+      "repos_checked": 35,
+      "commits": 35,
+      "lines_added": 10900,
+      "lines_deleted": 704,
+      "net_lines": 10196,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-25",
+      "repos_checked": 35,
+      "commits": 21,
+      "lines_added": 988,
+      "lines_deleted": 116,
+      "net_lines": 872,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-26",
+      "repos_checked": 35,
+      "commits": 47,
+      "lines_added": 1913,
+      "lines_deleted": 108,
+      "net_lines": 1805,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-27",
+      "repos_checked": 35,
+      "commits": 47,
+      "lines_added": 4815,
+      "lines_deleted": 1372,
+      "net_lines": 3443,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-11-29",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 3195,
+      "lines_deleted": 1436,
+      "net_lines": 1759,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-11-30",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 853,
+      "lines_deleted": 338,
+      "net_lines": 515,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-01",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 62960,
+      "lines_deleted": 120,
+      "net_lines": 62840,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-02",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 6478,
+      "lines_deleted": 120,
+      "net_lines": 6358,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-06",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 4375,
+      "lines_deleted": 142,
+      "net_lines": 4233,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-07",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 380,
+      "lines_deleted": 169,
+      "net_lines": 211,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-09",
+      "repos_checked": 35,
+      "commits": 36,
+      "lines_added": 484,
+      "lines_deleted": 188,
+      "net_lines": 296,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-10",
+      "repos_checked": 35,
+      "commits": 43,
+      "lines_added": 3967,
+      "lines_deleted": 613,
+      "net_lines": 3354,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-15",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 5,
+      "lines_deleted": 1,
+      "net_lines": 4,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-16",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 89950,
+      "lines_deleted": 23941,
+      "net_lines": 66009,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-17",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 186,
+      "lines_deleted": 11,
+      "net_lines": 175,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-23",
+      "repos_checked": 35,
+      "commits": 37,
+      "lines_added": 10072,
+      "lines_deleted": 780,
+      "net_lines": 9292,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-24",
+      "repos_checked": 35,
+      "commits": 44,
+      "lines_added": 19343,
+      "lines_deleted": 12526,
+      "net_lines": 6817,
+      "active_repos": 3
+    },
+    {
+      "date": "2025-12-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2025-12-30",
+      "repos_checked": 35,
+      "commits": 56,
+      "lines_added": 5267,
+      "lines_deleted": 3315,
+      "net_lines": 1952,
+      "active_repos": 2
+    },
+    {
+      "date": "2025-12-31",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 1381,
+      "lines_deleted": 6,
+      "net_lines": 1375,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-01-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-04",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 797,
+      "lines_deleted": 7,
+      "net_lines": 790,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-01-05",
+      "repos_checked": 35,
+      "commits": 54,
+      "lines_added": 49651,
+      "lines_deleted": 27,
+      "net_lines": 49624,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-01-06",
+      "repos_checked": 35,
+      "commits": 32,
+      "lines_added": 6002,
+      "lines_deleted": 157,
+      "net_lines": 5845,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-01-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-10",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-15",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-23",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-24",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-30",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-01-31",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-02",
+      "repos_checked": 35,
+      "commits": 39,
+      "lines_added": 13410,
+      "lines_deleted": 0,
+      "net_lines": 13410,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-03",
+      "repos_checked": 35,
+      "commits": 41,
+      "lines_added": 38671,
+      "lines_deleted": 6,
+      "net_lines": 38665,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-04",
+      "repos_checked": 35,
+      "commits": 35,
+      "lines_added": 7472,
+      "lines_deleted": 1129,
+      "net_lines": 6343,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-05",
+      "repos_checked": 35,
+      "commits": 50,
+      "lines_added": 4943,
+      "lines_deleted": 1202,
+      "net_lines": 3741,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-06",
+      "repos_checked": 35,
+      "commits": 32,
+      "lines_added": 745,
+      "lines_deleted": 142,
+      "net_lines": 603,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-07",
+      "repos_checked": 35,
+      "commits": 45,
+      "lines_added": 3704,
+      "lines_deleted": 535,
+      "net_lines": 3169,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-08",
+      "repos_checked": 35,
+      "commits": 31,
+      "lines_added": 817,
+      "lines_deleted": 276,
+      "net_lines": 541,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-09",
+      "repos_checked": 35,
+      "commits": 69,
+      "lines_added": 15016,
+      "lines_deleted": 374,
+      "net_lines": 14642,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-02-10",
+      "repos_checked": 35,
+      "commits": 31,
+      "lines_added": 567,
+      "lines_deleted": 14,
+      "net_lines": 553,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-11",
+      "repos_checked": 35,
+      "commits": 82,
+      "lines_added": 30517,
+      "lines_deleted": 3487,
+      "net_lines": 27030,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-12",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 607,
+      "lines_deleted": 337,
+      "net_lines": 270,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-15",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-21",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 116,
+      "lines_deleted": 88,
+      "net_lines": 28,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-02-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-23",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-24",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-02-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-10",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-15",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-23",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-24",
+      "repos_checked": 35,
+      "commits": 23,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-27",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-30",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-03-31",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-10",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-13",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-14",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-15",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-20",
+      "repos_checked": 35,
+      "commits": 41,
+      "lines_added": 8921,
+      "lines_deleted": 1406,
+      "net_lines": 7515,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-04-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-23",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-24",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-27",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 611,
+      "lines_deleted": 2,
+      "net_lines": 609,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-04-28",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-04-30",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-03",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 656,
+      "lines_deleted": 3,
+      "net_lines": 653,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-10",
+      "repos_checked": 35,
+      "commits": 39,
+      "lines_added": 9628,
+      "lines_deleted": 1508,
+      "net_lines": 8120,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-11",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 1719,
+      "lines_deleted": 43,
+      "net_lines": 1676,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-12",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 215,
+      "lines_deleted": 30,
+      "net_lines": 185,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-13",
+      "repos_checked": 35,
+      "commits": 41,
+      "lines_added": 15020,
+      "lines_deleted": 54,
+      "net_lines": 14966,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-14",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1408,
+      "lines_deleted": 4,
+      "net_lines": 1404,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-15",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 56,
+      "lines_deleted": 21,
+      "net_lines": 35,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-17",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 4144,
+      "lines_deleted": 680,
+      "net_lines": 3464,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-18",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 1112,
+      "lines_deleted": 172,
+      "net_lines": 940,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-20",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-21",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-22",
+      "repos_checked": 35,
+      "commits": 57,
+      "lines_added": 19987,
+      "lines_deleted": 4614,
+      "net_lines": 15373,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-23",
+      "repos_checked": 35,
+      "commits": 62,
+      "lines_added": 53048,
+      "lines_deleted": 28764,
+      "net_lines": 24284,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-24",
+      "repos_checked": 35,
+      "commits": 92,
+      "lines_added": 30987,
+      "lines_deleted": 15683,
+      "net_lines": 15304,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-05-25",
+      "repos_checked": 35,
+      "commits": 63,
+      "lines_added": 3168,
+      "lines_deleted": 689,
+      "net_lines": 2479,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-05-26",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-05-27",
+      "repos_checked": 35,
+      "commits": 33,
+      "lines_added": 2243,
+      "lines_deleted": 114,
+      "net_lines": 2129,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-05-28",
+      "repos_checked": 35,
+      "commits": 32,
+      "lines_added": 2029,
+      "lines_deleted": 532,
+      "net_lines": 1497,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-29",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 170,
+      "lines_deleted": 49,
+      "net_lines": 121,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-30",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 275,
+      "lines_deleted": 33,
+      "net_lines": 242,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-05-31",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-02",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-03",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-10",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-11",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-12",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-13",
+      "repos_checked": 35,
+      "commits": 69,
+      "lines_added": 80190,
+      "lines_deleted": 1289,
+      "net_lines": 78901,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-06-14",
+      "repos_checked": 35,
+      "commits": 58,
+      "lines_added": 6048,
+      "lines_deleted": 3763,
+      "net_lines": 2285,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-06-15",
+      "repos_checked": 35,
+      "commits": 38,
+      "lines_added": 11404,
+      "lines_deleted": 34,
+      "net_lines": 11370,
+      "active_repos": 4
+    },
+    {
+      "date": "2026-06-16",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 19386,
+      "lines_deleted": 502,
+      "net_lines": 18884,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-17",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 829,
+      "lines_deleted": 141,
+      "net_lines": 688,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-18",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 3409,
+      "lines_deleted": 110,
+      "net_lines": 3299,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-19",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1066,
+      "lines_deleted": 163,
+      "net_lines": 903,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-20",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 13701,
+      "lines_deleted": 2887,
+      "net_lines": 10814,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-21",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 13435,
+      "lines_deleted": 331,
+      "net_lines": 13104,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-22",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-23",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 5889,
+      "lines_deleted": 1932,
+      "net_lines": 3957,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-24",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 186,
+      "lines_deleted": 14,
+      "net_lines": 172,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-25",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 42,
+      "lines_deleted": 19,
+      "net_lines": 23,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-26",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 6,
+      "lines_deleted": 4,
+      "net_lines": 2,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-27",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 461,
+      "lines_deleted": 95,
+      "net_lines": 366,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-28",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 1618,
+      "lines_deleted": 375,
+      "net_lines": 1243,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-06-29",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-06-30",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 5601,
+      "lines_deleted": 783,
+      "net_lines": 4818,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-01",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-07-02",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 3630,
+      "lines_deleted": 872,
+      "net_lines": 2758,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-03",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 1141,
+      "lines_deleted": 140,
+      "net_lines": 1001,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-04",
+      "repos_checked": 35,
+      "commits": 31,
+      "lines_added": 9758,
+      "lines_deleted": 48,
+      "net_lines": 9710,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-07-05",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 4735,
+      "lines_deleted": 950,
+      "net_lines": 3785,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-07-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-07-08",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-07-09",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 3,
+      "lines_deleted": 0,
+      "net_lines": 3,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-10",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 2218,
+      "lines_deleted": 71,
+      "net_lines": 2147,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-11",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 15411,
+      "lines_deleted": 7268,
+      "net_lines": 8143,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-12",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 9108,
+      "lines_deleted": 1479,
+      "net_lines": 7629,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-13",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 17943,
+      "lines_deleted": 1662,
+      "net_lines": 16281,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-14",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1,
+      "lines_deleted": 0,
+      "net_lines": 1,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-15",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 42226,
+      "lines_deleted": 19910,
+      "net_lines": 22316,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-16",
+      "repos_checked": 35,
+      "commits": 34,
+      "lines_added": 10418,
+      "lines_deleted": 909,
+      "net_lines": 9509,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-07-17",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 7123,
+      "lines_deleted": 36,
+      "net_lines": 7087,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-18",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1200,
+      "lines_deleted": 408,
+      "net_lines": 792,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-19",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 2195,
+      "lines_deleted": 27,
+      "net_lines": 2168,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-20",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 19012,
+      "lines_deleted": 4244,
+      "net_lines": 14768,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-21",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 732,
+      "lines_deleted": 59,
+      "net_lines": 673,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-22",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 8445,
+      "lines_deleted": 1971,
+      "net_lines": 6474,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-23",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 19272,
+      "lines_deleted": 8691,
+      "net_lines": 10581,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-24",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 1093,
+      "lines_deleted": 158,
+      "net_lines": 935,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-07-25",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 6093,
+      "lines_deleted": 179,
+      "net_lines": 5914,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-26",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 3825,
+      "lines_deleted": 356,
+      "net_lines": 3469,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-27",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 8862,
+      "lines_deleted": 635,
+      "net_lines": 8227,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-28",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 20408,
+      "lines_deleted": 1516,
+      "net_lines": 18892,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-29",
+      "repos_checked": 35,
+      "commits": 30,
+      "lines_added": 5507,
+      "lines_deleted": 694,
+      "net_lines": 4813,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-30",
+      "repos_checked": 35,
+      "commits": 34,
+      "lines_added": 13044,
+      "lines_deleted": 1811,
+      "net_lines": 11233,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-07-31",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 2244,
+      "lines_deleted": 110,
+      "net_lines": 2134,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-01",
+      "repos_checked": 35,
+      "commits": 40,
+      "lines_added": 16267,
+      "lines_deleted": 1730,
+      "net_lines": 14537,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-02",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 4,
+      "lines_deleted": 0,
+      "net_lines": 4,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-03",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1,
+      "lines_deleted": 1,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-04",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 2,
+      "lines_deleted": 2,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-05",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 8327,
+      "lines_deleted": 1423,
+      "net_lines": 6904,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-06",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1,
+      "lines_deleted": 1,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-07",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-08",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 1,
+      "lines_deleted": 1,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-09",
+      "repos_checked": 35,
+      "commits": 37,
+      "lines_added": 16632,
+      "lines_deleted": 1654,
+      "net_lines": 14978,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-10",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 2582,
+      "lines_deleted": 76,
+      "net_lines": 2506,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-11",
+      "repos_checked": 35,
+      "commits": 42,
+      "lines_added": 17581,
+      "lines_deleted": 1466,
+      "net_lines": 16115,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-12",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 4115,
+      "lines_deleted": 202,
+      "net_lines": 3913,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-13",
+      "repos_checked": 35,
+      "commits": 34,
+      "lines_added": 12827,
+      "lines_deleted": 1381,
+      "net_lines": 11446,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-14",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 1351,
+      "lines_deleted": 157,
+      "net_lines": 1194,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-15",
+      "repos_checked": 35,
+      "commits": 32,
+      "lines_added": 656,
+      "lines_deleted": 425,
+      "net_lines": 231,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-08-16",
+      "repos_checked": 35,
+      "commits": 47,
+      "lines_added": 374,
+      "lines_deleted": 359,
+      "net_lines": 15,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-17",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 2,
+      "lines_deleted": 0,
+      "net_lines": 2,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-18",
+      "repos_checked": 35,
+      "commits": 22,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-19",
+      "repos_checked": 35,
+      "commits": 30,
+      "lines_added": 10740,
+      "lines_deleted": 227,
+      "net_lines": 10513,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-20",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 30430,
+      "lines_deleted": 935,
+      "net_lines": 29495,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-08-21",
+      "repos_checked": 35,
+      "commits": 30,
+      "lines_added": 13130,
+      "lines_deleted": 1244,
+      "net_lines": 11886,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-08-22",
+      "repos_checked": 35,
+      "commits": 39,
+      "lines_added": 5522,
+      "lines_deleted": 670,
+      "net_lines": 4852,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-23",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 996,
+      "lines_deleted": 47,
+      "net_lines": 949,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-24",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-08-25",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-08-26",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 11100,
+      "lines_deleted": 250,
+      "net_lines": 10850,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-27",
+      "repos_checked": 35,
+      "commits": 30,
+      "lines_added": 94722,
+      "lines_deleted": 195,
+      "net_lines": 94527,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-28",
+      "repos_checked": 35,
+      "commits": 25,
+      "lines_added": 426,
+      "lines_deleted": 136,
+      "net_lines": 290,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-29",
+      "repos_checked": 35,
+      "commits": 31,
+      "lines_added": 8086,
+      "lines_deleted": 1477,
+      "net_lines": 6609,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-30",
+      "repos_checked": 35,
+      "commits": 50,
+      "lines_added": 12667,
+      "lines_deleted": 2443,
+      "net_lines": 10224,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-08-31",
+      "repos_checked": 35,
+      "commits": 31,
+      "lines_added": 6558,
+      "lines_deleted": 1782,
+      "net_lines": 4776,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-01",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 1658,
+      "lines_deleted": 437,
+      "net_lines": 1221,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-02",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 4763,
+      "lines_deleted": 286,
+      "net_lines": 4477,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-03",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 221,
+      "lines_deleted": 0,
+      "net_lines": 221,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-04",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-05",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-06",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-07",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-08",
+      "repos_checked": 35,
+      "commits": 27,
+      "lines_added": 60653,
+      "lines_deleted": 205,
+      "net_lines": 60448,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-09",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-10",
+      "repos_checked": 35,
+      "commits": 26,
+      "lines_added": 1417,
+      "lines_deleted": 68,
+      "net_lines": 1349,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-11",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 3237,
+      "lines_deleted": 94,
+      "net_lines": 3143,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-12",
+      "repos_checked": 35,
+      "commits": 29,
+      "lines_added": 2310,
+      "lines_deleted": 156,
+      "net_lines": 2154,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-13",
+      "repos_checked": 35,
+      "commits": 35,
+      "lines_added": 4274,
+      "lines_deleted": 320,
+      "net_lines": 3954,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-09-14",
+      "repos_checked": 35,
+      "commits": 34,
+      "lines_added": 20649,
+      "lines_deleted": 414,
+      "net_lines": 20235,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-09-15",
+      "repos_checked": 35,
+      "commits": 28,
+      "lines_added": 469,
+      "lines_deleted": 74,
+      "net_lines": 395,
+      "active_repos": 3
+    },
+    {
+      "date": "2026-09-16",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-17",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-18",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-19",
+      "repos_checked": 35,
+      "commits": 24,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-20",
+      "repos_checked": 35,
+      "commits": 11,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 1
+    },
+    {
+      "date": "2026-09-21",
+      "repos_checked": 35,
+      "commits": 0,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 0
+    },
+    {
+      "date": "2026-09-22",
+      "repos_checked": 35,
+      "commits": 0,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 0
+    },
+    {
+      "date": "2026-09-23",
+      "repos_checked": 35,
+      "commits": 0,
+      "lines_added": 0,
+      "lines_deleted": 0,
+      "net_lines": 0,
+      "active_repos": 0
+    },
+    {
+      "date": "2026-09-24",
+      "repos_checked": 35,
+      "commits": 1,
+      "lines_added": 34924,
+      "lines_deleted": 0,
+      "net_lines": 34924,
+      "active_repos": 1
+    }
+  ]
+}

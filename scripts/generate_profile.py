@@ -17,11 +17,15 @@ from typing import Any
 
 import requests
 
+from render_activity import load_history, render_activity_svg
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "profile.json"
 SVG_PATH = ROOT / "assets" / "terminal.svg"
 README_PATH = ROOT / "README.md"
 DAILY_STATS_PATH = ROOT / "stats" / "yesterday.json"
+HISTORY_PATH = ROOT / "stats" / "history.json"
+ACTIVITY_SVG_PATH = ROOT / "assets" / "activity.svg"
 
 BG = "#08111f"
 PANEL = "#0f172a"
@@ -532,9 +536,17 @@ def truncate(value: str, max_len: int = 48) -> str:
 def write_readme(cache_bust: str) -> None:
     repo = os.getenv("GITHUB_REPOSITORY", "iMoein/iMoein")
     owner, name = repo.split("/", 1)
-    image_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/terminal.svg?v={cache_bust}"
+    terminal_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/terminal.svg?v={cache_bust}"
+    activity_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/activity.svg?v={cache_bust}"
     README_PATH.write_text(
-        f'<p align="center">\n  <img src="{image_url}" alt="Moein Ghezelbash live developer telemetry dashboard" width="1120" />\n</p>\n',
+        (
+            '<p align="center">\n'
+            f'  <img src="{terminal_url}" alt="Moein Ghezelbash live developer telemetry dashboard" width="1120" />\n'
+            '</p>\n\n'
+            '<p align="center">\n'
+            f'  <img src="{activity_url}" alt="Moein Ghezelbash development activity analytics" width="1120" />\n'
+            '</p>\n'
+        ),
         encoding="utf-8",
     )
 
@@ -662,4 +674,9 @@ def generate_svg() -> str:
 if __name__ == "__main__":
     SVG_PATH.parent.mkdir(parents=True, exist_ok=True)
     SVG_PATH.write_text(generate_svg(), encoding="utf-8")
-    print(f"Generated {SVG_PATH.relative_to(ROOT)} and refreshed README.md")
+    history = load_history(HISTORY_PATH)
+    ACTIVITY_SVG_PATH.write_text(render_activity_svg(history), encoding="utf-8")
+    print(
+        f"Generated {SVG_PATH.relative_to(ROOT)}, "
+        f"{ACTIVITY_SVG_PATH.relative_to(ROOT)} and refreshed README.md"
+    )

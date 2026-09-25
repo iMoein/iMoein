@@ -7,7 +7,7 @@ on:
     paths:
       - "profile.json"
       - "stats/**"
-      - "scripts/generate_profile.py"
+      - "scripts/**"
       - "requirements.txt"
       - ".github/workflows/update-profile.yml"
   schedule:
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal.svg README.md
+          git add assets/terminal.svg assets/activity.svg README.md
           git diff --cached --quiet && exit 0
           git commit -m "chore(profile): refresh telemetry dashboard"
           git pull --rebase origin main

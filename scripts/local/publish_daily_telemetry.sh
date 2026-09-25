@@ -14,6 +14,7 @@ STATE_DIR="$HOME/.local/state/imoein-profile-sync"
 STATE_FILE="$STATE_DIR/last-processed-date"
 LEGACY_STATE_FILE="$STATE_DIR/last-success-date"
 COLLECTOR="$HOME/Scripts/collect-github-yesterday.py"
+HISTORY_UPDATER="$HOME/Scripts/update-history.py"
 
 TODAY="$(date +%Y-%m-%d)"
 YESTERDAY="$(/usr/bin/python3 - <<'PY'
@@ -31,6 +32,11 @@ fi
 
 if [[ ! -f "$COLLECTOR" ]]; then
   echo "Telemetry collector not found: $COLLECTOR" >&2
+  exit 1
+fi
+
+if [[ ! -f "$HISTORY_UPDATER" ]]; then
+  echo "History updater not found: $HISTORY_UPDATER" >&2
   exit 1
 fi
 VSCODE_APP="/Applications/Visual Studio Code.app"
@@ -69,6 +75,7 @@ export PROFILE_GITHUB_USERNAME="$GITHUB_USERNAME"
 export PROFILE_REPOSITORY
 
 ACTIVITY_FILE="$WORKDIR/stats/yesterday.json"
+HISTORY_FILE="$WORKDIR/stats/history.json"
 # Migrate state from the committed snapshot. The old execution-date state is
 # intentionally ignored because it cannot tell us which activity day was processed.
 LAST_PROCESSED="$(
@@ -145,7 +152,8 @@ if [[ -n "$PENDING_DATES" ]]; then
     [[ -z "$ACTIVITY_DATE" ]] && continue
 
     /usr/bin/python3 "$COLLECTOR" "$ACTIVITY_FILE" "$ACTIVITY_DATE"
-    /usr/bin/git add stats/yesterday.json profile.json
+    /usr/bin/python3 "$HISTORY_UPDATER" "$ACTIVITY_FILE" "$HISTORY_FILE" 400
+    /usr/bin/git add stats/yesterday.json stats/history.json profile.json
 
     if /usr/bin/git diff --cached --quiet; then
       continue
