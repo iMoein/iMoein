@@ -64,8 +64,8 @@
 <text x="56" y="378" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">YAML</text>
 <rect x="188" y="378" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="378" width="5.4" height="13" rx="6.5" fill="#fdba74"/>
-<text x="470" y="377" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2.31%</text>
-<text x="578" y="377" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">25,353</text>
+<text x="470" y="377" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2.32%</text>
+<text x="578" y="377" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">25,375</text>
 <text x="693" y="377" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">47</text>
 <text x="56" y="406" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Swift</text>
 <rect x="188" y="406" width="235" height="13" rx="6.5" fill="#08111f"/>
@@ -175,12 +175,12 @@
 <rect x="418.3" y="1000" width="107.8" height="14" fill="#bfdbfe"/>
 <rect x="526.2" y="1000" width="75.6" height="14" fill="#c4b5fd"/>
 <rect x="601.8" y="1000" width="38.6" height="14" fill="#fde68a"/>
-<rect x="640.4" y="1000" width="15.1" height="14" fill="#fdba74"/>
+<rect x="640.3" y="1000" width="15.1" height="14" fill="#fdba74"/>
 <rect x="655.5" y="1000" width="10.7" height="14" fill="#f9a8d4"/>
 <rect x="666.2" y="1000" width="10.3" height="14" fill="#a7f3d0"/>
-<rect x="676.4" y="1000" width="9.5" height="14" fill="#93c5fd"/>
+<rect x="676.5" y="1000" width="9.5" height="14" fill="#93c5fd"/>
 <rect x="685.9" y="1000" width="5.4" height="14" fill="#d8b4fe"/>
-<rect x="691.3" y="1000" width="5.0" height="14" fill="#67e8f9"/>
+<rect x="691.4" y="1000" width="5.0" height="14" fill="#67e8f9"/>
 <rect x="696.4" y="1000" width="4.9" height="14" fill="#86efac"/>
 <rect x="701.3" y="1000" width="3.8" height="14" fill="#bfdbfe"/>
 <rect x="705.1" y="1000" width="1.9" height="14" fill="#c4b5fd"/>
