@@ -23,10 +23,19 @@ CYAN = "#67e8f9"
 HEAT = ["#182231", "#123b2a", "#166534", "#22c55e", "#86efac"]
 
 
-def svg_text(x: float, y: float, value: str, color: str = WHITE, size: float = 12, weight: str = "400") -> str:
+def svg_text(
+    x: float,
+    y: float,
+    value: str,
+    color: str = WHITE,
+    size: float = 12,
+    weight: str = "400",
+    anchor: str = "start",
+) -> str:
     return (
         f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" '
-        f'font-weight="{weight}" xml:space="preserve">{escape(value)}</text>'
+        f'font-weight="{weight}" text-anchor="{anchor}" '
+        f'xml:space="preserve">{escape(value)}</text>'
     )
 def panel(x: int, y: int, w: int, h: int, title: str) -> list[str]:
     return [
@@ -68,6 +77,20 @@ def compact(value: int) -> str:
     if n >= 1_000:
         return f"{sign}{n / 1_000:.1f}K"
     return f"{value:,}"
+
+
+def compact_cell(value: int) -> str:
+    if value <= 0:
+        return ""
+    if value >= 1_000_000:
+        rendered = f"{value / 1_000_000:.1f}".rstrip("0").rstrip(".")
+        return f"{rendered}m"
+    if value >= 10_000:
+        return f"{round(value / 1_000):.0f}k"
+    if value >= 1_000:
+        rendered = f"{value / 1_000:.1f}".rstrip("0").rstrip(".")
+        return f"{rendered}k"
+    return str(value)
 
 
 def signed(value: int) -> str:
@@ -205,7 +228,7 @@ def render_bar_chart(history: list[dict[str, Any]], end: dt.date) -> list[str]:
     out.append(svg_text(950, 185, "● Commits", BLUE, 10.5, "700"))
     return out
 def render_heatmap(history: list[dict[str, Any]], end: dt.date) -> list[str]:
-    out = panel(38, 410, 1044, 188, "365d // activity heatmap · changed lines intensity")
+    out = panel(38, 410, 1044, 238, "365d // activity heatmap · changed lines intensity")
 
     mapped = date_map(history)
     start = end - dt.timedelta(days=364)
@@ -219,10 +242,10 @@ def render_heatmap(history: list[dict[str, Any]], end: dt.date) -> list[str]:
         cursor += dt.timedelta(days=1)
 
     thresholds = heat_thresholds(all_days)
-    grid_x = 94
-    grid_y = 455
-    cell = 12
-    gap = 4
+    grid_x = 76
+    grid_y = 482
+    cell = 17
+    gap = 2
     step = cell + gap
 
     month_marked: set[tuple[int, int]] = set()
@@ -231,13 +254,21 @@ def render_heatmap(history: list[dict[str, Any]], end: dt.date) -> list[str]:
         week = (cursor - start).days // 7
         month_key = (cursor.year, cursor.month)
         if cursor.day <= 7 and month_key not in month_marked:
-            out.append(svg_text(grid_x + week * step, 435, cursor.strftime("%b"), MUTED, 10.5))
+            out.append(
+                svg_text(
+                    grid_x + week * step,
+                    454,
+                    cursor.strftime("%b"),
+                    MUTED,
+                    10.5,
+                )
+            )
             month_marked.add(month_key)
         cursor += dt.timedelta(days=1)
 
-    out.append(svg_text(52, grid_y + 17, "Mon", MUTED, 9.5))
-    out.append(svg_text(52, grid_y + 49, "Wed", MUTED, 9.5))
-    out.append(svg_text(52, grid_y + 81, "Fri", MUTED, 9.5))
+    out.append(svg_text(52, grid_y + 20, "Mon", MUTED, 9.5))
+    out.append(svg_text(52, grid_y + 56, "Wed", MUTED, 9.5))
+    out.append(svg_text(52, grid_y + 92, "Fri", MUTED, 9.5))
 
     cursor = start
     while cursor <= end:
@@ -247,17 +278,35 @@ def render_heatmap(history: list[dict[str, Any]], end: dt.date) -> list[str]:
         weekday = (cursor.weekday() + 1) % 7  # Sunday=0
         x = grid_x + week * step
         y = grid_y + weekday * step
-        color = heat_color(activity_score(day), thresholds)
+        score = activity_score(day)
+        color = heat_color(score, thresholds)
 
         out.append(
-            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2.5" '
+            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" '
             f'fill="{color}" stroke="{BG}" stroke-width="0.5">'
-            f'<title>{key}: {activity_score(day):,} changed lines, '
+            f'<title>{key}: {score:,} changed lines, '
             f'{int_value(day, "commits")} commits</title></rect>'
         )
+
+        label = compact_cell(score)
+        if label:
+            text_color = BG if color in (HEAT[3], HEAT[4]) else WHITE
+            font_size = 5.5 if len(label) >= 4 else 6.2
+            out.append(
+                svg_text(
+                    x + cell / 2,
+                    y + 5.2,
+                    label,
+                    text_color,
+                    font_size,
+                    "700",
+                    anchor="middle",
+                )
+            )
+
         cursor += dt.timedelta(days=1)
 
-    legend_y = 574
+    legend_y = 626
     out.append(svg_text(858, legend_y, "Less", MUTED, 9.5))
     for index, color in enumerate(HEAT):
         out.append(
@@ -274,7 +323,7 @@ def render_activity_svg(history: list[dict[str, Any]]) -> str:
     else:
         end = dt.datetime.now().astimezone().date() - dt.timedelta(days=1)
 
-    width, height = 1120, 640
+    width, height = 1120, 700
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
@@ -282,7 +331,7 @@ def render_activity_svg(history: list[dict[str, Any]]) -> str:
         "<desc>Daily added and deleted lines, commits, and a yearly activity heatmap.</desc>",
         f'<rect width="{width}" height="{height}" rx="16" fill="{BG}"/>',
         '<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>',
-        f'<rect x="12" y="12" width="1096" height="616" rx="14" '
+        f'<rect x="12" y="12" width="1096" height="676" rx="14" '
         f'fill="{PANEL}" stroke="{BORDER}" stroke-width="1"/>',
         f'<circle cx="38" cy="43" r="5" fill="{RED}"/>',
         f'<circle cx="55" cy="43" r="5" fill="#fde68a"/>',
@@ -296,7 +345,7 @@ def render_activity_svg(history: list[dict[str, Any]]) -> str:
     out.extend(render_bar_chart(history, end))
     out.extend(render_heatmap(history, end))
 
-    out.append(svg_text(58, 610, "bars: daily additions/deletions · line: commits · heatmap: total changed lines", DIM, 10))
-    out.append(svg_text(884, 610, f"{len(history)} stored days", MUTED, 10, "700"))
+    out.append(svg_text(58, 672, "bars: daily additions/deletions · line: commits · heatmap: total changed lines", DIM, 10))
+    out.append(svg_text(884, 672, f"{len(history)} stored days", MUTED, 10, "700"))
     out.append("</svg>")
     return "\n".join(out)

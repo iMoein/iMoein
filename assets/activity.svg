@@ -1,77 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700">
 <title>Moein Ghezelbash development activity analytics</title>
 <desc>Daily added and deleted lines, commits, and a yearly activity heatmap.</desc>
-<rect width="1120" height="640" rx="16" fill="#08111f"/>
+<rect width="1120" height="700" rx="16" fill="#08111f"/>
 <style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>
-<rect x="12" y="12" width="1096" height="616" rx="14" fill="#0f172a" stroke="#233044" stroke-width="1"/>
+<rect x="12" y="12" width="1096" height="676" rx="14" fill="#0f172a" stroke="#233044" stroke-width="1"/>
 <circle cx="38" cy="43" r="5" fill="#fca5a5"/>
 <circle cx="55" cy="43" r="5" fill="#fde68a"/>
 <circle cx="72" cy="43" r="5" fill="#86efac"/>
-<text x="96" y="32" fill="#f8fafc" font-size="18" font-weight="700" xml:space="preserve">activity@github</text>
-<text x="275" y="37" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">developer analytics // rolling telemetry</text>
-<text x="894" y="36" fill="#67e8f9" font-size="11.5" font-weight="700" xml:space="preserve">through 2026-09-24</text>
+<text x="96" y="32" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" xml:space="preserve">activity@github</text>
+<text x="275" y="37" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">developer analytics // rolling telemetry</text>
+<text x="894" y="36" fill="#67e8f9" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">through 2026-09-24</text>
 <rect x="38" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="52" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" xml:space="preserve">CODE DAYS</text>
-<text x="52" y="113" fill="#67e8f9" font-size="19" font-weight="700" xml:space="preserve">148</text>
+<text x="52" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">CODE DAYS</text>
+<text x="52" y="113" fill="#67e8f9" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">148</text>
 <rect x="248" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="262" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" xml:space="preserve">COMMITS</text>
-<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" xml:space="preserve">9,924</text>
+<text x="262" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">COMMITS</text>
+<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">9,924</text>
 <rect x="458" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="472" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" xml:space="preserve">LINES +</text>
-<text x="472" y="113" fill="#86efac" font-size="19" font-weight="700" xml:space="preserve">+4,693,017</text>
+<text x="472" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LINES +</text>
+<text x="472" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+4,693,017</text>
 <rect x="668" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="682" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" xml:space="preserve">LINES -</text>
-<text x="682" y="113" fill="#fca5a5" font-size="19" font-weight="700" xml:space="preserve">-3,495,523</text>
+<text x="682" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LINES -</text>
+<text x="682" y="113" fill="#fca5a5" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">-3,495,523</text>
 <rect x="878" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="892" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" xml:space="preserve">NET</text>
-<text x="892" y="113" fill="#86efac" font-size="19" font-weight="700" xml:space="preserve">+1,197,494</text>
+<text x="892" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">NET</text>
+<text x="892" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+1,197,494</text>
 <rect x="38" y="168" width="1044" height="222" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="56" y="183" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">14d // code change velocity</text>
+<text x="56" y="183" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">14d // code change velocity</text>
 <line x1="68" y1="282" x2="1052" y2="282" stroke="#475569" stroke-width="1"/>
-<text x="68" y="206" fill="#475569" font-size="9" font-weight="400" xml:space="preserve">+34.9K</text>
-<text x="68" y="332" fill="#475569" font-size="9" font-weight="400" xml:space="preserve">-34.9K</text>
+<text x="68" y="206" fill="#475569" font-size="9" font-weight="400" text-anchor="start" xml:space="preserve">+34.9K</text>
+<text x="68" y="332" fill="#475569" font-size="9" font-weight="400" text-anchor="start" xml:space="preserve">-34.9K</text>
 <rect x="90.1" y="276.3" width="12" height="5.7" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="104.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="87.14285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-11</text>
+<text x="87.14285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-11</text>
 <rect x="160.4" y="277.9" width="12" height="4.1" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="174.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="157.42857142857142" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-12</text>
+<text x="157.42857142857142" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-12</text>
 <rect x="230.7" y="274.4" width="12" height="7.6" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="244.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="227.71428571428572" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-13</text>
+<text x="227.71428571428572" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-13</text>
 <rect x="301.0" y="245.3" width="12" height="36.7" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="315.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="298.00000000000006" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-14</text>
+<text x="298.00000000000006" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-14</text>
 <rect x="371.3" y="281.2" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="385.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="368.28571428571433" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-15</text>
+<text x="368.28571428571433" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-15</text>
 <rect x="441.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="455.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="438.5714285714286" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-16</text>
+<text x="438.5714285714286" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-16</text>
 <rect x="511.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="525.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="508.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-17</text>
+<text x="508.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-17</text>
 <rect x="582.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="596.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="579.1428571428571" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-18</text>
+<text x="579.1428571428571" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-18</text>
 <rect x="652.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="666.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="649.4285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-19</text>
+<text x="649.4285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-19</text>
 <rect x="722.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="736.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="719.7142857142858" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-20</text>
+<text x="719.7142857142858" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-20</text>
 <rect x="793.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="807.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="790.0" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-21</text>
+<text x="790.0" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-21</text>
 <rect x="863.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="877.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="860.2857142857143" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-22</text>
+<text x="860.2857142857143" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-22</text>
 <rect x="933.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="947.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="930.5714285714287" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-23</text>
+<text x="930.5714285714287" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-23</text>
 <rect x="1003.9" y="220.0" width="12" height="62.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="1017.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="1000.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" xml:space="preserve">09-24</text>
+<text x="1000.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-24</text>
 <polyline points="103.1,223.5 173.4,223.5 243.7,216.0 314.0,217.3 384.3,224.8 454.6,229.8 524.9,229.8 595.1,229.8 665.4,229.8 735.7,246.2 806.0,260.0 876.3,260.0 946.6,260.0 1016.9,258.7" fill="none" stroke="#bfdbfe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
 <circle cx="103.1" cy="223.5" r="3" fill="#bfdbfe"/>
 <circle cx="173.4" cy="223.5" r="3" fill="#bfdbfe"/>
@@ -87,402 +87,550 @@
 <circle cx="876.3" cy="260.0" r="3" fill="#bfdbfe"/>
 <circle cx="946.6" cy="260.0" r="3" fill="#bfdbfe"/>
 <circle cx="1016.9" cy="258.7" r="3" fill="#bfdbfe"/>
-<text x="790" y="185" fill="#86efac" font-size="10.5" font-weight="700" xml:space="preserve">■ Added</text>
-<text x="866" y="185" fill="#fca5a5" font-size="10.5" font-weight="700" xml:space="preserve">■ Deleted</text>
-<text x="950" y="185" fill="#bfdbfe" font-size="10.5" font-weight="700" xml:space="preserve">● Commits</text>
-<rect x="38" y="410" width="1044" height="188" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="56" y="425" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">365d // activity heatmap · changed lines intensity</text>
-<text x="110" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Oct</text>
-<text x="174" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Nov</text>
-<text x="254" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Dec</text>
-<text x="318" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Jan</text>
-<text x="398" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Feb</text>
-<text x="462" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Mar</text>
-<text x="526" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Apr</text>
-<text x="590" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">May</text>
-<text x="670" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Jun</text>
-<text x="734" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Jul</text>
-<text x="798" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Aug</text>
-<text x="878" y="435" fill="#94a3b8" font-size="10.5" font-weight="400" xml:space="preserve">Sep</text>
-<text x="52" y="472" fill="#94a3b8" font-size="9.5" font-weight="400" xml:space="preserve">Mon</text>
-<text x="52" y="504" fill="#94a3b8" font-size="9.5" font-weight="400" xml:space="preserve">Wed</text>
-<text x="52" y="536" fill="#94a3b8" font-size="9.5" font-weight="400" xml:space="preserve">Fri</text>
-<rect x="94" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-21: 0 changed lines, 0 commits</title></rect>
-<rect x="94" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-22: 0 changed lines, 0 commits</title></rect>
-<rect x="94" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-23: 0 changed lines, 0 commits</title></rect>
-<rect x="94" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-24: 0 changed lines, 0 commits</title></rect>
-<rect x="94" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-25: 0 changed lines, 24 commits</title></rect>
-<rect x="94" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-26: 0 changed lines, 24 commits</title></rect>
-<rect x="94" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-27: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-28: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-29: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-30: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-01: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-02: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-03: 0 changed lines, 24 commits</title></rect>
-<rect x="110" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-04: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-05: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-06: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-07: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-08: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-09: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-10: 0 changed lines, 24 commits</title></rect>
-<rect x="126" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-11: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-12: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-13: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-14: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="503" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-10-15: 216 changed lines, 27 commits</title></rect>
-<rect x="142" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-16: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-17: 0 changed lines, 24 commits</title></rect>
-<rect x="142" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-10-18: 214 changed lines, 26 commits</title></rect>
-<rect x="158" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-19: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-20: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-21: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-22: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-23: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-24: 0 changed lines, 24 commits</title></rect>
-<rect x="158" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-25: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-26: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-27: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-28: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-29: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-30: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-31: 0 changed lines, 24 commits</title></rect>
-<rect x="174" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-01: 107 changed lines, 25 commits</title></rect>
-<rect x="190" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-02: 0 changed lines, 24 commits</title></rect>
-<rect x="190" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-03: 0 changed lines, 24 commits</title></rect>
-<rect x="190" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-04: 0 changed lines, 24 commits</title></rect>
-<rect x="190" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-05: 0 changed lines, 24 commits</title></rect>
-<rect x="190" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-06: 0 changed lines, 24 commits</title></rect>
-<rect x="190" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-07: 1,489 changed lines, 29 commits</title></rect>
-<rect x="190" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-08: 10 changed lines, 26 commits</title></rect>
-<rect x="206" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-09: 1,282 changed lines, 28 commits</title></rect>
-<rect x="206" y="471" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-10: 642 changed lines, 26 commits</title></rect>
-<rect x="206" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-11: 0 changed lines, 24 commits</title></rect>
-<rect x="206" y="503" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-12: 723 changed lines, 25 commits</title></rect>
-<rect x="206" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-13: 0 changed lines, 24 commits</title></rect>
-<rect x="206" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-14: 0 changed lines, 24 commits</title></rect>
-<rect x="206" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-15: 230,972 changed lines, 25 commits</title></rect>
-<rect x="222" y="455" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-16: 3,065,018 changed lines, 25 commits</title></rect>
-<rect x="222" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-17: 0 changed lines, 24 commits</title></rect>
-<rect x="222" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-18: 0 changed lines, 24 commits</title></rect>
-<rect x="222" y="503" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-19: 3,294,211 changed lines, 25 commits</title></rect>
-<rect x="222" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-20: 0 changed lines, 24 commits</title></rect>
-<rect x="222" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-21: 4,439 changed lines, 49 commits</title></rect>
-<rect x="222" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-22: 21,374 changed lines, 59 commits</title></rect>
-<rect x="238" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-23: 8,134 changed lines, 40 commits</title></rect>
-<rect x="238" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-24: 11,604 changed lines, 35 commits</title></rect>
-<rect x="238" y="487" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-25: 1,104 changed lines, 21 commits</title></rect>
-<rect x="238" y="503" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-26: 2,021 changed lines, 47 commits</title></rect>
-<rect x="238" y="519" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-27: 6,187 changed lines, 47 commits</title></rect>
-<rect x="238" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-28: 0 changed lines, 24 commits</title></rect>
-<rect x="238" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-29: 4,631 changed lines, 33 commits</title></rect>
-<rect x="254" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-30: 1,191 changed lines, 33 commits</title></rect>
-<rect x="254" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-01: 63,080 changed lines, 29 commits</title></rect>
-<rect x="254" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-02: 6,598 changed lines, 28 commits</title></rect>
-<rect x="254" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-03: 0 changed lines, 24 commits</title></rect>
-<rect x="254" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-04: 0 changed lines, 24 commits</title></rect>
-<rect x="254" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-05: 0 changed lines, 24 commits</title></rect>
-<rect x="254" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-06: 4,517 changed lines, 33 commits</title></rect>
-<rect x="270" y="455" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-07: 549 changed lines, 33 commits</title></rect>
-<rect x="270" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-08: 0 changed lines, 24 commits</title></rect>
-<rect x="270" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-09: 672 changed lines, 36 commits</title></rect>
-<rect x="270" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-10: 4,580 changed lines, 43 commits</title></rect>
-<rect x="270" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-11: 0 changed lines, 24 commits</title></rect>
-<rect x="270" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-12: 0 changed lines, 24 commits</title></rect>
-<rect x="270" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-13: 0 changed lines, 24 commits</title></rect>
-<rect x="286" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-14: 0 changed lines, 24 commits</title></rect>
-<rect x="286" y="471" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-15: 6 changed lines, 25 commits</title></rect>
-<rect x="286" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-16: 113,891 changed lines, 26 commits</title></rect>
-<rect x="286" y="503" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-17: 197 changed lines, 27 commits</title></rect>
-<rect x="286" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-18: 0 changed lines, 24 commits</title></rect>
-<rect x="286" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-19: 0 changed lines, 24 commits</title></rect>
-<rect x="286" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-20: 0 changed lines, 24 commits</title></rect>
-<rect x="302" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-21: 0 changed lines, 24 commits</title></rect>
-<rect x="302" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-22: 0 changed lines, 24 commits</title></rect>
-<rect x="302" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-23: 10,852 changed lines, 37 commits</title></rect>
-<rect x="302" y="503" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-24: 31,869 changed lines, 44 commits</title></rect>
-<rect x="302" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-25: 0 changed lines, 24 commits</title></rect>
-<rect x="302" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-26: 0 changed lines, 24 commits</title></rect>
-<rect x="302" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-27: 0 changed lines, 24 commits</title></rect>
-<rect x="318" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-28: 0 changed lines, 24 commits</title></rect>
-<rect x="318" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-29: 0 changed lines, 24 commits</title></rect>
-<rect x="318" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-30: 8,582 changed lines, 56 commits</title></rect>
-<rect x="318" y="503" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-12-31: 1,387 changed lines, 28 commits</title></rect>
-<rect x="318" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-01: 0 changed lines, 24 commits</title></rect>
-<rect x="318" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-02: 0 changed lines, 24 commits</title></rect>
-<rect x="318" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-03: 0 changed lines, 24 commits</title></rect>
-<rect x="334" y="455" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-01-04: 804 changed lines, 26 commits</title></rect>
-<rect x="334" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-01-05: 49,678 changed lines, 54 commits</title></rect>
-<rect x="334" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-01-06: 6,159 changed lines, 32 commits</title></rect>
-<rect x="334" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-07: 0 changed lines, 24 commits</title></rect>
-<rect x="334" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-08: 0 changed lines, 24 commits</title></rect>
-<rect x="334" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-09: 0 changed lines, 24 commits</title></rect>
-<rect x="334" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-10: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-11: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-12: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-13: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-14: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-15: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-16: 0 changed lines, 24 commits</title></rect>
-<rect x="350" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-17: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-18: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-19: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-20: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-21: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-22: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-23: 0 changed lines, 24 commits</title></rect>
-<rect x="366" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-24: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-25: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-26: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-27: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-28: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-29: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-30: 0 changed lines, 24 commits</title></rect>
-<rect x="382" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-31: 0 changed lines, 24 commits</title></rect>
-<rect x="398" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-01: 0 changed lines, 24 commits</title></rect>
-<rect x="398" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-02: 13,410 changed lines, 39 commits</title></rect>
-<rect x="398" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-03: 38,677 changed lines, 41 commits</title></rect>
-<rect x="398" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-04: 8,601 changed lines, 35 commits</title></rect>
-<rect x="398" y="519" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-05: 6,145 changed lines, 50 commits</title></rect>
-<rect x="398" y="535" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-06: 887 changed lines, 32 commits</title></rect>
-<rect x="398" y="551" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-07: 4,239 changed lines, 45 commits</title></rect>
-<rect x="414" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-08: 1,093 changed lines, 31 commits</title></rect>
-<rect x="414" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-09: 15,390 changed lines, 69 commits</title></rect>
-<rect x="414" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-10: 581 changed lines, 31 commits</title></rect>
-<rect x="414" y="503" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-11: 34,004 changed lines, 82 commits</title></rect>
-<rect x="414" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-12: 944 changed lines, 28 commits</title></rect>
-<rect x="414" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-13: 0 changed lines, 24 commits</title></rect>
-<rect x="414" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-14: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-15: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-16: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-17: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-18: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-19: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-20: 0 changed lines, 24 commits</title></rect>
-<rect x="430" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-21: 204 changed lines, 26 commits</title></rect>
-<rect x="446" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-22: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-23: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-24: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-25: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-26: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-27: 0 changed lines, 24 commits</title></rect>
-<rect x="446" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-28: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-01: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-02: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-03: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-04: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-05: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-06: 0 changed lines, 24 commits</title></rect>
-<rect x="462" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-07: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-08: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-09: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-10: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-11: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-12: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-13: 0 changed lines, 24 commits</title></rect>
-<rect x="478" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-14: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-15: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-16: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-17: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-18: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-19: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-20: 0 changed lines, 24 commits</title></rect>
-<rect x="494" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-21: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-22: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-23: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-24: 0 changed lines, 23 commits</title></rect>
-<rect x="510" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-25: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-26: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-27: 0 changed lines, 24 commits</title></rect>
-<rect x="510" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-28: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-29: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-30: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-31: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-01: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-02: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-03: 0 changed lines, 24 commits</title></rect>
-<rect x="526" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-04: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-05: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-06: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-07: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-08: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-09: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-10: 0 changed lines, 24 commits</title></rect>
-<rect x="542" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-11: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-12: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-13: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-14: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-15: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-16: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-17: 0 changed lines, 24 commits</title></rect>
-<rect x="558" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-18: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-19: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-04-20: 10,327 changed lines, 41 commits</title></rect>
-<rect x="574" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-21: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-22: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-23: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-24: 0 changed lines, 24 commits</title></rect>
-<rect x="574" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-25: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-26: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="471" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-04-27: 613 changed lines, 27 commits</title></rect>
-<rect x="590" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-28: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-29: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-30: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-01: 0 changed lines, 24 commits</title></rect>
-<rect x="590" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-02: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="455" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-03: 659 changed lines, 28 commits</title></rect>
-<rect x="606" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-04: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-05: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-06: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-07: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-08: 0 changed lines, 24 commits</title></rect>
-<rect x="606" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-09: 0 changed lines, 24 commits</title></rect>
-<rect x="622" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-05-10: 11,136 changed lines, 39 commits</title></rect>
-<rect x="622" y="471" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-11: 1,762 changed lines, 29 commits</title></rect>
-<rect x="622" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-12: 245 changed lines, 27 commits</title></rect>
-<rect x="622" y="503" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-13: 15,074 changed lines, 41 commits</title></rect>
-<rect x="622" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-14: 1,412 changed lines, 25 commits</title></rect>
-<rect x="622" y="535" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-15: 77 changed lines, 26 commits</title></rect>
-<rect x="622" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-16: 0 changed lines, 24 commits</title></rect>
-<rect x="638" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-05-17: 4,824 changed lines, 33 commits</title></rect>
-<rect x="638" y="471" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-18: 1,284 changed lines, 26 commits</title></rect>
-<rect x="638" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-19: 0 changed lines, 24 commits</title></rect>
-<rect x="638" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-20: 0 changed lines, 24 commits</title></rect>
-<rect x="638" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-21: 0 changed lines, 24 commits</title></rect>
-<rect x="638" y="535" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-22: 24,601 changed lines, 57 commits</title></rect>
-<rect x="638" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-23: 81,812 changed lines, 62 commits</title></rect>
-<rect x="654" y="455" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-24: 46,670 changed lines, 92 commits</title></rect>
-<rect x="654" y="471" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-25: 3,857 changed lines, 63 commits</title></rect>
-<rect x="654" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-26: 0 changed lines, 24 commits</title></rect>
-<rect x="654" y="503" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-27: 2,357 changed lines, 33 commits</title></rect>
-<rect x="654" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-28: 2,561 changed lines, 32 commits</title></rect>
-<rect x="654" y="535" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-29: 219 changed lines, 25 commits</title></rect>
-<rect x="654" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-30: 308 changed lines, 25 commits</title></rect>
-<rect x="670" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-31: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-01: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-02: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-03: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-04: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-05: 0 changed lines, 24 commits</title></rect>
-<rect x="670" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-06: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-07: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-08: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-09: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-10: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-11: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-12: 0 changed lines, 24 commits</title></rect>
-<rect x="686" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-13: 81,479 changed lines, 69 commits</title></rect>
-<rect x="702" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-14: 9,811 changed lines, 58 commits</title></rect>
-<rect x="702" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-15: 11,438 changed lines, 38 commits</title></rect>
-<rect x="702" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-16: 19,888 changed lines, 25 commits</title></rect>
-<rect x="702" y="503" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-17: 970 changed lines, 25 commits</title></rect>
-<rect x="702" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-18: 3,519 changed lines, 26 commits</title></rect>
-<rect x="702" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-19: 1,229 changed lines, 25 commits</title></rect>
-<rect x="702" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-20: 16,588 changed lines, 27 commits</title></rect>
-<rect x="718" y="455" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-21: 13,766 changed lines, 27 commits</title></rect>
-<rect x="718" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-22: 0 changed lines, 24 commits</title></rect>
-<rect x="718" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-23: 7,821 changed lines, 26 commits</title></rect>
-<rect x="718" y="503" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-24: 200 changed lines, 26 commits</title></rect>
-<rect x="718" y="519" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-25: 61 changed lines, 26 commits</title></rect>
-<rect x="718" y="535" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-26: 10 changed lines, 27 commits</title></rect>
-<rect x="718" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-27: 556 changed lines, 25 commits</title></rect>
-<rect x="734" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-28: 1,993 changed lines, 26 commits</title></rect>
-<rect x="734" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-29: 0 changed lines, 24 commits</title></rect>
-<rect x="734" y="487" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-30: 6,384 changed lines, 26 commits</title></rect>
-<rect x="734" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-01: 0 changed lines, 24 commits</title></rect>
-<rect x="734" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-02: 4,502 changed lines, 26 commits</title></rect>
-<rect x="734" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-03: 1,281 changed lines, 27 commits</title></rect>
-<rect x="734" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-04: 9,806 changed lines, 31 commits</title></rect>
-<rect x="750" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-05: 5,685 changed lines, 25 commits</title></rect>
-<rect x="750" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-06: 0 changed lines, 24 commits</title></rect>
-<rect x="750" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-07: 0 changed lines, 24 commits</title></rect>
-<rect x="750" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-08: 0 changed lines, 24 commits</title></rect>
-<rect x="750" y="519" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-09: 3 changed lines, 25 commits</title></rect>
-<rect x="750" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-10: 2,289 changed lines, 25 commits</title></rect>
-<rect x="750" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-11: 22,679 changed lines, 27 commits</title></rect>
-<rect x="766" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-12: 10,587 changed lines, 28 commits</title></rect>
-<rect x="766" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-13: 19,605 changed lines, 27 commits</title></rect>
-<rect x="766" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-14: 1 changed lines, 25 commits</title></rect>
-<rect x="766" y="503" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-15: 62,136 changed lines, 26 commits</title></rect>
-<rect x="766" y="519" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-16: 11,327 changed lines, 34 commits</title></rect>
-<rect x="766" y="535" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-17: 7,159 changed lines, 25 commits</title></rect>
-<rect x="766" y="551" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-18: 1,608 changed lines, 25 commits</title></rect>
-<rect x="782" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-19: 2,222 changed lines, 26 commits</title></rect>
-<rect x="782" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-20: 23,256 changed lines, 27 commits</title></rect>
-<rect x="782" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-21: 791 changed lines, 26 commits</title></rect>
-<rect x="782" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-22: 10,416 changed lines, 26 commits</title></rect>
-<rect x="782" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-23: 27,963 changed lines, 26 commits</title></rect>
-<rect x="782" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-24: 1,251 changed lines, 27 commits</title></rect>
-<rect x="782" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-25: 6,272 changed lines, 27 commits</title></rect>
-<rect x="798" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-26: 4,181 changed lines, 25 commits</title></rect>
-<rect x="798" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-27: 9,497 changed lines, 27 commits</title></rect>
-<rect x="798" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-28: 21,924 changed lines, 26 commits</title></rect>
-<rect x="798" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-29: 6,201 changed lines, 30 commits</title></rect>
-<rect x="798" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-30: 14,855 changed lines, 34 commits</title></rect>
-<rect x="798" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-31: 2,354 changed lines, 26 commits</title></rect>
-<rect x="798" y="551" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-01: 17,997 changed lines, 40 commits</title></rect>
-<rect x="814" y="455" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-02: 4 changed lines, 25 commits</title></rect>
-<rect x="814" y="471" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-03: 2 changed lines, 25 commits</title></rect>
-<rect x="814" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-04: 4 changed lines, 26 commits</title></rect>
-<rect x="814" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-05: 9,750 changed lines, 25 commits</title></rect>
-<rect x="814" y="519" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-06: 2 changed lines, 25 commits</title></rect>
-<rect x="814" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-07: 0 changed lines, 25 commits</title></rect>
-<rect x="814" y="551" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-08: 2 changed lines, 25 commits</title></rect>
-<rect x="830" y="455" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-09: 18,286 changed lines, 37 commits</title></rect>
-<rect x="830" y="471" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-10: 2,658 changed lines, 27 commits</title></rect>
-<rect x="830" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-11: 19,047 changed lines, 42 commits</title></rect>
-<rect x="830" y="503" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-12: 4,317 changed lines, 27 commits</title></rect>
-<rect x="830" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-13: 14,208 changed lines, 34 commits</title></rect>
-<rect x="830" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-14: 1,508 changed lines, 26 commits</title></rect>
-<rect x="830" y="551" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-15: 1,081 changed lines, 32 commits</title></rect>
-<rect x="846" y="455" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-16: 733 changed lines, 47 commits</title></rect>
-<rect x="846" y="471" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-17: 2 changed lines, 25 commits</title></rect>
-<rect x="846" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-18: 0 changed lines, 22 commits</title></rect>
-<rect x="846" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-19: 10,967 changed lines, 30 commits</title></rect>
-<rect x="846" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-20: 31,365 changed lines, 28 commits</title></rect>
-<rect x="846" y="535" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-21: 14,374 changed lines, 30 commits</title></rect>
-<rect x="846" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-22: 6,192 changed lines, 39 commits</title></rect>
-<rect x="862" y="455" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-23: 1,043 changed lines, 25 commits</title></rect>
-<rect x="862" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-24: 0 changed lines, 24 commits</title></rect>
-<rect x="862" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-25: 0 changed lines, 24 commits</title></rect>
-<rect x="862" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-26: 11,350 changed lines, 27 commits</title></rect>
-<rect x="862" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-27: 94,917 changed lines, 30 commits</title></rect>
-<rect x="862" y="535" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-28: 562 changed lines, 25 commits</title></rect>
-<rect x="862" y="551" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-29: 9,563 changed lines, 31 commits</title></rect>
-<rect x="878" y="455" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-30: 15,110 changed lines, 50 commits</title></rect>
-<rect x="878" y="471" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-31: 8,340 changed lines, 31 commits</title></rect>
-<rect x="878" y="487" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-01: 2,095 changed lines, 29 commits</title></rect>
-<rect x="878" y="503" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-09-02: 5,049 changed lines, 26 commits</title></rect>
-<rect x="878" y="519" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-09-03: 221 changed lines, 26 commits</title></rect>
-<rect x="878" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-04: 0 changed lines, 24 commits</title></rect>
-<rect x="878" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-05: 0 changed lines, 24 commits</title></rect>
-<rect x="894" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-06: 0 changed lines, 24 commits</title></rect>
-<rect x="894" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-07: 0 changed lines, 24 commits</title></rect>
-<rect x="894" y="487" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-08: 60,858 changed lines, 27 commits</title></rect>
-<rect x="894" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-09: 0 changed lines, 24 commits</title></rect>
-<rect x="894" y="519" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-10: 1,485 changed lines, 26 commits</title></rect>
-<rect x="894" y="535" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-11: 3,331 changed lines, 29 commits</title></rect>
-<rect x="894" y="551" width="12" height="12" rx="2.5" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-12: 2,466 changed lines, 29 commits</title></rect>
-<rect x="910" y="455" width="12" height="12" rx="2.5" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-09-13: 4,594 changed lines, 35 commits</title></rect>
-<rect x="910" y="471" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-14: 21,063 changed lines, 34 commits</title></rect>
-<rect x="910" y="487" width="12" height="12" rx="2.5" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-09-15: 543 changed lines, 28 commits</title></rect>
-<rect x="910" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-16: 0 changed lines, 24 commits</title></rect>
-<rect x="910" y="519" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-17: 0 changed lines, 24 commits</title></rect>
-<rect x="910" y="535" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-18: 0 changed lines, 24 commits</title></rect>
-<rect x="910" y="551" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-19: 0 changed lines, 24 commits</title></rect>
-<rect x="926" y="455" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-20: 0 changed lines, 11 commits</title></rect>
-<rect x="926" y="471" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-21: 0 changed lines, 0 commits</title></rect>
-<rect x="926" y="487" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-22: 0 changed lines, 0 commits</title></rect>
-<rect x="926" y="503" width="12" height="12" rx="2.5" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-23: 0 changed lines, 0 commits</title></rect>
-<rect x="926" y="519" width="12" height="12" rx="2.5" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-24: 34,924 changed lines, 1 commits</title></rect>
-<text x="858" y="574" fill="#94a3b8" font-size="9.5" font-weight="400" xml:space="preserve">Less</text>
-<rect x="893" y="572" width="11" height="11" rx="2" fill="#182231"/>
-<rect x="909" y="572" width="11" height="11" rx="2" fill="#123b2a"/>
-<rect x="925" y="572" width="11" height="11" rx="2" fill="#166534"/>
-<rect x="941" y="572" width="11" height="11" rx="2" fill="#22c55e"/>
-<rect x="957" y="572" width="11" height="11" rx="2" fill="#86efac"/>
-<text x="978" y="574" fill="#94a3b8" font-size="9.5" font-weight="400" xml:space="preserve">More</text>
-<text x="58" y="610" fill="#475569" font-size="10" font-weight="400" xml:space="preserve">bars: daily additions/deletions · line: commits · heatmap: total changed lines</text>
-<text x="884" y="610" fill="#94a3b8" font-size="10" font-weight="700" xml:space="preserve">365 stored days</text>
+<text x="790" y="185" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">■ Added</text>
+<text x="866" y="185" fill="#fca5a5" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">■ Deleted</text>
+<text x="950" y="185" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">● Commits</text>
+<rect x="38" y="410" width="1044" height="238" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="56" y="425" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">365d // activity heatmap · changed lines intensity</text>
+<text x="95" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Oct</text>
+<text x="171" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Nov</text>
+<text x="266" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Dec</text>
+<text x="342" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Jan</text>
+<text x="437" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Feb</text>
+<text x="513" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Mar</text>
+<text x="589" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Apr</text>
+<text x="665" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">May</text>
+<text x="760" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Jun</text>
+<text x="836" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Jul</text>
+<text x="912" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Aug</text>
+<text x="1007" y="454" fill="#94a3b8" font-size="10.5" font-weight="400" text-anchor="start" xml:space="preserve">Sep</text>
+<text x="52" y="502" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">Mon</text>
+<text x="52" y="538" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">Wed</text>
+<text x="52" y="574" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">Fri</text>
+<rect x="76" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-21: 0 changed lines, 0 commits</title></rect>
+<rect x="76" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-22: 0 changed lines, 0 commits</title></rect>
+<rect x="76" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-23: 0 changed lines, 0 commits</title></rect>
+<rect x="76" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-24: 0 changed lines, 0 commits</title></rect>
+<rect x="76" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-25: 0 changed lines, 24 commits</title></rect>
+<rect x="76" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-26: 0 changed lines, 24 commits</title></rect>
+<rect x="76" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-27: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-28: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-29: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-09-30: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-01: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-02: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-03: 0 changed lines, 24 commits</title></rect>
+<rect x="95" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-04: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-05: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-06: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-07: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-08: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-09: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-10: 0 changed lines, 24 commits</title></rect>
+<rect x="114" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-11: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-12: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-13: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-14: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="539" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-10-15: 216 changed lines, 27 commits</title></rect>
+<text x="141.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">216</text>
+<rect x="133" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-16: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-17: 0 changed lines, 24 commits</title></rect>
+<rect x="133" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-10-18: 214 changed lines, 26 commits</title></rect>
+<text x="141.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">214</text>
+<rect x="152" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-19: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-20: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-21: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-22: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-23: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-24: 0 changed lines, 24 commits</title></rect>
+<rect x="152" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-25: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-26: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-27: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-28: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-29: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-30: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-10-31: 0 changed lines, 24 commits</title></rect>
+<rect x="171" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-01: 107 changed lines, 25 commits</title></rect>
+<text x="179.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">107</text>
+<rect x="190" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-02: 0 changed lines, 24 commits</title></rect>
+<rect x="190" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-03: 0 changed lines, 24 commits</title></rect>
+<rect x="190" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-04: 0 changed lines, 24 commits</title></rect>
+<rect x="190" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-05: 0 changed lines, 24 commits</title></rect>
+<rect x="190" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-06: 0 changed lines, 24 commits</title></rect>
+<rect x="190" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-07: 1,489 changed lines, 29 commits</title></rect>
+<text x="198.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.5k</text>
+<rect x="190" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-08: 10 changed lines, 26 commits</title></rect>
+<text x="198.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">10</text>
+<rect x="209" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-09: 1,282 changed lines, 28 commits</title></rect>
+<text x="217.5" y="487.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.3k</text>
+<rect x="209" y="501" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-10: 642 changed lines, 26 commits</title></rect>
+<text x="217.5" y="506.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">642</text>
+<rect x="209" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-11: 0 changed lines, 24 commits</title></rect>
+<rect x="209" y="539" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-11-12: 723 changed lines, 25 commits</title></rect>
+<text x="217.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">723</text>
+<rect x="209" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-13: 0 changed lines, 24 commits</title></rect>
+<rect x="209" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-14: 0 changed lines, 24 commits</title></rect>
+<rect x="209" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-15: 230,972 changed lines, 25 commits</title></rect>
+<text x="217.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">231k</text>
+<rect x="228" y="482" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-16: 3,065,018 changed lines, 25 commits</title></rect>
+<text x="236.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">3.1m</text>
+<rect x="228" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-17: 0 changed lines, 24 commits</title></rect>
+<rect x="228" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-18: 0 changed lines, 24 commits</title></rect>
+<rect x="228" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-19: 3,294,211 changed lines, 25 commits</title></rect>
+<text x="236.5" y="544.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">3.3m</text>
+<rect x="228" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-20: 0 changed lines, 24 commits</title></rect>
+<rect x="228" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-21: 4,439 changed lines, 49 commits</title></rect>
+<text x="236.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.4k</text>
+<rect x="228" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-11-22: 21,374 changed lines, 59 commits</title></rect>
+<text x="236.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">21k</text>
+<rect x="247" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-23: 8,134 changed lines, 40 commits</title></rect>
+<text x="255.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">8.1k</text>
+<rect x="247" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-24: 11,604 changed lines, 35 commits</title></rect>
+<text x="255.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">12k</text>
+<rect x="247" y="520" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-25: 1,104 changed lines, 21 commits</title></rect>
+<text x="255.5" y="525.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.1k</text>
+<rect x="247" y="539" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-26: 2,021 changed lines, 47 commits</title></rect>
+<text x="255.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2k</text>
+<rect x="247" y="558" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-27: 6,187 changed lines, 47 commits</title></rect>
+<text x="255.5" y="563.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.2k</text>
+<rect x="247" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-11-28: 0 changed lines, 24 commits</title></rect>
+<rect x="247" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-11-29: 4,631 changed lines, 33 commits</title></rect>
+<text x="255.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.6k</text>
+<rect x="266" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-11-30: 1,191 changed lines, 33 commits</title></rect>
+<text x="274.5" y="487.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.2k</text>
+<rect x="266" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-01: 63,080 changed lines, 29 commits</title></rect>
+<text x="274.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">63k</text>
+<rect x="266" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-02: 6,598 changed lines, 28 commits</title></rect>
+<text x="274.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.6k</text>
+<rect x="266" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-03: 0 changed lines, 24 commits</title></rect>
+<rect x="266" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-04: 0 changed lines, 24 commits</title></rect>
+<rect x="266" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-05: 0 changed lines, 24 commits</title></rect>
+<rect x="266" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-06: 4,517 changed lines, 33 commits</title></rect>
+<text x="274.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.5k</text>
+<rect x="285" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-07: 549 changed lines, 33 commits</title></rect>
+<text x="293.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">549</text>
+<rect x="285" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-08: 0 changed lines, 24 commits</title></rect>
+<rect x="285" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-09: 672 changed lines, 36 commits</title></rect>
+<text x="293.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">672</text>
+<rect x="285" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-10: 4,580 changed lines, 43 commits</title></rect>
+<text x="293.5" y="544.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.6k</text>
+<rect x="285" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-11: 0 changed lines, 24 commits</title></rect>
+<rect x="285" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-12: 0 changed lines, 24 commits</title></rect>
+<rect x="285" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-13: 0 changed lines, 24 commits</title></rect>
+<rect x="304" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-14: 0 changed lines, 24 commits</title></rect>
+<rect x="304" y="501" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-15: 6 changed lines, 25 commits</title></rect>
+<text x="312.5" y="506.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">6</text>
+<rect x="304" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-16: 113,891 changed lines, 26 commits</title></rect>
+<text x="312.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">114k</text>
+<rect x="304" y="539" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-17: 197 changed lines, 27 commits</title></rect>
+<text x="312.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">197</text>
+<rect x="304" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-18: 0 changed lines, 24 commits</title></rect>
+<rect x="304" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-19: 0 changed lines, 24 commits</title></rect>
+<rect x="304" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-20: 0 changed lines, 24 commits</title></rect>
+<rect x="323" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-21: 0 changed lines, 24 commits</title></rect>
+<rect x="323" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-22: 0 changed lines, 24 commits</title></rect>
+<rect x="323" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-23: 10,852 changed lines, 37 commits</title></rect>
+<text x="331.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="323" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2025-12-24: 31,869 changed lines, 44 commits</title></rect>
+<text x="331.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">32k</text>
+<rect x="323" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-25: 0 changed lines, 24 commits</title></rect>
+<rect x="323" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-26: 0 changed lines, 24 commits</title></rect>
+<rect x="323" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-27: 0 changed lines, 24 commits</title></rect>
+<rect x="342" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-28: 0 changed lines, 24 commits</title></rect>
+<rect x="342" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-29: 0 changed lines, 24 commits</title></rect>
+<rect x="342" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-30: 8,582 changed lines, 56 commits</title></rect>
+<text x="350.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">8.6k</text>
+<rect x="342" y="539" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-12-31: 1,387 changed lines, 28 commits</title></rect>
+<text x="350.5" y="544.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.4k</text>
+<rect x="342" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-01: 0 changed lines, 24 commits</title></rect>
+<rect x="342" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-02: 0 changed lines, 24 commits</title></rect>
+<rect x="342" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-03: 0 changed lines, 24 commits</title></rect>
+<rect x="361" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-01-04: 804 changed lines, 26 commits</title></rect>
+<text x="369.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">804</text>
+<rect x="361" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-01-05: 49,678 changed lines, 54 commits</title></rect>
+<text x="369.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">50k</text>
+<rect x="361" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-01-06: 6,159 changed lines, 32 commits</title></rect>
+<text x="369.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.2k</text>
+<rect x="361" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-07: 0 changed lines, 24 commits</title></rect>
+<rect x="361" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-08: 0 changed lines, 24 commits</title></rect>
+<rect x="361" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-09: 0 changed lines, 24 commits</title></rect>
+<rect x="361" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-10: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-11: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-12: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-13: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-14: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-15: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-16: 0 changed lines, 24 commits</title></rect>
+<rect x="380" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-17: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-18: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-19: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-20: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-21: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-22: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-23: 0 changed lines, 24 commits</title></rect>
+<rect x="399" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-24: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-25: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-26: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-27: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-28: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-29: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-30: 0 changed lines, 24 commits</title></rect>
+<rect x="418" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-01-31: 0 changed lines, 24 commits</title></rect>
+<rect x="437" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-01: 0 changed lines, 24 commits</title></rect>
+<rect x="437" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-02: 13,410 changed lines, 39 commits</title></rect>
+<text x="445.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">13k</text>
+<rect x="437" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-03: 38,677 changed lines, 41 commits</title></rect>
+<text x="445.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">39k</text>
+<rect x="437" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-04: 8,601 changed lines, 35 commits</title></rect>
+<text x="445.5" y="544.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">8.6k</text>
+<rect x="437" y="558" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-02-05: 6,145 changed lines, 50 commits</title></rect>
+<text x="445.5" y="563.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.1k</text>
+<rect x="437" y="577" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-06: 887 changed lines, 32 commits</title></rect>
+<text x="445.5" y="582.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">887</text>
+<rect x="437" y="596" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-07: 4,239 changed lines, 45 commits</title></rect>
+<text x="445.5" y="601.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.2k</text>
+<rect x="456" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-08: 1,093 changed lines, 31 commits</title></rect>
+<text x="464.5" y="487.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.1k</text>
+<rect x="456" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-09: 15,390 changed lines, 69 commits</title></rect>
+<text x="464.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">15k</text>
+<rect x="456" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-10: 581 changed lines, 31 commits</title></rect>
+<text x="464.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">581</text>
+<rect x="456" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-11: 34,004 changed lines, 82 commits</title></rect>
+<text x="464.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">34k</text>
+<rect x="456" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-12: 944 changed lines, 28 commits</title></rect>
+<text x="464.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">944</text>
+<rect x="456" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-13: 0 changed lines, 24 commits</title></rect>
+<rect x="456" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-14: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-15: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-16: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-17: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-18: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-19: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-20: 0 changed lines, 24 commits</title></rect>
+<rect x="475" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-21: 204 changed lines, 26 commits</title></rect>
+<text x="483.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">204</text>
+<rect x="494" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-22: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-23: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-24: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-25: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-26: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-27: 0 changed lines, 24 commits</title></rect>
+<rect x="494" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-28: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-01: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-02: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-03: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-04: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-05: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-06: 0 changed lines, 24 commits</title></rect>
+<rect x="513" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-07: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-08: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-09: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-10: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-11: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-12: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-13: 0 changed lines, 24 commits</title></rect>
+<rect x="532" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-14: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-15: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-16: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-17: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-18: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-19: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-20: 0 changed lines, 24 commits</title></rect>
+<rect x="551" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-21: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-22: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-23: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-24: 0 changed lines, 23 commits</title></rect>
+<rect x="570" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-25: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-26: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-27: 0 changed lines, 24 commits</title></rect>
+<rect x="570" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-28: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-29: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-30: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-03-31: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-01: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-02: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-03: 0 changed lines, 24 commits</title></rect>
+<rect x="589" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-04: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-05: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-06: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-07: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-08: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-09: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-10: 0 changed lines, 24 commits</title></rect>
+<rect x="608" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-11: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-12: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-13: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-14: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-15: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-16: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-17: 0 changed lines, 24 commits</title></rect>
+<rect x="627" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-18: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-19: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-04-20: 10,327 changed lines, 41 commits</title></rect>
+<text x="654.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">10k</text>
+<rect x="646" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-21: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-22: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-23: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-24: 0 changed lines, 24 commits</title></rect>
+<rect x="646" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-25: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-26: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="501" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-04-27: 613 changed lines, 27 commits</title></rect>
+<text x="673.5" y="506.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">613</text>
+<rect x="665" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-28: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-29: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-04-30: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-01: 0 changed lines, 24 commits</title></rect>
+<rect x="665" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-02: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-03: 659 changed lines, 28 commits</title></rect>
+<text x="692.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">659</text>
+<rect x="684" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-04: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-05: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-06: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-07: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-08: 0 changed lines, 24 commits</title></rect>
+<rect x="684" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-09: 0 changed lines, 24 commits</title></rect>
+<rect x="703" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-05-10: 11,136 changed lines, 39 commits</title></rect>
+<text x="711.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="703" y="501" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-11: 1,762 changed lines, 29 commits</title></rect>
+<text x="711.5" y="506.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.8k</text>
+<rect x="703" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-12: 245 changed lines, 27 commits</title></rect>
+<text x="711.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">245</text>
+<rect x="703" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-13: 15,074 changed lines, 41 commits</title></rect>
+<text x="711.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">15k</text>
+<rect x="703" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-14: 1,412 changed lines, 25 commits</title></rect>
+<text x="711.5" y="563.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.4k</text>
+<rect x="703" y="577" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-15: 77 changed lines, 26 commits</title></rect>
+<text x="711.5" y="582.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">77</text>
+<rect x="703" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-16: 0 changed lines, 24 commits</title></rect>
+<rect x="722" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-05-17: 4,824 changed lines, 33 commits</title></rect>
+<text x="730.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.8k</text>
+<rect x="722" y="501" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-18: 1,284 changed lines, 26 commits</title></rect>
+<text x="730.5" y="506.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.3k</text>
+<rect x="722" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-19: 0 changed lines, 24 commits</title></rect>
+<rect x="722" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-20: 0 changed lines, 24 commits</title></rect>
+<rect x="722" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-21: 0 changed lines, 24 commits</title></rect>
+<rect x="722" y="577" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-22: 24,601 changed lines, 57 commits</title></rect>
+<text x="730.5" y="582.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">25k</text>
+<rect x="722" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-23: 81,812 changed lines, 62 commits</title></rect>
+<text x="730.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">82k</text>
+<rect x="741" y="482" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-05-24: 46,670 changed lines, 92 commits</title></rect>
+<text x="749.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">47k</text>
+<rect x="741" y="501" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-25: 3,857 changed lines, 63 commits</title></rect>
+<text x="749.5" y="506.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">3.9k</text>
+<rect x="741" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-26: 0 changed lines, 24 commits</title></rect>
+<rect x="741" y="539" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-27: 2,357 changed lines, 33 commits</title></rect>
+<text x="749.5" y="544.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.4k</text>
+<rect x="741" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-05-28: 2,561 changed lines, 32 commits</title></rect>
+<text x="749.5" y="563.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.6k</text>
+<rect x="741" y="577" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-29: 219 changed lines, 25 commits</title></rect>
+<text x="749.5" y="582.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">219</text>
+<rect x="741" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-05-30: 308 changed lines, 25 commits</title></rect>
+<text x="749.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">308</text>
+<rect x="760" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-05-31: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-01: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-02: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-03: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-04: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-05: 0 changed lines, 24 commits</title></rect>
+<rect x="760" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-06: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-07: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-08: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-09: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-10: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-11: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-12: 0 changed lines, 24 commits</title></rect>
+<rect x="779" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-13: 81,479 changed lines, 69 commits</title></rect>
+<text x="787.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">81k</text>
+<rect x="798" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-14: 9,811 changed lines, 58 commits</title></rect>
+<text x="806.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">9.8k</text>
+<rect x="798" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-15: 11,438 changed lines, 38 commits</title></rect>
+<text x="806.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="798" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-16: 19,888 changed lines, 25 commits</title></rect>
+<text x="806.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">20k</text>
+<rect x="798" y="539" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-17: 970 changed lines, 25 commits</title></rect>
+<text x="806.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">970</text>
+<rect x="798" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-18: 3,519 changed lines, 26 commits</title></rect>
+<text x="806.5" y="563.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">3.5k</text>
+<rect x="798" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-19: 1,229 changed lines, 25 commits</title></rect>
+<text x="806.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.2k</text>
+<rect x="798" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-20: 16,588 changed lines, 27 commits</title></rect>
+<text x="806.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">17k</text>
+<rect x="817" y="482" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-06-21: 13,766 changed lines, 27 commits</title></rect>
+<text x="825.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">14k</text>
+<rect x="817" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-22: 0 changed lines, 24 commits</title></rect>
+<rect x="817" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-23: 7,821 changed lines, 26 commits</title></rect>
+<text x="825.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">7.8k</text>
+<rect x="817" y="539" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-24: 200 changed lines, 26 commits</title></rect>
+<text x="825.5" y="544.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">200</text>
+<rect x="817" y="558" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-25: 61 changed lines, 26 commits</title></rect>
+<text x="825.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">61</text>
+<rect x="817" y="577" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-26: 10 changed lines, 27 commits</title></rect>
+<text x="825.5" y="582.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">10</text>
+<rect x="817" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-06-27: 556 changed lines, 25 commits</title></rect>
+<text x="825.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">556</text>
+<rect x="836" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-06-28: 1,993 changed lines, 26 commits</title></rect>
+<text x="844.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2k</text>
+<rect x="836" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-06-29: 0 changed lines, 24 commits</title></rect>
+<rect x="836" y="520" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-06-30: 6,384 changed lines, 26 commits</title></rect>
+<text x="844.5" y="525.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.4k</text>
+<rect x="836" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-01: 0 changed lines, 24 commits</title></rect>
+<rect x="836" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-02: 4,502 changed lines, 26 commits</title></rect>
+<text x="844.5" y="563.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.5k</text>
+<rect x="836" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-03: 1,281 changed lines, 27 commits</title></rect>
+<text x="844.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.3k</text>
+<rect x="836" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-04: 9,806 changed lines, 31 commits</title></rect>
+<text x="844.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">9.8k</text>
+<rect x="855" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-05: 5,685 changed lines, 25 commits</title></rect>
+<text x="863.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">5.7k</text>
+<rect x="855" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-06: 0 changed lines, 24 commits</title></rect>
+<rect x="855" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-07: 0 changed lines, 24 commits</title></rect>
+<rect x="855" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-07-08: 0 changed lines, 24 commits</title></rect>
+<rect x="855" y="558" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-09: 3 changed lines, 25 commits</title></rect>
+<text x="863.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">3</text>
+<rect x="855" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-10: 2,289 changed lines, 25 commits</title></rect>
+<text x="863.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.3k</text>
+<rect x="855" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-11: 22,679 changed lines, 27 commits</title></rect>
+<text x="863.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">23k</text>
+<rect x="874" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-12: 10,587 changed lines, 28 commits</title></rect>
+<text x="882.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="874" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-13: 19,605 changed lines, 27 commits</title></rect>
+<text x="882.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">20k</text>
+<rect x="874" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-14: 1 changed lines, 25 commits</title></rect>
+<text x="882.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">1</text>
+<rect x="874" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-15: 62,136 changed lines, 26 commits</title></rect>
+<text x="882.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">62k</text>
+<rect x="874" y="558" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-16: 11,327 changed lines, 34 commits</title></rect>
+<text x="882.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="874" y="577" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-17: 7,159 changed lines, 25 commits</title></rect>
+<text x="882.5" y="582.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">7.2k</text>
+<rect x="874" y="596" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-18: 1,608 changed lines, 25 commits</title></rect>
+<text x="882.5" y="601.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.6k</text>
+<rect x="893" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-19: 2,222 changed lines, 26 commits</title></rect>
+<text x="901.5" y="487.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.2k</text>
+<rect x="893" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-20: 23,256 changed lines, 27 commits</title></rect>
+<text x="901.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">23k</text>
+<rect x="893" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-07-21: 791 changed lines, 26 commits</title></rect>
+<text x="901.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">791</text>
+<rect x="893" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-22: 10,416 changed lines, 26 commits</title></rect>
+<text x="901.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">10k</text>
+<rect x="893" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-23: 27,963 changed lines, 26 commits</title></rect>
+<text x="901.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">28k</text>
+<rect x="893" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-24: 1,251 changed lines, 27 commits</title></rect>
+<text x="901.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.3k</text>
+<rect x="893" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-25: 6,272 changed lines, 27 commits</title></rect>
+<text x="901.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.3k</text>
+<rect x="912" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-26: 4,181 changed lines, 25 commits</title></rect>
+<text x="920.5" y="487.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.2k</text>
+<rect x="912" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-27: 9,497 changed lines, 27 commits</title></rect>
+<text x="920.5" y="506.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">9.5k</text>
+<rect x="912" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-28: 21,924 changed lines, 26 commits</title></rect>
+<text x="920.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">22k</text>
+<rect x="912" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-07-29: 6,201 changed lines, 30 commits</title></rect>
+<text x="920.5" y="544.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.2k</text>
+<rect x="912" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-07-30: 14,855 changed lines, 34 commits</title></rect>
+<text x="920.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">15k</text>
+<rect x="912" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-07-31: 2,354 changed lines, 26 commits</title></rect>
+<text x="920.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.4k</text>
+<rect x="912" y="596" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-01: 17,997 changed lines, 40 commits</title></rect>
+<text x="920.5" y="601.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">18k</text>
+<rect x="931" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-02: 4 changed lines, 25 commits</title></rect>
+<text x="939.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">4</text>
+<rect x="931" y="501" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-03: 2 changed lines, 25 commits</title></rect>
+<text x="939.5" y="506.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2</text>
+<rect x="931" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-04: 4 changed lines, 26 commits</title></rect>
+<text x="939.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">4</text>
+<rect x="931" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-05: 9,750 changed lines, 25 commits</title></rect>
+<text x="939.5" y="544.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">9.8k</text>
+<rect x="931" y="558" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-06: 2 changed lines, 25 commits</title></rect>
+<text x="939.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2</text>
+<rect x="931" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-07: 0 changed lines, 25 commits</title></rect>
+<rect x="931" y="596" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-08: 2 changed lines, 25 commits</title></rect>
+<text x="939.5" y="601.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2</text>
+<rect x="950" y="482" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-09: 18,286 changed lines, 37 commits</title></rect>
+<text x="958.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">18k</text>
+<rect x="950" y="501" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-10: 2,658 changed lines, 27 commits</title></rect>
+<text x="958.5" y="506.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.7k</text>
+<rect x="950" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-11: 19,047 changed lines, 42 commits</title></rect>
+<text x="958.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">19k</text>
+<rect x="950" y="539" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-12: 4,317 changed lines, 27 commits</title></rect>
+<text x="958.5" y="544.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.3k</text>
+<rect x="950" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-13: 14,208 changed lines, 34 commits</title></rect>
+<text x="958.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">14k</text>
+<rect x="950" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-14: 1,508 changed lines, 26 commits</title></rect>
+<text x="958.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.5k</text>
+<rect x="950" y="596" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-15: 1,081 changed lines, 32 commits</title></rect>
+<text x="958.5" y="601.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.1k</text>
+<rect x="969" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-16: 733 changed lines, 47 commits</title></rect>
+<text x="977.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">733</text>
+<rect x="969" y="501" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-17: 2 changed lines, 25 commits</title></rect>
+<text x="977.5" y="506.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">2</text>
+<rect x="969" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-18: 0 changed lines, 22 commits</title></rect>
+<rect x="969" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-19: 10,967 changed lines, 30 commits</title></rect>
+<text x="977.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="969" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-20: 31,365 changed lines, 28 commits</title></rect>
+<text x="977.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">31k</text>
+<rect x="969" y="577" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-21: 14,374 changed lines, 30 commits</title></rect>
+<text x="977.5" y="582.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">14k</text>
+<rect x="969" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-22: 6,192 changed lines, 39 commits</title></rect>
+<text x="977.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.2k</text>
+<rect x="988" y="482" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-08-23: 1,043 changed lines, 25 commits</title></rect>
+<text x="996.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">1k</text>
+<rect x="988" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-24: 0 changed lines, 24 commits</title></rect>
+<rect x="988" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-08-25: 0 changed lines, 24 commits</title></rect>
+<rect x="988" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-26: 11,350 changed lines, 27 commits</title></rect>
+<text x="996.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">11k</text>
+<rect x="988" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-27: 94,917 changed lines, 30 commits</title></rect>
+<text x="996.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">95k</text>
+<rect x="988" y="577" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-08-28: 562 changed lines, 25 commits</title></rect>
+<text x="996.5" y="582.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">562</text>
+<rect x="988" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-29: 9,563 changed lines, 31 commits</title></rect>
+<text x="996.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">9.6k</text>
+<rect x="1007" y="482" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-08-30: 15,110 changed lines, 50 commits</title></rect>
+<text x="1015.5" y="487.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">15k</text>
+<rect x="1007" y="501" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-08-31: 8,340 changed lines, 31 commits</title></rect>
+<text x="1015.5" y="506.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">8.3k</text>
+<rect x="1007" y="520" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-01: 2,095 changed lines, 29 commits</title></rect>
+<text x="1015.5" y="525.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.1k</text>
+<rect x="1007" y="539" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-09-02: 5,049 changed lines, 26 commits</title></rect>
+<text x="1015.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">5k</text>
+<rect x="1007" y="558" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-09-03: 221 changed lines, 26 commits</title></rect>
+<text x="1015.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">221</text>
+<rect x="1007" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-04: 0 changed lines, 24 commits</title></rect>
+<rect x="1007" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-05: 0 changed lines, 24 commits</title></rect>
+<rect x="1026" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-06: 0 changed lines, 24 commits</title></rect>
+<rect x="1026" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-07: 0 changed lines, 24 commits</title></rect>
+<rect x="1026" y="520" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-08: 60,858 changed lines, 27 commits</title></rect>
+<text x="1034.5" y="525.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">61k</text>
+<rect x="1026" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-09: 0 changed lines, 24 commits</title></rect>
+<rect x="1026" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-10: 1,485 changed lines, 26 commits</title></rect>
+<text x="1034.5" y="563.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">1.5k</text>
+<rect x="1026" y="577" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-11: 3,331 changed lines, 29 commits</title></rect>
+<text x="1034.5" y="582.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">3.3k</text>
+<rect x="1026" y="596" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-09-12: 2,466 changed lines, 29 commits</title></rect>
+<text x="1034.5" y="601.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">2.5k</text>
+<rect x="1045" y="482" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-09-13: 4,594 changed lines, 35 commits</title></rect>
+<text x="1053.5" y="487.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.6k</text>
+<rect x="1045" y="501" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-14: 21,063 changed lines, 34 commits</title></rect>
+<text x="1053.5" y="506.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">21k</text>
+<rect x="1045" y="520" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-09-15: 543 changed lines, 28 commits</title></rect>
+<text x="1053.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">543</text>
+<rect x="1045" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-16: 0 changed lines, 24 commits</title></rect>
+<rect x="1045" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-17: 0 changed lines, 24 commits</title></rect>
+<rect x="1045" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-18: 0 changed lines, 24 commits</title></rect>
+<rect x="1045" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-19: 0 changed lines, 24 commits</title></rect>
+<rect x="1064" y="482" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-20: 0 changed lines, 11 commits</title></rect>
+<rect x="1064" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-21: 0 changed lines, 0 commits</title></rect>
+<rect x="1064" y="520" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-22: 0 changed lines, 0 commits</title></rect>
+<rect x="1064" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-23: 0 changed lines, 0 commits</title></rect>
+<rect x="1064" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-24: 34,924 changed lines, 1 commits</title></rect>
+<text x="1072.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">35k</text>
+<text x="858" y="626" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">Less</text>
+<rect x="893" y="624" width="11" height="11" rx="2" fill="#182231"/>
+<rect x="909" y="624" width="11" height="11" rx="2" fill="#123b2a"/>
+<rect x="925" y="624" width="11" height="11" rx="2" fill="#166534"/>
+<rect x="941" y="624" width="11" height="11" rx="2" fill="#22c55e"/>
+<rect x="957" y="624" width="11" height="11" rx="2" fill="#86efac"/>
+<text x="978" y="626" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">More</text>
+<text x="58" y="672" fill="#475569" font-size="10" font-weight="400" text-anchor="start" xml:space="preserve">bars: daily additions/deletions · line: commits · heatmap: total changed lines</text>
+<text x="884" y="672" fill="#94a3b8" font-size="10" font-weight="700" text-anchor="start" xml:space="preserve">365 stored days</text>
 </svg>
