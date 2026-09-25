@@ -18,6 +18,7 @@ from typing import Any
 import requests
 
 from render_activity import load_history, render_activity_svg
+from render_stack import render_stack_svg
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "profile.json"
@@ -26,6 +27,7 @@ README_PATH = ROOT / "README.md"
 DAILY_STATS_PATH = ROOT / "stats" / "yesterday.json"
 HISTORY_PATH = ROOT / "stats" / "history.json"
 ACTIVITY_SVG_PATH = ROOT / "assets" / "activity.svg"
+STACK_SVG_PATH = ROOT / "assets" / "stack.svg"
 
 BG = "#08111f"
 PANEL = "#0f172a"
@@ -51,15 +53,56 @@ CODE_EXTENSIONS = {
     ".vue", ".svelte", ".astro",
     ".json", ".yaml", ".yml", ".toml", ".xml",
     ".prisma", ".graphql", ".gql", ".dockerfile",
+    ".tf", ".tfvars", ".dart", ".lua", ".r", ".scala",
 }
 CODE_FILENAMES = {
     "Dockerfile", "Makefile", "Rakefile", "Gemfile", "Procfile",
     ".env.example", "docker-compose.yml", "docker-compose.yaml",
 }
+SKIP_FILENAMES = {
+    "package-lock.json", "npm-shrinkwrap.json", "pnpm-lock.yaml",
+    "yarn.lock", "bun.lockb", "Pipfile.lock", "composer.lock",
+}
 SKIP_PARTS = {
     ".git", "node_modules", "vendor", "dist", "build", ".next", ".nuxt",
     "coverage", ".cache", ".turbo", "target", "bin", "obj", "__pycache__",
     ".venv", "venv", "env", "Pods", "DerivedData",
+}
+
+LANGUAGE_BY_EXTENSION = {
+    ".py": "Python", ".js": "JavaScript", ".jsx": "JavaScript",
+    ".mjs": "JavaScript", ".cjs": "JavaScript", ".ts": "TypeScript",
+    ".tsx": "TypeScript", ".go": "Go", ".rs": "Rust", ".java": "Java",
+    ".kt": "Kotlin", ".kts": "Kotlin", ".swift": "Swift", ".c": "C",
+    ".h": "C/C++ Header", ".cpp": "C++", ".hpp": "C/C++ Header",
+    ".cs": "C#", ".php": "PHP", ".rb": "Ruby", ".pl": "Perl",
+    ".sh": "Shell", ".bash": "Shell", ".zsh": "Shell", ".fish": "Shell",
+    ".ps1": "PowerShell", ".sql": "SQL", ".html": "HTML", ".css": "CSS",
+    ".scss": "SCSS", ".sass": "Sass", ".less": "Less", ".vue": "Vue",
+    ".svelte": "Svelte", ".astro": "Astro", ".json": "JSON",
+    ".yaml": "YAML", ".yml": "YAML", ".toml": "TOML", ".xml": "XML",
+    ".prisma": "Prisma", ".graphql": "GraphQL", ".gql": "GraphQL",
+    ".tf": "Terraform", ".tfvars": "Terraform", ".dart": "Dart",
+    ".lua": "Lua", ".r": "R", ".scala": "Scala",
+}
+
+LANGUAGE_BY_FILENAME = {
+    "Dockerfile": "Dockerfile", "Makefile": "Makefile",
+    "Rakefile": "Ruby", "Gemfile": "Ruby", "Procfile": "Procfile",
+    ".env.example": "Environment",
+}
+
+TECH_CATEGORIES = {
+    "React": "frontend", "Next.js": "frontend", "Vue.js": "frontend",
+    "Angular": "frontend", "Svelte": "frontend", "Tailwind CSS": "frontend",
+    "Vite": "frontend", "React Native": "mobile", "Expo": "mobile",
+    "Node.js": "backend", "Express": "backend", "NestJS": "backend",
+    "Fastify": "backend", "Django": "backend", "Flask": "backend",
+    "FastAPI": "backend", "Prisma": "data", "PostgreSQL": "data",
+    "MySQL": "data", "MongoDB": "data", "Redis": "data",
+    "Docker": "infra", "GitHub Actions": "infra", "Nginx": "infra",
+    "Terraform": "infra", "Kubernetes": "infra", "Helm": "infra",
+    "Socket.IO": "realtime", "WebSocket": "realtime",
 }
 
 
@@ -343,24 +386,153 @@ def list_repositories(username: str, auth_token: str | None) -> list[dict[str, A
 
 def should_count_file(path: pathlib.Path) -> bool:
     parts = set(path.parts)
-    if parts & SKIP_PARTS:
+    if parts & SKIP_PARTS or path.name in SKIP_FILENAMES:
         return False
-    if path.name in CODE_FILENAMES:
+    if path.name in CODE_FILENAMES or path.name.lower().startswith("dockerfile"):
         return True
     if path.name.lower().endswith((".min.js", ".min.css", ".map")):
         return False
     return path.suffix.lower() in CODE_EXTENSIONS
 
 
-def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib.Path) -> tuple[int, int]:
+def language_for_path(path: pathlib.Path) -> str:
+    if path.name.lower().startswith("dockerfile"):
+        return "Dockerfile"
+    if path.name in LANGUAGE_BY_FILENAME:
+        return LANGUAGE_BY_FILENAME[path.name]
+    return LANGUAGE_BY_EXTENSION.get(path.suffix.lower(), "Other")
+
+
+def read_small_text(path: pathlib.Path, limit: int = 1_500_000) -> str:
+    try:
+        if not path.exists() or path.stat().st_size > limit:
+            return ""
+        return path.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return ""
+
+
+def detect_repo_technologies(
+    target: pathlib.Path,
+    tracked_paths: list[pathlib.Path],
+) -> set[str]:
+    technologies: set[str] = set()
+    normalized = {str(path).replace("\\", "/") for path in tracked_paths}
+    lower_names = {name.lower() for name in normalized}
+
+    if any(pathlib.Path(name).name.lower().startswith("dockerfile") for name in normalized):
+        technologies.add("Docker")
+    if any(pathlib.Path(name).name.lower() in {"docker-compose.yml", "docker-compose.yaml", "compose.yml", "compose.yaml"} for name in normalized):
+        technologies.add("Docker")
+    if any(name.startswith(".github/workflows/") for name in lower_names):
+        technologies.add("GitHub Actions")
+    if any(name.endswith(".tf") or name.endswith(".tfvars") for name in lower_names):
+        technologies.add("Terraform")
+    if any(pathlib.Path(name).name.lower() == "chart.yaml" for name in normalized):
+        technologies.add("Helm")
+    if any("/k8s/" in f"/{name}/" or "/kubernetes/" in f"/{name}/" for name in lower_names):
+        technologies.add("Kubernetes")
+    if any(pathlib.Path(name).name.lower() in {"nginx.conf", "default.conf"} and "nginx" in name.lower() for name in normalized):
+        technologies.add("Nginx")
+
+    package_rules = {
+        "react": "React", "next": "Next.js", "vue": "Vue.js",
+        "@angular/core": "Angular", "svelte": "Svelte",
+        "tailwindcss": "Tailwind CSS", "vite": "Vite",
+        "react-native": "React Native", "expo": "Expo",
+        "express": "Express", "@nestjs/core": "NestJS",
+        "fastify": "Fastify", "prisma": "Prisma",
+        "@prisma/client": "Prisma", "pg": "PostgreSQL",
+        "postgres": "PostgreSQL", "mysql2": "MySQL",
+        "mysql": "MySQL", "mongodb": "MongoDB",
+        "mongoose": "MongoDB", "redis": "Redis",
+        "ioredis": "Redis", "socket.io": "Socket.IO",
+        "ws": "WebSocket",
+    }
+    for rel in tracked_paths:
+        if rel.name != "package.json":
+            continue
+        package_text = read_small_text(target / rel)
+        if not package_text:
+            continue
+        technologies.add("Node.js")
+        try:
+            package = json.loads(package_text)
+        except json.JSONDecodeError:
+            package = {}
+        deps = set()
+        for key in ("dependencies", "devDependencies", "peerDependencies"):
+            values = package.get(key) or {}
+            if isinstance(values, dict):
+                deps.update(values.keys())
+        for package_name, technology in package_rules.items():
+            if package_name in deps:
+                technologies.add(technology)
+
+    prisma_text = "\n".join(
+        read_small_text(target / rel).lower()
+        for rel in tracked_paths
+        if rel.suffix.lower() == ".prisma"
+    )
+    if prisma_text:
+        technologies.add("Prisma")
+        if 'provider = "postgresql"' in prisma_text:
+            technologies.add("PostgreSQL")
+        if 'provider = "mysql"' in prisma_text:
+            technologies.add("MySQL")
+        if 'provider = "mongodb"' in prisma_text:
+            technologies.add("MongoDB")
+
+    python_names = {"requirements.txt", "pyproject.toml", "pipfile"}
+    python_text = "\n".join(
+        read_small_text(target / rel).lower()
+        for rel in tracked_paths
+        if rel.name.lower() in python_names
+    )
+    python_rules = {
+        "django": "Django", "flask": "Flask", "fastapi": "FastAPI",
+    }
+    for needle, technology in python_rules.items():
+        if needle in python_text:
+            technologies.add(technology)
+
+    compose_names = {
+        "docker-compose.yml", "docker-compose.yaml", "compose.yml", "compose.yaml",
+    }
+    compose_text = "\n".join(
+        read_small_text(target / rel).lower()
+        for rel in tracked_paths
+        if rel.name.lower() in compose_names
+    )
+    compose_rules = {
+        "postgres": "PostgreSQL", "mysql": "MySQL",
+        "mongo": "MongoDB", "redis": "Redis", "nginx": "Nginx",
+    }
+    for needle, technology in compose_rules.items():
+        if needle in compose_text:
+            technologies.add(technology)
+
+    return technologies
+
+
+def scan_repo_inventory(
+    repo: dict[str, Any],
+    auth_token: str | None,
+    root: pathlib.Path,
+) -> dict[str, Any]:
     clone_url = repo.get("clone_url")
     full_name = repo.get("full_name") or repo.get("name") or "repo"
+    empty = {
+        "scanned": False, "lines": 0, "files": 0,
+        "language_lines": Counter(), "language_files": Counter(),
+        "technologies": set(),
+    }
     if not clone_url:
-        return 0, 0
+        return empty
 
     target = root / full_name.replace("/", "__")
     clone_env = os.environ.copy()
-    if auth_token and os.getenv("PROFILE_STATS_TOKEN"):
+    if auth_token:
         basic = base64.b64encode(f"x-access-token:{auth_token}".encode()).decode()
         clone_env["GIT_CONFIG_COUNT"] = "1"
         clone_env["GIT_CONFIG_KEY_0"] = "http.https://github.com/.extraheader"
@@ -375,16 +547,23 @@ def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib
             timeout=120,
             env=clone_env,
         )
-        tracked = subprocess.check_output(["git", "-C", str(target), "ls-files", "-z"], timeout=30)
+        tracked = subprocess.check_output(
+            ["git", "-C", str(target), "ls-files", "-z"],
+            timeout=30,
+        )
     except Exception:
-        return 0, 0
+        return empty
 
+    tracked_paths = [
+        pathlib.Path(raw.decode("utf-8", errors="ignore"))
+        for raw in tracked.split(b"\0") if raw
+    ]
+    language_lines: Counter[str] = Counter()
+    language_files: Counter[str] = Counter()
     total_lines = 0
     total_files = 0
-    for raw in tracked.split(b"\0"):
-        if not raw:
-            continue
-        rel = pathlib.Path(raw.decode("utf-8", errors="ignore"))
+
+    for rel in tracked_paths:
         if not should_count_file(rel):
             continue
         file_path = target / rel
@@ -392,14 +571,27 @@ def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib
             if file_path.stat().st_size > 1_500_000:
                 continue
             with file_path.open("r", encoding="utf-8", errors="ignore") as fh:
-                total_lines += sum(1 for _ in fh)
-            total_files += 1
+                lines = sum(1 for _ in fh)
         except OSError:
             continue
-    return total_lines, total_files
+
+        language = language_for_path(rel)
+        language_lines[language] += lines
+        language_files[language] += 1
+        total_lines += lines
+        total_files += 1
+
+    return {
+        "scanned": True,
+        "lines": total_lines,
+        "files": total_files,
+        "language_lines": language_lines,
+        "language_files": language_files,
+        "technologies": detect_repo_technologies(target, tracked_paths),
+    }
 
 
-def count_code_lines(
+def count_code_inventory(
     repos: list[dict[str, Any]],
     auth_token: str | None,
     max_repos: int,
@@ -407,30 +599,69 @@ def count_code_lines(
 ) -> dict[str, Any]:
     selected = repos[:max_repos]
     if not selected:
-        return {"lines_code": None, "files_code": None, "repos_scanned": None}
+        return {
+            "lines_code": None, "files_code": None, "repos_scanned": None,
+            "stack": {"total_lines": 0, "total_files": 0, "repos_scanned": 0,
+                      "languages": [], "technologies": []},
+        }
 
     total_lines = 0
     total_files = 0
     scanned = 0
+    language_lines: Counter[str] = Counter()
+    language_files: Counter[str] = Counter()
+    technology_repos: Counter[str] = Counter()
     workers = max(1, min(max_workers, len(selected)))
 
     with tempfile.TemporaryDirectory(prefix="profile-stats-") as tmp:
         tmp_path = pathlib.Path(tmp)
 
-        def scan(repo: dict[str, Any]) -> tuple[int, int]:
-            return count_repo_lines(repo, auth_token, tmp_path)
+        def scan(repo: dict[str, Any]) -> dict[str, Any]:
+            return scan_repo_inventory(repo, auth_token, tmp_path)
 
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            for lines, files in pool.map(scan, selected):
-                if files > 0:
-                    scanned += 1
-                total_lines += lines
-                total_files += files
+            for result in pool.map(scan, selected):
+                if not result.get("scanned"):
+                    continue
+                scanned += 1
+                total_lines += int(result.get("lines") or 0)
+                total_files += int(result.get("files") or 0)
+                language_lines.update(result.get("language_lines") or {})
+                language_files.update(result.get("language_files") or {})
+                for technology in result.get("technologies") or set():
+                    technology_repos[technology] += 1
 
+    languages = []
+    for name, lines in language_lines.most_common():
+        files = int(language_files.get(name) or 0)
+        languages.append({
+            "name": name,
+            "lines": int(lines),
+            "files": files,
+            "percent": round((lines / total_lines * 100) if total_lines else 0, 4),
+        })
+
+    technologies = []
+    for name, repo_count in technology_repos.most_common():
+        technologies.append({
+            "name": name,
+            "category": TECH_CATEGORIES.get(name, "tool"),
+            "repos": int(repo_count),
+            "percent": round((repo_count / scanned * 100) if scanned else 0, 2),
+        })
+
+    stack = {
+        "total_lines": total_lines,
+        "total_files": total_files,
+        "repos_scanned": scanned,
+        "languages": languages,
+        "technologies": technologies,
+    }
     return {
         "lines_code": total_lines if total_files else None,
         "files_code": total_files if total_files else None,
         "repos_scanned": scanned,
+        "stack": stack,
     }
 
 
@@ -441,22 +672,27 @@ def collect_stats(cfg: dict[str, Any]) -> dict[str, Any]:
     created_at = user.get("created_at")
     repos = list_repositories(username, auth_token)
     repo_count = len(repos) if user or repos else None
-    languages = Counter(r.get("language") for r in repos if r.get("language"))
     stats_cfg = cfg.get("stats") or {}
     max_repos = int(stats_cfg.get("max_repos_to_clone") or 80)
     max_workers = int(stats_cfg.get("max_parallel_clones") or 4)
-    line_stats = count_code_lines(
+    inventory = count_code_inventory(
         repos,
         auth_token,
         max_repos=max_repos,
         max_workers=max_workers,
     )
+    stack = inventory.get("stack") or {}
+    top_langs = [
+        str(item.get("name"))
+        for item in (stack.get("languages") or [])[:5]
+        if item.get("name")
+    ]
     activity = fetch_contribution_activity(username, created_at, auth_token)
     return {
         "repo_count_scanned": repo_count,
-        "top_langs": [lang for lang, _ in languages.most_common(5)] or None,
+        "top_langs": top_langs or None,
         "github_created": created_at[:10] if isinstance(created_at, str) else None,
-        **line_stats,
+        **inventory,
         **activity,
     }
 
@@ -538,6 +774,7 @@ def write_readme(cache_bust: str) -> None:
     owner, name = repo.split("/", 1)
     terminal_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/terminal.svg?v={cache_bust}"
     activity_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/activity.svg?v={cache_bust}"
+    stack_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/stack.svg?v={cache_bust}"
     README_PATH.write_text(
         (
             '<p align="center">\n'
@@ -545,6 +782,9 @@ def write_readme(cache_bust: str) -> None:
             '</p>\n\n'
             '<p align="center">\n'
             f'  <img src="{activity_url}" alt="Moein Ghezelbash development activity analytics" width="1120" />\n'
+            '</p>\n\n'
+            '<p align="center">\n'
+            f'  <img src="{stack_url}" alt="Moein Ghezelbash engineering stack analytics" width="1120" />\n'
             '</p>\n'
         ),
         encoding="utf-8",
@@ -667,6 +907,10 @@ def generate_svg() -> str:
     out.append(text(752, height - 38, "GitHub API + local macOS telemetry", DIM, 11, "400"))
     out.append("</svg>")
 
+    STACK_SVG_PATH.write_text(
+        render_stack_svg(stats.get("stack") or {}),
+        encoding="utf-8",
+    )
     write_readme(dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S"))
     return "\n".join(out)
 
@@ -678,5 +922,6 @@ if __name__ == "__main__":
     ACTIVITY_SVG_PATH.write_text(render_activity_svg(history), encoding="utf-8")
     print(
         f"Generated {SVG_PATH.relative_to(ROOT)}, "
-        f"{ACTIVITY_SVG_PATH.relative_to(ROOT)} and refreshed README.md"
+        f"{ACTIVITY_SVG_PATH.relative_to(ROOT)}, "
+        f"{STACK_SVG_PATH.relative_to(ROOT)} and refreshed README.md"
     )

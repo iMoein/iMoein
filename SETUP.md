@@ -1,4 +1,4 @@
-# GitHub Profile Telemetry v12
+# GitHub Profile Telemetry v13
 
 This repository powers the live developer telemetry card shown on the `iMoein` GitHub profile.
 
@@ -18,6 +18,7 @@ The public README intentionally stays minimal and renders only the generated SVG
 - `yesterday // development activity` — latest daily snapshot
 - `14d // code change velocity` — added/deleted line bars with a commit trend line
 - `365d // activity heatmap` — GitHub-style heatmap based on total changed lines per day
+- `engineering stack // analytics` — full language/format percentages, physical lines, file counts, composition strip, and repository-level technology footprint
 
 ## Daily activity privacy model
 
@@ -47,6 +48,7 @@ macOS LaunchAgent
                 +--> collect GitHub profile/codebase metrics
                 +--> regenerate assets/terminal.svg
                 +--> generate assets/activity.svg
+                +--> generate assets/stack.svg
                 +--> refresh README cache-busters
 ```
 
@@ -77,7 +79,7 @@ Generate the dashboard:
 python3 scripts/generate_profile.py
 ```
 
-The generator reads `profile.json`, `stats/yesterday.json`, and `stats/history.json`. It produces both the overview terminal SVG and the analytics SVG. Repository line scanning uses a bounded parallel clone pool (`max_parallel_clones`, default `4`) to reduce refresh time without creating excessive concurrent Git traffic.
+The generator reads `profile.json`, `stats/yesterday.json`, and `stats/history.json`. It produces the overview terminal SVG, activity analytics SVG, and engineering stack SVG. Repository line scanning uses a bounded parallel clone pool (`max_parallel_clones`, default `4`) to reduce refresh time without creating excessive concurrent Git traffic. The same repository scan powers both the overview code totals and the stack dashboard, so stack analytics does not require a second clone pass.
 
 ## Local macOS automation
 
@@ -107,7 +109,7 @@ The current state file is:
 $HOME/.local/state/imoein-profile-sync/last-processed-date
 ```
 
-The legacy `last-success-date` state is ignored for backlog decisions and removed after a successful v12 sync. The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
+The legacy `last-success-date` state is ignored for backlog decisions and removed after a successful v13 sync. The versioned agent source lives under `scripts/local/`. The installer deploys runtime copies into `$HOME/Scripts`, migrates the legacy `editor-sync` LaunchAgent name, validates the generated plist, and reloads the job.
 
 GitHub credentials are read through the existing macOS Git credential helper. No token is stored in this repository.
 ## Daily snapshot semantics
@@ -144,12 +146,33 @@ The analytics SVG uses:
 
 Days containing only empty commits remain dark in the heatmap because no code lines changed.
 
+## Engineering stack analytics
+
+`assets/stack.svg` is generated from the same repository inventory pass used for `Lines.Code` and `Files.Code`.
+
+For every successfully scanned repository, the generator aggregates:
+
+- physical lines per detected language/format
+- tracked file count per detected language/format
+- percentage share of total counted lines
+- repository-level technology presence detected from manifests and configuration
+- technology adoption percentage across successfully scanned repositories
+
+Technology detection uses high-signal files such as `package.json`, Prisma schemas, Python dependency manifests, Docker/Compose files, GitHub Actions workflows, Terraform, Helm, Kubernetes-style paths, and selected infrastructure configuration.
+
+Common dependency lockfiles and generated/build directories are excluded from stack line analytics. Repository names, local paths, dependency versions, and private repository metadata are not rendered in the dashboard.
+
+`REPOS SCANNED` intentionally reports only repositories successfully cloned during that generation run. A repository that times out or cannot be cloned is not silently counted.
+
 ## Repository hygiene
 
 Generated/public artifacts:
 
 - `assets/terminal.svg`
+- `assets/activity.svg`
+- `assets/stack.svg`
 - `README.md`
 - `stats/yesterday.json`
+- `stats/history.json`
 
 Local-only files such as `.DS_Store`, Python caches, virtual environments, and environment files are ignored by `.gitignore`.

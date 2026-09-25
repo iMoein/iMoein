@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal.svg assets/activity.svg README.md
+          git add assets/terminal.svg assets/activity.svg assets/stack.svg README.md
           git diff --cached --quiet && exit 0
           git commit -m "chore(profile): refresh telemetry dashboard"
           git pull --rebase origin main

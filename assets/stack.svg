@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="960" viewBox="0 0 1120 960">
+<title>Moein Ghezelbash engineering stack analytics</title>
+<desc>Aggregate language lines, files, percentages, and technology usage across GitHub repositories.</desc>
+<rect width="1120" height="960" rx="16" fill="#08111f"/>
+<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>
+<rect x="12" y="12" width="1096" height="936" rx="14" fill="#0f172a" stroke="#233044" stroke-width="1"/>
+<circle cx="38" cy="43" r="5" fill="#fca5a5"/>
+<circle cx="55" cy="43" r="5" fill="#fde68a"/>
+<circle cx="72" cy="43" r="5" fill="#86efac"/>
+<text x="96" y="32" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" xml:space="preserve">stack@github</text>
+<text x="244" y="37" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">engineering stack // aggregate repository analytics</text>
+<text x="890" y="36" fill="#86efac" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">● AUTO-SYNC</text>
+<rect x="38" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="52" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">CODE LINES</text>
+<text x="52" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">338.9K</text>
+<rect x="248" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="262" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">CODE FILES</text>
+<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">850</text>
+<rect x="458" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="472" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LANGUAGES</text>
+<text x="472" y="113" fill="#67e8f9" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">16</text>
+<rect x="668" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="682" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">TECHNOLOGIES</text>
+<text x="682" y="113" fill="#c4b5fd" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">13</text>
+<rect x="878" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="892" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">REPOS SCANNED</text>
+<text x="892" y="113" fill="#fde68a" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">26</text>
+<rect x="38" y="168" width="690" height="726" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="56" y="183" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">language distribution // physical lines</text>
+<text x="56" y="210" fill="#94a3b8" font-size="9.5" font-weight="700" text-anchor="start" xml:space="preserve">LANGUAGE</text>
+<text x="470" y="210" fill="#94a3b8" font-size="9.5" font-weight="700" text-anchor="end" xml:space="preserve">%</text>
+<text x="578" y="210" fill="#94a3b8" font-size="9.5" font-weight="700" text-anchor="end" xml:space="preserve">LINES</text>
+<text x="693" y="210" fill="#94a3b8" font-size="9.5" font-weight="700" text-anchor="end" xml:space="preserve">FILES</text>
+<text x="56" y="238" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">JSON</text>
+<rect x="188" y="238" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="238" width="116.8" height="13" rx="6.5" fill="#67e8f9"/>
+<text x="470" y="237" fill="#67e8f9" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">49.72%</text>
+<text x="578" y="237" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">168,505</text>
+<text x="693" y="237" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">166</text>
+<text x="56" y="266" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">TypeScript</text>
+<rect x="188" y="266" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="266" width="45.2" height="13" rx="6.5" fill="#86efac"/>
+<text x="470" y="265" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">19.22%</text>
+<text x="578" y="265" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">65,140</text>
+<text x="693" y="265" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">308</text>
+<text x="56" y="294" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">JavaScript</text>
+<rect x="188" y="294" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="294" width="29.1" height="13" rx="6.5" fill="#bfdbfe"/>
+<text x="470" y="293" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">12.38%</text>
+<text x="578" y="293" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">41,976</text>
+<text x="693" y="293" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">121</text>
+<text x="56" y="322" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">CSS</text>
+<rect x="188" y="322" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="322" width="15.8" height="13" rx="6.5" fill="#c4b5fd"/>
+<text x="470" y="321" fill="#c4b5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">6.73%</text>
+<text x="578" y="321" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">22,816</text>
+<text x="693" y="321" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">39</text>
+<text x="56" y="350" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Rust</text>
+<rect x="188" y="350" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="350" width="11.0" height="13" rx="6.5" fill="#fde68a"/>
+<text x="470" y="349" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">4.69%</text>
+<text x="578" y="349" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">15,888</text>
+<text x="693" y="349" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">4</text>
+<text x="56" y="378" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Python</text>
+<rect x="188" y="378" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="378" width="9.8" height="13" rx="6.5" fill="#fdba74"/>
+<text x="470" y="377" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">4.16%</text>
+<text x="578" y="377" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">14,087</text>
+<text x="693" y="377" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">41</text>
+<text x="56" y="406" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Shell</text>
+<rect x="188" y="406" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="406" width="2.2" height="13" rx="6.5" fill="#f9a8d4"/>
+<text x="470" y="405" fill="#f9a8d4" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.92%</text>
+<text x="578" y="405" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">3,134</text>
+<text x="693" y="405" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">48</text>
+<text x="56" y="434" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">HTML</text>
+<rect x="188" y="434" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="434" width="2.0" height="13" rx="6.5" fill="#a7f3d0"/>
+<text x="470" y="433" fill="#a7f3d0" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.84%</text>
+<text x="578" y="433" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2,859</text>
+<text x="693" y="433" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">41</text>
+<text x="56" y="462" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">PHP</text>
+<rect x="188" y="462" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="462" width="2.0" height="13" rx="6.5" fill="#93c5fd"/>
+<text x="470" y="461" fill="#93c5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.46%</text>
+<text x="578" y="461" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1,542</text>
+<text x="693" y="461" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">12</text>
+<text x="56" y="490" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">YAML</text>
+<rect x="188" y="490" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="490" width="2.0" height="13" rx="6.5" fill="#d8b4fe"/>
+<text x="470" y="489" fill="#d8b4fe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.40%</text>
+<text x="578" y="489" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1,355</text>
+<text x="693" y="489" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">31</text>
+<text x="56" y="518" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Go</text>
+<rect x="188" y="518" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="518" width="2.0" height="13" rx="6.5" fill="#67e8f9"/>
+<text x="470" y="517" fill="#67e8f9" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.17%</text>
+<text x="578" y="517" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">569</text>
+<text x="693" y="517" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">3</text>
+<text x="56" y="546" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Dockerfile</text>
+<rect x="188" y="546" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="546" width="2.0" height="13" rx="6.5" fill="#86efac"/>
+<text x="470" y="545" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.16%</text>
+<text x="578" y="545" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">553</text>
+<text x="693" y="545" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">19</text>
+<text x="56" y="574" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Environment</text>
+<rect x="188" y="574" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="574" width="2.0" height="13" rx="6.5" fill="#bfdbfe"/>
+<text x="470" y="573" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.12%</text>
+<text x="578" y="573" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">417</text>
+<text x="693" y="573" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">11</text>
+<text x="56" y="602" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">XML</text>
+<rect x="188" y="602" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="602" width="2.0" height="13" rx="6.5" fill="#c4b5fd"/>
+<text x="470" y="601" fill="#c4b5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.02%</text>
+<text x="578" y="601" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">57</text>
+<text x="693" y="601" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">3</text>
+<text x="56" y="630" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">TOML</text>
+<rect x="188" y="630" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="630" width="2.0" height="13" rx="6.5" fill="#fde68a"/>
+<text x="470" y="629" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.01%</text>
+<text x="578" y="629" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">27</text>
+<text x="693" y="629" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2</text>
+<text x="56" y="658" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Other</text>
+<rect x="188" y="658" width="235" height="13" rx="6.5" fill="#08111f"/>
+<rect x="188" y="658" width="2.0" height="13" rx="6.5" fill="#fdba74"/>
+<text x="470" y="657" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">0.00%</text>
+<text x="578" y="657" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">4</text>
+<text x="693" y="657" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1</text>
+<text x="56" y="833" fill="#94a3b8" font-size="9.5" font-weight="700" text-anchor="start" xml:space="preserve">code composition</text>
+<rect x="56.0" y="850" width="325.1" height="14" fill="#67e8f9"/>
+<rect x="381.1" y="850" width="125.7" height="14" fill="#86efac"/>
+<rect x="506.8" y="850" width="81.0" height="14" fill="#bfdbfe"/>
+<rect x="587.8" y="850" width="44.0" height="14" fill="#c4b5fd"/>
+<rect x="631.9" y="850" width="30.7" height="14" fill="#fde68a"/>
+<rect x="662.5" y="850" width="27.2" height="14" fill="#fdba74"/>
+<rect x="689.7" y="850" width="6.0" height="14" fill="#f9a8d4"/>
+<rect x="695.8" y="850" width="5.5" height="14" fill="#a7f3d0"/>
+<rect x="701.3" y="850" width="3.0" height="14" fill="#93c5fd"/>
+<rect x="704.2" y="850" width="2.6" height="14" fill="#d8b4fe"/>
+<rect x="706.9" y="850" width="1.1" height="14" fill="#67e8f9"/>
+<rect x="708.0" y="850" width="1.1" height="14" fill="#86efac"/>
+<rect x="709.0" y="850" width="1.0" height="14" fill="#bfdbfe"/>
+<rect x="709.8" y="850" width="1.0" height="14" fill="#c4b5fd"/>
+<rect x="709.9" y="850" width="1.0" height="14" fill="#fde68a"/>
+<rect x="710.0" y="850" width="1.0" height="14" fill="#fdba74"/>
+<rect x="750" y="168" width="332" height="726" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="768" y="183" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">technology footprint // repositories</text>
+<rect x="766" y="220" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="228" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Node.js</text>
+<text x="778" y="243" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">BACKEND</text>
+<text x="1054" y="228" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">16 repos</text>
+<text x="1054" y="243" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">61.5%</text>
+<rect x="766" y="270" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="278" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Vite</text>
+<text x="778" y="293" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">FRONTEND</text>
+<text x="1054" y="278" fill="#c4b5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">9 repos</text>
+<text x="1054" y="293" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">34.6%</text>
+<rect x="766" y="320" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="328" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">React</text>
+<text x="778" y="343" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">FRONTEND</text>
+<text x="1054" y="328" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">9 repos</text>
+<text x="1054" y="343" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">34.6%</text>
+<rect x="766" y="370" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="378" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Docker</text>
+<text x="778" y="393" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">INFRA</text>
+<text x="1054" y="378" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">8 repos</text>
+<text x="1054" y="393" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">30.8%</text>
+<rect x="766" y="420" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="428" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Express</text>
+<text x="778" y="443" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">BACKEND</text>
+<text x="1054" y="428" fill="#f9a8d4" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">8 repos</text>
+<text x="1054" y="443" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">30.8%</text>
+<rect x="766" y="470" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="478" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">GitHub Actions</text>
+<text x="778" y="493" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">INFRA</text>
+<text x="1054" y="478" fill="#a7f3d0" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">6 repos</text>
+<text x="1054" y="493" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">23.1%</text>
+<rect x="766" y="520" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="528" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Nginx</text>
+<text x="778" y="543" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">INFRA</text>
+<text x="1054" y="528" fill="#93c5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
+<text x="1054" y="543" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">7.7%</text>
+<rect x="766" y="570" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="578" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">MongoDB</text>
+<text x="778" y="593" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">DATA</text>
+<text x="1054" y="578" fill="#d8b4fe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
+<text x="1054" y="593" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">7.7%</text>
+<rect x="766" y="620" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="628" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Socket.IO</text>
+<text x="778" y="643" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">REALTIME</text>
+<text x="1054" y="628" fill="#67e8f9" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
+<text x="1054" y="643" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">7.7%</text>
+<rect x="766" y="670" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="678" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Fastify</text>
+<text x="778" y="693" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">BACKEND</text>
+<text x="1054" y="678" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
+<text x="1054" y="693" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">7.7%</text>
+<rect x="766" y="720" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="728" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">PostgreSQL</text>
+<text x="778" y="743" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">DATA</text>
+<text x="1054" y="728" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
+<text x="1054" y="743" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">7.7%</text>
+<rect x="766" y="770" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="778" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Tailwind CSS</text>
+<text x="778" y="793" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">FRONTEND</text>
+<text x="1054" y="778" fill="#c4b5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1 repos</text>
+<text x="1054" y="793" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">3.9%</text>
+<rect x="766" y="820" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="778" y="828" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">WebSocket</text>
+<text x="778" y="843" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">REALTIME</text>
+<text x="1054" y="828" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1 repos</text>
+<text x="1054" y="843" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">3.9%</text>
+<text x="58" y="924" fill="#475569" font-size="10" font-weight="400" text-anchor="start" xml:space="preserve">language % = physical lines share · technology % = scanned repositories using it</text>
+<text x="856" y="924" fill="#94a3b8" font-size="10" font-weight="700" text-anchor="start" xml:space="preserve">26 repositories aggregated</text>
+</svg>
