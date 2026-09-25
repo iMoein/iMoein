@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import base64
 import datetime as dt
 import json
 import os
@@ -10,6 +11,7 @@ import subprocess
 import tempfile
 import urllib.parse
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from html import escape
 from typing import Any
 
@@ -19,6 +21,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "profile.json"
 SVG_PATH = ROOT / "assets" / "terminal.svg"
 README_PATH = ROOT / "README.md"
+DAILY_STATS_PATH = ROOT / "stats" / "yesterday.json"
 
 BG = "#08111f"
 PANEL = "#0f172a"
@@ -63,8 +66,43 @@ def load_config() -> dict[str, Any]:
     return cfg
 
 
+def load_daily_activity() -> dict[str, Any]:
+    if not DAILY_STATS_PATH.exists():
+        return {}
+    try:
+        data = json.loads(DAILY_STATS_PATH.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def git_credential_token() -> str | None:
+    try:
+        proc = subprocess.run(
+            ["git", "credential", "fill"],
+            input="protocol=https\nhost=github.com\n\n",
+            text=True,
+            capture_output=True,
+            timeout=10,
+            check=True,
+        )
+    except Exception:
+        return None
+
+    for line in proc.stdout.splitlines():
+        if line.startswith("password="):
+            value = line.split("=", 1)[1].strip()
+            return value or None
+    return None
+
+
 def token() -> str | None:
-    return os.getenv("PROFILE_STATS_TOKEN") or os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
+    return (
+        os.getenv("PROFILE_STATS_TOKEN")
+        or os.getenv("GH_TOKEN")
+        or os.getenv("GITHUB_TOKEN")
+        or git_credential_token()
+    )
 
 
 def api_get(url: str, auth_token: str | None) -> Any | None:
@@ -274,8 +312,8 @@ def list_repositories(username: str, auth_token: str | None) -> list[dict[str, A
             break
         page += 1
 
-    # Optional private repositories when PROFILE_STATS_TOKEN is a real user token.
-    if os.getenv("PROFILE_STATS_TOKEN"):
+    # Private repositories are included when the active credential can access them.
+    if auth_token:
         page = 1
         while page <= 10:
             data = api_get(
@@ -317,11 +355,12 @@ def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib
         return 0, 0
 
     target = root / full_name.replace("/", "__")
+    clone_env = os.environ.copy()
     if auth_token and os.getenv("PROFILE_STATS_TOKEN"):
-        parsed = urllib.parse.urlparse(clone_url)
-        clone_url = urllib.parse.urlunparse(
-            parsed._replace(netloc=f"x-access-token:{urllib.parse.quote(auth_token)}@{parsed.netloc}")
-        )
+        basic = base64.b64encode(f"x-access-token:{auth_token}".encode()).decode()
+        clone_env["GIT_CONFIG_COUNT"] = "1"
+        clone_env["GIT_CONFIG_KEY_0"] = "http.https://github.com/.extraheader"
+        clone_env["GIT_CONFIG_VALUE_0"] = f"AUTHORIZATION: basic {basic}"
 
     try:
         subprocess.run(
@@ -330,6 +369,7 @@ def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
             timeout=120,
+            env=clone_env,
         )
         tracked = subprocess.check_output(["git", "-C", str(target), "ls-files", "-z"], timeout=30)
     except Exception:
@@ -355,20 +395,34 @@ def count_repo_lines(repo: dict[str, Any], auth_token: str | None, root: pathlib
     return total_lines, total_files
 
 
-def count_code_lines(repos: list[dict[str, Any]], auth_token: str | None, max_repos: int) -> dict[str, Any]:
-    if not repos:
+def count_code_lines(
+    repos: list[dict[str, Any]],
+    auth_token: str | None,
+    max_repos: int,
+    max_workers: int = 4,
+) -> dict[str, Any]:
+    selected = repos[:max_repos]
+    if not selected:
         return {"lines_code": None, "files_code": None, "repos_scanned": None}
+
     total_lines = 0
     total_files = 0
     scanned = 0
+    workers = max(1, min(max_workers, len(selected)))
+
     with tempfile.TemporaryDirectory(prefix="profile-stats-") as tmp:
         tmp_path = pathlib.Path(tmp)
-        for repo in repos[:max_repos]:
-            lines, files = count_repo_lines(repo, auth_token, tmp_path)
-            if files > 0:
-                scanned += 1
-            total_lines += lines
-            total_files += files
+
+        def scan(repo: dict[str, Any]) -> tuple[int, int]:
+            return count_repo_lines(repo, auth_token, tmp_path)
+
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for lines, files in pool.map(scan, selected):
+                if files > 0:
+                    scanned += 1
+                total_lines += lines
+                total_files += files
+
     return {
         "lines_code": total_lines if total_files else None,
         "files_code": total_files if total_files else None,
@@ -384,8 +438,15 @@ def collect_stats(cfg: dict[str, Any]) -> dict[str, Any]:
     repos = list_repositories(username, auth_token)
     repo_count = len(repos) if user or repos else None
     languages = Counter(r.get("language") for r in repos if r.get("language"))
-    max_repos = int((cfg.get("stats") or {}).get("max_repos_to_clone") or 80)
-    line_stats = count_code_lines(repos, auth_token, max_repos=max_repos)
+    stats_cfg = cfg.get("stats") or {}
+    max_repos = int(stats_cfg.get("max_repos_to_clone") or 80)
+    max_workers = int(stats_cfg.get("max_parallel_clones") or 4)
+    line_stats = count_code_lines(
+        repos,
+        auth_token,
+        max_repos=max_repos,
+        max_workers=max_workers,
+    )
     activity = fetch_contribution_activity(username, created_at, auth_token)
     return {
         "repo_count_scanned": repo_count,
@@ -409,6 +470,16 @@ def fmt_value(value: Any) -> str:
     if value is None or value == "":
         return "sync pending"
     return str(value)
+
+
+def fmt_signed(value: Any) -> str:
+    if value is None:
+        return "sync pending"
+    try:
+        number = int(value)
+        return f"{number:+,}"
+    except Exception:
+        return str(value)
 
 
 def plural(value: int, unit: str) -> str:
@@ -463,7 +534,7 @@ def write_readme(cache_bust: str) -> None:
     owner, name = repo.split("/", 1)
     image_url = f"https://raw.githubusercontent.com/{owner}/{name}/main/assets/terminal.svg?v={cache_bust}"
     README_PATH.write_text(
-        f'<p align="center">\n  <img src="{image_url}" alt="Moein Ghezelbash GitHub server profile" width="1120" />\n</p>\n',
+        f'<p align="center">\n  <img src="{image_url}" alt="Moein Ghezelbash live developer telemetry dashboard" width="1120" />\n</p>\n',
         encoding="utf-8",
     )
 
@@ -471,28 +542,33 @@ def write_readme(cache_bust: str) -> None:
 def generate_svg() -> str:
     cfg = load_config()
     stats = collect_stats(cfg)
+    daily = load_daily_activity()
     username = cfg["github_username"]
 
     years, months, days, hours, minutes = age_parts(cfg["birth_datetime"])
     uptime = f"{years}y {months}mo {days}d {hours}h {minutes}m"
     unix_time = str(age_seconds(cfg["birth_datetime"]))
 
-    width, height = 1120, 620
+    width, height = 1120, 720
     out: list[str] = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
-        f'<rect width="{width}" height="{height}" rx="14" fill="{BG}"/>',
+        '<title>Moein Ghezelbash developer telemetry</title>',
+        '<desc>Live GitHub profile dashboard with runtime, codebase, and daily development activity metrics.</desc>',
+        f'<rect width="{width}" height="{height}" rx="16" fill="{BG}"/>',
         '<style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>',
-        f'<rect x="12" y="12" width="1096" height="596" rx="12" fill="{PANEL}" stroke="{BORDER}" stroke-width="1"/>',
+        f'<rect x="12" y="12" width="1096" height="696" rx="14" fill="{PANEL}" stroke="{BORDER}" stroke-width="1"/>',
+        f'<circle cx="38" cy="43" r="5" fill="{RED}"/>',
+        f'<circle cx="55" cy="43" r="5" fill="{YELLOW}"/>',
+        f'<circle cx="72" cy="43" r="5" fill="{GREEN}"/>',
     ]
 
-    out.append(text(38, 34, "●", GREEN, 13, "700"))
-    out.append(text(58, 34, f"{username.lower()}@github", WHITE, 18, "700"))
-    out.append(text(250, 39, "server profile telemetry", MUTED, 12, "400"))
-    out.append(text(930, 39, "status: online", GREEN, 12, "700"))
+    out.append(text(96, 32, f"{username.lower()}@github", WHITE, 18, "700"))
+    out.append(text(288, 37, "developer telemetry // live profile", MUTED, 12, "400"))
+    out.append(text(913, 36, "● AUTO-SYNC", GREEN, 12, "700"))
 
-    # Left column: runtime / identity.
-    out += box(38, 80, 500, 210, "runtime")
-    y = 120
+    # Runtime / identity
+    out += box(38, 80, 500, 204, "runtime // identity")
+    y = 118
     runtime_lines = [
         ("Name", cfg["name"], BLUE),
         ("Role", cfg["role"], BLUE),
@@ -502,54 +578,81 @@ def generate_svg() -> str:
         ("UnixTime", unix_time, CYAN),
     ]
     for label, value, color in runtime_lines:
-        out.append(tspan_line(58, y, label, truncate(value, 39), value_x=188, value_color=color))
-        y += 26
+        out.append(tspan_line(58, y, label, truncate(str(value), 39), value_x=188, value_color=color))
+        y += 25
 
-    out += box(38, 312, 500, 232, "toolchain")
-    y = 352
+    # GitHub activity
+    out += box(570, 80, 512, 204, "github // activity")
+    y = 118
+    activity_lines = [
+        ("Created", fmt_value(stats.get("github_created")), BLUE),
+        ("ActiveDays", fmt_int(stats.get("active_days")), GREEN),
+        ("FirstActive", fmt_value(stats.get("first_active")), CYAN),
+        ("LastActive", fmt_value(stats.get("last_active")), CYAN),
+        ("Contributions", fmt_int(stats.get("total_contributions")), BLUE),
+        ("Repos.Visible", fmt_int(stats.get("repo_count_scanned")), BLUE),
+    ]
+    for label, value, color in activity_lines:
+        out.append(tspan_line(590, y, label, truncate(value, 34), value_x=780, value_color=color))
+        y += 25
+
+    # Toolchain
+    out += box(38, 306, 500, 188, "toolchain // stack")
+    y = 344
     tool_lines = [
         ("Editor", cfg["ide"], BLUE),
         ("Langs", ", ".join(cfg["programming_languages"]), BLUE),
         ("Tools", ", ".join(cfg["tools"]), BLUE),
-        ("Services", ", ".join(cfg["focus"]), BLUE),
-        ("LinkedIn", "linkedin.com/in/moeinghezelbash", BLUE),
+        ("Focus", ", ".join(cfg["focus"]), BLUE),
+        ("LinkedIn", "linkedin.com/in/moeinghezelbash", CYAN),
     ]
     for label, value, color in tool_lines:
-        out.append(tspan_line(58, y, label, truncate(value, 39), value_x=188, value_color=color))
-        y += 28
+        out.append(tspan_line(58, y, label, truncate(str(value), 39), value_x=188, value_color=color))
+        y += 27
 
-    # Right column: GitHub activity / code telemetry.
-    out += box(570, 80, 512, 236, "github activity")
-    y = 120
-    activity_lines = [
-        ("GitHub.Created", fmt_value(stats.get("github_created")), BLUE),
-        ("GitHub.ActiveDays", fmt_int(stats.get("active_days")), GREEN),
-        ("GitHub.FirstActive", fmt_value(stats.get("first_active")), CYAN),
-        ("GitHub.LastActive", fmt_value(stats.get("last_active")), CYAN),
-        ("GitHub.DaysOnline", fmt_int(stats.get("days_since_first")), GREEN),
-        ("Contributions", fmt_int(stats.get("total_contributions")), BLUE),
-    ]
-    for label, value, color in activity_lines:
-        out.append(tspan_line(590, y, label, truncate(value, 34), value_x=780, value_color=color))
-        y += 30
-
-    out += box(570, 342, 512, 202, "code telemetry")
-    y = 382
+    # Codebase telemetry
+    out += box(570, 306, 512, 188, "codebase // inventory")
+    y = 344
     top_langs = stats.get("top_langs")
     code_lines = [
         ("Lines.Code", fmt_int(stats.get("lines_code")), GREEN),
         ("Files.Code", fmt_int(stats.get("files_code")), BLUE),
         ("Repos.Scanned", fmt_int(stats.get("repos_scanned")), BLUE),
-        ("Repos.Visible", fmt_int(stats.get("repo_count_scanned")), BLUE),
-        ("Top.Langs", ", ".join(top_langs) if top_langs else "sync pending", BLUE),
+        ("DaysOnline", fmt_int(stats.get("days_since_first")), GREEN),
+        ("Top.Langs", ", ".join(top_langs) if top_langs else "sync pending", CYAN),
     ]
     for label, value, color in code_lines:
         out.append(tspan_line(590, y, label, truncate(value, 34), value_x=780, value_color=color))
-        y += 28
+        y += 27
+
+    # Yesterday's aggregated development activity.
+    out += box(38, 516, 1044, 142, "yesterday // development activity")
+    daily_date = fmt_value(daily.get("date"))
+    repos_checked = fmt_int(daily.get("repos_checked"))
+    out.append(text(840, 534, f"{daily_date} // {repos_checked} repos checked", MUTED, 12, "700"))
+
+    net_value = daily.get("net_lines")
+    try:
+        net_color = GREEN if int(net_value) > 0 else RED if int(net_value) < 0 else MUTED
+    except Exception:
+        net_color = MUTED
+
+    metrics = [
+        ("COMMITS", fmt_int(daily.get("commits")), BLUE),
+        ("LINES +", fmt_signed(daily.get("lines_added")), GREEN),
+        ("LINES -", fmt_signed(-int(daily.get("lines_deleted") or 0)), RED),
+        ("NET", fmt_signed(net_value), net_color),
+        ("ACTIVE REPOS", fmt_int(daily.get("active_repos")), CYAN),
+    ]
+    metric_x = [58, 260, 462, 664, 866]
+    for x, (label, value, color) in zip(metric_x, metrics):
+        out.append(f'<rect x="{x}" y="558" width="176" height="76" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>')
+        out.append(text(x + 14, 573, label, MUTED, 11, "700"))
+        out.append(text(x + 14, 596, value, color, 20, "700"))
 
     updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    out.append(text(58, height - 42, f"last update: {updated}", MUTED, 12, "400"))
-    out.append(text(860, height - 42, "cache-busted README image", DIM, 12, "400"))
+    out.append(text(58, height - 38, f"last sync: {updated}", MUTED, 11, "400"))
+    out.append(text(752, height - 38, "GitHub API + local macOS telemetry", DIM, 11, "400"))
     out.append("</svg>")
 
     write_readme(dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H%M%S"))

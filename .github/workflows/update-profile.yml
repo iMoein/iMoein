@@ -1,9 +1,22 @@
-name: Update profile terminal
+name: Update profile telemetry
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "profile.json"
+      - "stats/**"
+      - "scripts/generate_profile.py"
+      - "requirements.txt"
+      - ".github/workflows/update-profile.yml"
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -15,7 +28,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -24,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate server terminal SVG and refresh README cache-buster
+      - name: Generate telemetry dashboard
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -32,10 +44,12 @@ jobs:
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: python scripts/generate_profile.py
 
-      - name: Commit updated files
+      - name: Commit generated dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/terminal.svg README.md
-          git diff --cached --quiet || git commit -m "chore: refresh server profile terminal"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(profile): refresh telemetry dashboard"
+          git pull --rebase origin main
+          git push origin main

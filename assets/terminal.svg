@@ -1,41 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620">
-<rect width="1120" height="620" rx="14" fill="#08111f"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="720" viewBox="0 0 1120 720">
+<title>Moein Ghezelbash developer telemetry</title>
+<desc>Live GitHub profile dashboard with runtime, codebase, and daily development activity metrics.</desc>
+<rect width="1120" height="720" rx="16" fill="#08111f"/>
 <style>text{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;dominant-baseline:hanging}</style>
-<rect x="12" y="12" width="1096" height="596" rx="12" fill="#0f172a" stroke="#233044" stroke-width="1"/>
-<text x="38" y="34" fill="#86efac" font-size="13" font-weight="700" xml:space="preserve">●</text>
-<text x="58" y="34" fill="#f8fafc" font-size="18" font-weight="700" xml:space="preserve">imoein@github</text>
-<text x="250" y="39" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">server profile telemetry</text>
-<text x="930" y="39" fill="#86efac" font-size="12" font-weight="700" xml:space="preserve">status: online</text>
-<rect x="38" y="80" width="500" height="210" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="56" y="96" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">runtime</text>
-<text x="58" y="120" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Name:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Moein Ghezelbash</tspan></text>
-<text x="58" y="146" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
-<text x="58" y="172" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS...</tspan></text>
-<text x="58" y="198" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">XNU / NT / Linux</tspan></text>
-<text x="58" y="224" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 9mo 3d 10h 27m</tspan></text>
-<text x="58" y="250" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1160044037</tspan></text>
-<rect x="38" y="312" width="500" height="232" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="56" y="328" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">toolchain</text>
-<text x="58" y="352" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">VS Code 1.130.0 (Universal)</tspan></text>
-<text x="58" y="380" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Langs:</tspan><tspan fill="#475569"> ......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">TypeScript, JavaScript, Python, SQL,...</tspan></text>
-<text x="58" y="408" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Tools:</tspan><tspan fill="#475569"> ......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Docker, Git, Linux, CI/CD</tspan></text>
-<text x="58" y="436" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Services:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
-<text x="58" y="464" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LinkedIn:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
-<rect x="570" y="80" width="512" height="236" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="588" y="96" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">github activity</text>
-<text x="590" y="120" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.Created:</tspan><tspan fill="#475569"> ....... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">2015-07-20</tspan></text>
-<text x="590" y="150" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.ActiveDays:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#86efac" font-weight="700">559</tspan></text>
-<text x="590" y="180" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.FirstActive:</tspan><tspan fill="#475569"> ... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2015-07-21</tspan></text>
-<text x="590" y="210" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.LastActive:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-09-24</tspan></text>
-<text x="590" y="240" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">GitHub.DaysOnline:</tspan><tspan fill="#475569"> .... </tspan><tspan x="780" fill="#86efac" font-weight="700">4,083</tspan></text>
-<text x="590" y="270" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">16,362</tspan></text>
-<rect x="570" y="342" width="512" height="202" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
-<text x="588" y="358" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">code telemetry</text>
-<text x="590" y="382" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">1,173,258</tspan></text>
-<text x="590" y="410" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Files.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">4,831</tspan></text>
-<text x="590" y="438" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">34</tspan></text>
-<text x="590" y="466" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">36</tspan></text>
-<text x="590" y="494" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">JavaScript, TypeScript, CSS, PH...</tspan></text>
-<text x="58" y="578" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">last update: 2026-09-24 22:27 UTC</text>
-<text x="860" y="578" fill="#475569" font-size="12" font-weight="400" xml:space="preserve">cache-busted README image</text>
+<rect x="12" y="12" width="1096" height="696" rx="14" fill="#0f172a" stroke="#233044" stroke-width="1"/>
+<circle cx="38" cy="43" r="5" fill="#fca5a5"/>
+<circle cx="55" cy="43" r="5" fill="#fde68a"/>
+<circle cx="72" cy="43" r="5" fill="#86efac"/>
+<text x="96" y="32" fill="#f8fafc" font-size="18" font-weight="700" xml:space="preserve">imoein@github</text>
+<text x="288" y="37" fill="#94a3b8" font-size="12" font-weight="400" xml:space="preserve">developer telemetry // live profile</text>
+<text x="913" y="36" fill="#86efac" font-size="12" font-weight="700" xml:space="preserve">● AUTO-SYNC</text>
+<rect x="38" y="80" width="500" height="204" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="56" y="96" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">runtime // identity</text>
+<text x="58" y="118" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Name:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Moein Ghezelbash</tspan></text>
+<text x="58" y="143" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
+<text x="58" y="168" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS...</tspan></text>
+<text x="58" y="193" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">XNU / NT / Linux</tspan></text>
+<text x="58" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 9mo 3d 15h 45m</tspan></text>
+<text x="58" y="243" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1160063138</tspan></text>
+<rect x="570" y="80" width="512" height="204" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="588" y="96" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">github // activity</text>
+<text x="590" y="118" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Created:</tspan><tspan fill="#475569"> .............. </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">2015-07-20</tspan></text>
+<text x="590" y="143" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">ActiveDays:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">560</tspan></text>
+<text x="590" y="168" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">FirstActive:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2015-07-21</tspan></text>
+<text x="590" y="193" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LastActive:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-09-25</tspan></text>
+<text x="590" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">16,373</tspan></text>
+<text x="590" y="243" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">36</tspan></text>
+<rect x="38" y="306" width="500" height="188" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="56" y="322" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">toolchain // stack</text>
+<text x="58" y="344" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Editor:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">VS Code 1.134.0 (Universal)</tspan></text>
+<text x="58" y="371" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Langs:</tspan><tspan fill="#475569"> ......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">TypeScript, JavaScript, Python, SQL,...</tspan></text>
+<text x="58" y="398" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Tools:</tspan><tspan fill="#475569"> ......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Docker, Git, Linux, CI/CD</tspan></text>
+<text x="58" y="425" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Focus:</tspan><tspan fill="#475569"> ......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">APIs, BI, CRM, WebSocket, Infra</tspan></text>
+<text x="58" y="452" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LinkedIn:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">linkedin.com/in/moeinghezelbash</tspan></text>
+<rect x="570" y="306" width="512" height="188" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="588" y="322" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">codebase // inventory</text>
+<text x="590" y="344" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">949,849</tspan></text>
+<text x="590" y="371" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Files.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">4,044</tspan></text>
+<text x="590" y="398" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">33</tspan></text>
+<text x="590" y="425" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">DaysOnline:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">4,084</tspan></text>
+<text x="590" y="452" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="780" fill="#67e8f9" font-weight="700">JavaScript, TypeScript, CSS, PH...</tspan></text>
+<rect x="38" y="516" width="1044" height="142" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
+<text x="56" y="532" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">yesterday // development activity</text>
+<text x="840" y="534" fill="#94a3b8" font-size="12" font-weight="700" xml:space="preserve">2026-09-24 // 35 repos checked</text>
+<rect x="58" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="72" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">COMMITS</text>
+<text x="72" y="596" fill="#bfdbfe" font-size="20" font-weight="700" xml:space="preserve">1</text>
+<rect x="260" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="274" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">LINES +</text>
+<text x="274" y="596" fill="#86efac" font-size="20" font-weight="700" xml:space="preserve">+34,924</text>
+<rect x="462" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="476" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">LINES -</text>
+<text x="476" y="596" fill="#fca5a5" font-size="20" font-weight="700" xml:space="preserve">+0</text>
+<rect x="664" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="678" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">NET</text>
+<text x="678" y="596" fill="#86efac" font-size="20" font-weight="700" xml:space="preserve">+34,924</text>
+<rect x="866" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
+<text x="880" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">ACTIVE REPOS</text>
+<text x="880" y="596" fill="#67e8f9" font-size="20" font-weight="700" xml:space="preserve">1</text>
+<text x="58" y="682" fill="#94a3b8" font-size="11" font-weight="400" xml:space="preserve">last sync: 2026-09-25 00:15 UTC</text>
+<text x="752" y="682" fill="#475569" font-size="11" font-weight="400" xml:space="preserve">GitHub API + local macOS telemetry</text>
 </svg>

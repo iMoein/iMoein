@@ -12,6 +12,7 @@
   "focus": ["APIs", "BI", "CRM", "WebSocket", "Infra"],
   "stats": {
     "include_private_repos_with_pat": true,
-    "max_repos_to_clone": 80
+    "max_repos_to_clone": 80,
+    "max_parallel_clones": 4
   }
 }
