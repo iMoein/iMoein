@@ -9,84 +9,84 @@
 <circle cx="72" cy="43" r="5" fill="#86efac"/>
 <text x="96" y="32" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="start" xml:space="preserve">activity@github</text>
 <text x="275" y="37" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="start" xml:space="preserve">developer analytics // rolling telemetry</text>
-<text x="894" y="36" fill="#67e8f9" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">through 2026-09-24</text>
+<text x="894" y="36" fill="#67e8f9" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">through 2026-09-25</text>
 <rect x="38" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="52" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">CODE DAYS</text>
-<text x="52" y="113" fill="#67e8f9" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">148</text>
+<text x="52" y="113" fill="#67e8f9" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">149</text>
 <rect x="248" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="262" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">COMMITS</text>
-<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">9,924</text>
+<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">9,907</text>
 <rect x="458" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="472" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LINES +</text>
-<text x="472" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+4,693,017</text>
+<text x="472" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+4,697,208</text>
 <rect x="668" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="682" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LINES -</text>
-<text x="682" y="113" fill="#fca5a5" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">-3,495,523</text>
+<text x="682" y="113" fill="#fca5a5" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">-3,498,080</text>
 <rect x="878" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="892" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">NET</text>
-<text x="892" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+1,197,494</text>
+<text x="892" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">+1,199,128</text>
 <rect x="38" y="168" width="1044" height="222" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="56" y="183" fill="#f8fafc" font-size="14" font-weight="700" text-anchor="start" xml:space="preserve">14d // code change velocity</text>
 <line x1="68" y1="282" x2="1052" y2="282" stroke="#475569" stroke-width="1"/>
 <text x="68" y="206" fill="#475569" font-size="9" font-weight="400" text-anchor="start" xml:space="preserve">+34.9K</text>
 <text x="68" y="332" fill="#475569" font-size="9" font-weight="400" text-anchor="start" xml:space="preserve">-34.9K</text>
-<rect x="90.1" y="276.3" width="12" height="5.7" rx="2.5" fill="#86efac" opacity="0.95"/>
+<rect x="90.1" y="277.9" width="12" height="4.1" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="104.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="87.14285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-11</text>
-<rect x="160.4" y="277.9" width="12" height="4.1" rx="2.5" fill="#86efac" opacity="0.95"/>
+<text x="87.14285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-12</text>
+<rect x="160.4" y="274.4" width="12" height="7.6" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="174.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="157.42857142857142" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-12</text>
-<rect x="230.7" y="274.4" width="12" height="7.6" rx="2.5" fill="#86efac" opacity="0.95"/>
+<text x="157.42857142857142" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-13</text>
+<rect x="230.7" y="245.3" width="12" height="36.7" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="244.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="227.71428571428572" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-13</text>
-<rect x="301.0" y="245.3" width="12" height="36.7" rx="2.5" fill="#86efac" opacity="0.95"/>
+<text x="227.71428571428572" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-14</text>
+<rect x="301.0" y="281.2" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="315.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="298.00000000000006" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-14</text>
-<rect x="371.3" y="281.2" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
+<text x="298.00000000000006" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-15</text>
+<rect x="371.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="385.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="368.28571428571433" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-15</text>
+<text x="368.28571428571433" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-16</text>
 <rect x="441.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="455.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="438.5714285714286" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-16</text>
+<text x="438.5714285714286" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-17</text>
 <rect x="511.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="525.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="508.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-17</text>
+<text x="508.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-18</text>
 <rect x="582.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="596.1" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="579.1428571428571" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-18</text>
+<text x="579.1428571428571" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-19</text>
 <rect x="652.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="666.4" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="649.4285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-19</text>
+<text x="649.4285714285714" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-20</text>
 <rect x="722.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="736.7" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="719.7142857142858" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-20</text>
+<text x="719.7142857142858" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-21</text>
 <rect x="793.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="807.0" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="790.0" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-21</text>
+<text x="790.0" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-22</text>
 <rect x="863.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="877.3" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="860.2857142857143" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-22</text>
-<rect x="933.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#86efac" opacity="0.95"/>
+<text x="860.2857142857143" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-23</text>
+<rect x="933.6" y="220.0" width="12" height="62.0" rx="2.5" fill="#86efac" opacity="0.95"/>
 <rect x="947.6" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="930.5714285714287" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-23</text>
-<rect x="1003.9" y="220.0" width="12" height="62.0" rx="2.5" fill="#86efac" opacity="0.95"/>
-<rect x="1017.9" y="282.0" width="12" height="1.0" rx="2.5" fill="#fca5a5" opacity="0.9"/>
-<text x="1000.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-24</text>
-<polyline points="103.1,223.5 173.4,223.5 243.7,216.0 314.0,217.3 384.3,224.8 454.6,229.8 524.9,229.8 595.1,229.8 665.4,229.8 735.7,246.2 806.0,260.0 876.3,260.0 946.6,260.0 1016.9,258.7" fill="none" stroke="#bfdbfe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+<text x="930.5714285714287" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-24</text>
+<rect x="1003.9" y="274.6" width="12" height="7.4" rx="2.5" fill="#86efac" opacity="0.95"/>
+<rect x="1017.9" y="282.0" width="12" height="3.8" rx="2.5" fill="#fca5a5" opacity="0.9"/>
+<text x="1000.8571428571429" y="342" fill="#94a3b8" font-size="8.5" font-weight="400" text-anchor="start" xml:space="preserve">09-25</text>
+<polyline points="103.1,223.5 173.4,216.0 243.7,217.3 314.0,224.8 384.3,229.8 454.6,229.8 524.9,229.8 595.1,229.8 665.4,246.2 735.7,260.0 806.0,260.0 876.3,260.0 946.6,258.7 1016.9,251.2" fill="none" stroke="#bfdbfe" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
 <circle cx="103.1" cy="223.5" r="3" fill="#bfdbfe"/>
-<circle cx="173.4" cy="223.5" r="3" fill="#bfdbfe"/>
-<circle cx="243.7" cy="216.0" r="3" fill="#bfdbfe"/>
-<circle cx="314.0" cy="217.3" r="3" fill="#bfdbfe"/>
-<circle cx="384.3" cy="224.8" r="3" fill="#bfdbfe"/>
+<circle cx="173.4" cy="216.0" r="3" fill="#bfdbfe"/>
+<circle cx="243.7" cy="217.3" r="3" fill="#bfdbfe"/>
+<circle cx="314.0" cy="224.8" r="3" fill="#bfdbfe"/>
+<circle cx="384.3" cy="229.8" r="3" fill="#bfdbfe"/>
 <circle cx="454.6" cy="229.8" r="3" fill="#bfdbfe"/>
 <circle cx="524.9" cy="229.8" r="3" fill="#bfdbfe"/>
 <circle cx="595.1" cy="229.8" r="3" fill="#bfdbfe"/>
-<circle cx="665.4" cy="229.8" r="3" fill="#bfdbfe"/>
-<circle cx="735.7" cy="246.2" r="3" fill="#bfdbfe"/>
+<circle cx="665.4" cy="246.2" r="3" fill="#bfdbfe"/>
+<circle cx="735.7" cy="260.0" r="3" fill="#bfdbfe"/>
 <circle cx="806.0" cy="260.0" r="3" fill="#bfdbfe"/>
 <circle cx="876.3" cy="260.0" r="3" fill="#bfdbfe"/>
-<circle cx="946.6" cy="260.0" r="3" fill="#bfdbfe"/>
-<circle cx="1016.9" cy="258.7" r="3" fill="#bfdbfe"/>
+<circle cx="946.6" cy="258.7" r="3" fill="#bfdbfe"/>
+<circle cx="1016.9" cy="251.2" r="3" fill="#bfdbfe"/>
 <text x="790" y="185" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">■ Added</text>
 <text x="866" y="185" fill="#fca5a5" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">■ Deleted</text>
 <text x="950" y="185" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">● Commits</text>
@@ -205,8 +205,8 @@
 <rect x="266" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-03: 0 changed lines, 24 commits</title></rect>
 <rect x="266" y="558" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-04: 0 changed lines, 24 commits</title></rect>
 <rect x="266" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-05: 0 changed lines, 24 commits</title></rect>
-<rect x="266" y="596" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2025-12-06: 4,517 changed lines, 33 commits</title></rect>
-<text x="274.5" y="601.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.5k</text>
+<rect x="266" y="596" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2025-12-06: 4,517 changed lines, 33 commits</title></rect>
+<text x="274.5" y="601.2" fill="#f8fafc" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">4.5k</text>
 <rect x="285" y="482" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2025-12-07: 549 changed lines, 33 commits</title></rect>
 <text x="293.5" y="487.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">549</text>
 <rect x="285" y="501" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2025-12-08: 0 changed lines, 24 commits</title></rect>
@@ -297,7 +297,7 @@
 <text x="464.5" y="525.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">581</text>
 <rect x="456" y="539" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-02-11: 34,004 changed lines, 82 commits</title></rect>
 <text x="464.5" y="544.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">34k</text>
-<rect x="456" y="558" width="17" height="17" rx="3" fill="#166534" stroke="#08111f" stroke-width="0.5"><title>2026-02-12: 944 changed lines, 28 commits</title></rect>
+<rect x="456" y="558" width="17" height="17" rx="3" fill="#123b2a" stroke="#08111f" stroke-width="0.5"><title>2026-02-12: 944 changed lines, 28 commits</title></rect>
 <text x="464.5" y="563.2" fill="#f8fafc" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">944</text>
 <rect x="456" y="577" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-13: 0 changed lines, 24 commits</title></rect>
 <rect x="456" y="596" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-02-14: 0 changed lines, 24 commits</title></rect>
@@ -624,6 +624,8 @@
 <rect x="1064" y="539" width="17" height="17" rx="3" fill="#182231" stroke="#08111f" stroke-width="0.5"><title>2026-09-23: 0 changed lines, 0 commits</title></rect>
 <rect x="1064" y="558" width="17" height="17" rx="3" fill="#86efac" stroke="#08111f" stroke-width="0.5"><title>2026-09-24: 34,924 changed lines, 1 commits</title></rect>
 <text x="1072.5" y="563.2" fill="#08111f" font-size="6.2" font-weight="700" text-anchor="middle" xml:space="preserve">35k</text>
+<rect x="1064" y="577" width="17" height="17" rx="3" fill="#22c55e" stroke="#08111f" stroke-width="0.5"><title>2026-09-25: 6,748 changed lines, 7 commits</title></rect>
+<text x="1072.5" y="582.2" fill="#08111f" font-size="5.5" font-weight="700" text-anchor="middle" xml:space="preserve">6.7k</text>
 <text x="858" y="626" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">Less</text>
 <rect x="893" y="624" width="11" height="11" rx="2" fill="#182231"/>
 <rect x="909" y="624" width="11" height="11" rx="2" fill="#123b2a"/>
@@ -632,5 +634,5 @@
 <rect x="957" y="624" width="11" height="11" rx="2" fill="#86efac"/>
 <text x="978" y="626" fill="#94a3b8" font-size="9.5" font-weight="400" text-anchor="start" xml:space="preserve">More</text>
 <text x="58" y="672" fill="#475569" font-size="10" font-weight="400" text-anchor="start" xml:space="preserve">bars: daily additions/deletions · line: commits · heatmap: total changed lines</text>
-<text x="884" y="672" fill="#94a3b8" font-size="10" font-weight="700" text-anchor="start" xml:space="preserve">365 stored days</text>
+<text x="884" y="672" fill="#94a3b8" font-size="10" font-weight="700" text-anchor="start" xml:space="preserve">366 stored days</text>
 </svg>
