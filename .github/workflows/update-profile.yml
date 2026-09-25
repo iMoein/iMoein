@@ -36,20 +36,42 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate telemetry dashboard
+      - name: Generate and publish telemetry dashboard
         env:
           GH_USERNAME: ${{ github.repository_owner }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
-        run: python scripts/generate_profile.py
-
-      - name: Commit generated dashboard
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/terminal.svg assets/activity.svg assets/stack.svg README.md
-          git diff --cached --quiet && exit 0
-          git commit -m "chore(profile): refresh telemetry dashboard"
-          git pull --rebase origin main
-          git push origin main
+
+          for attempt in 1 2 3; do
+            echo "Publish attempt $attempt/3"
+
+            git fetch origin main
+            git reset --hard origin/main
+
+            python scripts/generate_profile.py
+
+            git add assets/terminal.svg assets/activity.svg assets/stack.svg README.md
+
+            if git diff --cached --quiet; then
+              echo "Generated dashboard is already current."
+              exit 0
+            fi
+
+            git commit -m "chore(profile): refresh telemetry dashboard"
+
+            if git push origin HEAD:main; then
+              echo "Dashboard published successfully."
+              exit 0
+            fi
+
+            echo "main advanced during generation; retrying from latest origin/main." >&2
+          done
+
+          echo "Unable to publish dashboard after 3 attempts." >&2
+          exit 1
