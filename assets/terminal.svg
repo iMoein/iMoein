@@ -16,15 +16,15 @@
 <text x="58" y="143" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Role:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">Technical Operations Manager</tspan></text>
 <text x="58" y="168" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">OS:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">macOS, Windows 10, Ubuntu 24.04, iOS...</tspan></text>
 <text x="58" y="193" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Kernel:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#bfdbfe" font-weight="700">XNU / NT / Linux</tspan></text>
-<text x="58" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 9mo 4d 9h 1m</tspan></text>
-<text x="58" y="243" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1160125275</tspan></text>
+<text x="58" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Uptime:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="188" fill="#86efac" font-weight="700">36y 9mo 4d 17h 3m</tspan></text>
+<text x="58" y="243" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">UnixTime:</tspan><tspan fill="#475569"> ...... </tspan><tspan x="188" fill="#67e8f9" font-weight="700">1160154236</tspan></text>
 <rect x="570" y="80" width="512" height="204" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="588" y="96" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">github // activity</text>
 <text x="590" y="118" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Created:</tspan><tspan fill="#475569"> .............. </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">2015-07-20</tspan></text>
-<text x="590" y="143" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">ActiveDays:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">560</tspan></text>
+<text x="590" y="143" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">ActiveDays:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">561</tspan></text>
 <text x="590" y="168" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">FirstActive:</tspan><tspan fill="#475569"> .......... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2015-07-21</tspan></text>
-<text x="590" y="193" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LastActive:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-09-25 09:06 UTC</tspan></text>
-<text x="590" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">16,380</tspan></text>
+<text x="590" y="193" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">LastActive:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#67e8f9" font-weight="700">2026-09-26</tspan></text>
+<text x="590" y="218" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Contributions:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">16,383</tspan></text>
 <text x="590" y="243" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Visible:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">36</tspan></text>
 <rect x="38" y="306" width="500" height="188" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="56" y="322" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">toolchain // stack</text>
@@ -38,7 +38,7 @@
 <text x="590" y="344" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Lines.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">1,096,079</tspan></text>
 <text x="590" y="371" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Files.Code:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">4,811</tspan></text>
 <text x="590" y="398" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Repos.Scanned:</tspan><tspan fill="#475569"> ........ </tspan><tspan x="780" fill="#bfdbfe" font-weight="700">36</tspan></text>
-<text x="590" y="425" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">DaysOnline:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">4,084</tspan></text>
+<text x="590" y="425" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">DaysOnline:</tspan><tspan fill="#475569"> ........... </tspan><tspan x="780" fill="#86efac" font-weight="700">4,085</tspan></text>
 <text x="590" y="452" font-size="13" xml:space="preserve"><tspan fill="#fb923c" font-weight="700">Top.Langs:</tspan><tspan fill="#475569"> ............ </tspan><tspan x="780" fill="#67e8f9" font-weight="700">JSON, TypeScript, Python, CSS, ...</tspan></text>
 <rect x="38" y="516" width="1044" height="142" rx="10" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="56" y="532" fill="#f8fafc" font-size="14" font-weight="700" xml:space="preserve">yesterday // development activity</text>
@@ -58,6 +58,6 @@
 <rect x="866" y="558" width="176" height="76" rx="8" fill="#08111f" stroke="#233044" stroke-width="1"/>
 <text x="880" y="573" fill="#94a3b8" font-size="11" font-weight="700" xml:space="preserve">ACTIVE REPOS</text>
 <text x="880" y="596" fill="#67e8f9" font-size="20" font-weight="700" xml:space="preserve">1</text>
-<text x="58" y="682" fill="#94a3b8" font-size="11" font-weight="400" xml:space="preserve">last sync: 2026-09-25 21:01 UTC</text>
+<text x="58" y="682" fill="#94a3b8" font-size="11" font-weight="400" xml:space="preserve">last sync: 2026-09-26 05:03 UTC</text>
 <text x="752" y="682" fill="#475569" font-size="11" font-weight="400" xml:space="preserve">GitHub API + local macOS telemetry</text>
 </svg>
