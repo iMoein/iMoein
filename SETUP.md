@@ -116,7 +116,7 @@ GitHub credentials are read through the existing macOS Git credential helper. No
 
 Each target local calendar day is converted to UTC boundaries for GitHub API queries. The collector accepts an optional explicit `YYYY-MM-DD` date, which is what allows the publisher to reconstruct missed days after the Mac has been offline.
 
-Only commits attributed by GitHub to the profile owner are counted. Merge commits are excluded to avoid double-counting merged history.
+Only commits attributed by GitHub to the profile owner are counted. The daily collector scans every visible branch in each owned repository and deduplicates commits by SHA, so unmerged feature branches and branches such as `platform/next` are included without counting the same commit more than once. Merge commits are excluded to avoid double-counting merged history.
 
 The profile repository itself is excluded from daily development totals so that telemetry automation does not inflate its own activity.
 
