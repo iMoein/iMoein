@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+from concurrent.futures import ThreadPoolExecutor
 import json
 import os
 import subprocess
@@ -93,43 +94,81 @@ def local_day_window(day: dt.date) -> tuple[dt.date, dt.datetime, dt.datetime]:
     start = dt.datetime.combine(day, dt.time.min, tzinfo=local_tz)
     end = start + dt.timedelta(days=1)
     return day, start.astimezone(dt.timezone.utc), end.astimezone(dt.timezone.utc)
+
+
+def repository_may_have_activity(
+    repo: dict[str, Any],
+    start: dt.datetime,
+) -> bool:
+    pushed_at = repo.get("pushed_at")
+    if not isinstance(pushed_at, str) or not pushed_at:
+        return True
+    try:
+        pushed = dt.datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
+    except ValueError:
+        return True
+    return pushed >= start
+
+
+def repository_branches(
+    session: requests.Session,
+    full_name: str,
+) -> list[str]:
+    branches: list[str] = []
+    page = 1
+    while True:
+        data = get_json(
+            session,
+            f"{API}/repos/{full_name}/branches",
+            {"per_page": 100, "page": page},
+        )
+        if not isinstance(data, list) or not data:
+            break
+        for branch in data:
+            name = branch.get("name")
+            if isinstance(name, str) and name:
+                branches.append(name)
+        if len(data) < 100:
+            break
+        page += 1
+    return branches
 def repo_activity(
     session: requests.Session,
     full_name: str,
     start: dt.datetime,
     end: dt.datetime,
 ) -> tuple[int, int, int]:
-    commits: list[dict[str, Any]] = []
-    page = 1
-
-    while True:
-        data = get_json(
-            session,
-            f"{API}/repos/{full_name}/commits",
-            {
-                "author": USERNAME,
-                "since": start.isoformat().replace("+00:00", "Z"),
-                "until": end.isoformat().replace("+00:00", "Z"),
-                "per_page": 100,
-                "page": page,
-            },
-        )
-        if not isinstance(data, list) or not data:
-            break
-        commits.extend(data)
-        if len(data) < 100:
-            break
-        page += 1
+    commits_by_sha: dict[str, dict[str, Any]] = {}
+    for branch in repository_branches(session, full_name):
+        page = 1
+        while True:
+            data = get_json(
+                session,
+                f"{API}/repos/{full_name}/commits",
+                {
+                    "sha": branch,
+                    "author": USERNAME,
+                    "since": start.isoformat().replace("+00:00", "Z"),
+                    "until": end.isoformat().replace("+00:00", "Z"),
+                    "per_page": 100,
+                    "page": page,
+                },
+            )
+            if not isinstance(data, list) or not data:
+                break
+            for commit in data:
+                sha = commit.get("sha")
+                if isinstance(sha, str) and sha:
+                    commits_by_sha[sha] = commit
+            if len(data) < 100:
+                break
+            page += 1
 
     additions = 0
     deletions = 0
     commit_count = 0
-
-    for commit in commits:
+    for sha, commit in commits_by_sha.items():
         if len(commit.get("parents") or []) > 1:
-            continue
-        sha = commit.get("sha")
-        if not sha:
             continue
         detail = get_json(session, f"{API}/repos/{full_name}/commits/{sha}")
         if not isinstance(detail, dict):
@@ -138,7 +177,6 @@ def repo_activity(
         additions += int(stats.get("additions") or 0)
         deletions += int(stats.get("deletions") or 0)
         commit_count += 1
-
     return commit_count, additions, deletions
 
 
@@ -154,7 +192,8 @@ def main() -> None:
     else:
         day = dt.datetime.now().astimezone().date() - dt.timedelta(days=1)
 
-    session = make_session(github_token())
+    token = github_token()
+    session = make_session(token)
     day, start, end = local_day_window(day)
     repos = owned_repositories(session)
 
@@ -168,16 +207,21 @@ def main() -> None:
         "active_repos": 0,
     }
 
-    for repo in repos:
+    def collect(repo: dict[str, Any]) -> tuple[int, int, int]:
         full_name = repo.get("full_name")
         if not full_name:
-            continue
-        commits, added, deleted = repo_activity(session, full_name, start, end)
-        if commits:
-            totals["active_repos"] += 1
-        totals["commits"] += commits
-        totals["lines_added"] += added
-        totals["lines_deleted"] += deleted
+            return 0, 0, 0
+        return repo_activity(make_session(token), full_name, start, end)
+
+    candidates = [repo for repo in repos if repository_may_have_activity(repo, start)]
+    workers = max(1, min(6, len(candidates)))
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for commits, added, deleted in pool.map(collect, candidates):
+            if commits:
+                totals["active_repos"] += 1
+            totals["commits"] += commits
+            totals["lines_added"] += added
+            totals["lines_deleted"] += deleted
 
     totals["net_lines"] = totals["lines_added"] - totals["lines_deleted"]
 
