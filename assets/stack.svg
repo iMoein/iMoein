@@ -15,7 +15,7 @@
 <text x="52" y="113" fill="#86efac" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">1.20M</text>
 <rect x="248" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="262" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">CODE FILES</text>
-<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">5,471</text>
+<text x="262" y="113" fill="#bfdbfe" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">5,472</text>
 <rect x="458" y="78" width="184" height="70" rx="9" fill="#111c2f" stroke="#233044" stroke-width="1"/>
 <text x="472" y="92" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="start" xml:space="preserve">LANGUAGES</text>
 <text x="472" y="113" fill="#67e8f9" font-size="19" font-weight="700" text-anchor="start" xml:space="preserve">23</text>
@@ -34,14 +34,14 @@
 <text x="56" y="238" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">JSON</text>
 <rect x="188" y="238" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="238" width="70.6" height="13" rx="6.5" fill="#67e8f9"/>
-<text x="470" y="237" fill="#67e8f9" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">30.05%</text>
+<text x="470" y="237" fill="#67e8f9" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">30.04%</text>
 <text x="578" y="237" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">361,122</text>
 <text x="693" y="237" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1,320</text>
 <text x="56" y="266" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">TypeScript</text>
 <rect x="188" y="266" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="266" width="58.1" height="13" rx="6.5" fill="#86efac"/>
 <text x="470" y="265" fill="#86efac" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">24.73%</text>
-<text x="578" y="265" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">297,214</text>
+<text x="578" y="265" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">297,258</text>
 <text x="693" y="265" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1,396</text>
 <text x="56" y="294" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Python</text>
 <rect x="188" y="294" width="235" height="13" rx="6.5" fill="#08111f"/>
@@ -53,14 +53,14 @@
 <rect x="188" y="322" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="322" width="26.0" height="13" rx="6.5" fill="#c4b5fd"/>
 <text x="470" y="321" fill="#c4b5fd" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">11.07%</text>
-<text x="578" y="321" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">133,065</text>
+<text x="578" y="321" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">133,066</text>
 <text x="693" y="321" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">114</text>
 <text x="56" y="350" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">JavaScript</text>
 <rect x="188" y="350" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="350" width="16.3" height="13" rx="6.5" fill="#fde68a"/>
-<text x="470" y="349" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">6.94%</text>
-<text x="578" y="349" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">83,421</text>
-<text x="693" y="349" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">439</text>
+<text x="470" y="349" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">6.96%</text>
+<text x="578" y="349" fill="#bfdbfe" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">83,612</text>
+<text x="693" y="349" fill="#94a3b8" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">440</text>
 <text x="56" y="378" fill="#f8fafc" font-size="11.5" font-weight="700" text-anchor="start" xml:space="preserve">Rust</text>
 <rect x="188" y="378" width="235" height="13" rx="6.5" fill="#08111f"/>
 <rect x="188" y="378" width="7.5" height="13" rx="6.5" fill="#fdba74"/>
@@ -174,7 +174,7 @@
 <rect x="252.5" y="1000" width="161.7" height="14" fill="#86efac"/>
 <rect x="414.2" y="1000" width="98.4" height="14" fill="#bfdbfe"/>
 <rect x="512.6" y="1000" width="72.4" height="14" fill="#c4b5fd"/>
-<rect x="585.0" y="1000" width="45.4" height="14" fill="#fde68a"/>
+<rect x="585.0" y="1000" width="45.5" height="14" fill="#fde68a"/>
 <rect x="630.4" y="1000" width="20.8" height="14" fill="#fdba74"/>
 <rect x="651.2" y="1000" width="14.4" height="14" fill="#f9a8d4"/>
 <rect x="665.6" y="1000" width="9.8" height="14" fill="#a7f3d0"/>
@@ -261,13 +261,13 @@
 <text x="1054" y="828" fill="#fde68a" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">2 repos</text>
 <text x="1054" y="843" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">5.3%</text>
 <rect x="766" y="870" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
-<text x="778" y="878" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Next.js</text>
-<text x="778" y="893" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">FRONTEND</text>
+<text x="778" y="878" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Prisma</text>
+<text x="778" y="893" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">DATA</text>
 <text x="1054" y="878" fill="#fdba74" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1 repos</text>
 <text x="1054" y="893" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">2.6%</text>
 <rect x="766" y="920" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
-<text x="778" y="928" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Prisma</text>
-<text x="778" y="943" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">DATA</text>
+<text x="778" y="928" fill="#f8fafc" font-size="11" font-weight="700" text-anchor="start" xml:space="preserve">Next.js</text>
+<text x="778" y="943" fill="#475569" font-size="8.5" font-weight="700" text-anchor="start" xml:space="preserve">FRONTEND</text>
 <text x="1054" y="928" fill="#f9a8d4" font-size="10.5" font-weight="700" text-anchor="end" xml:space="preserve">1 repos</text>
 <text x="1054" y="943" fill="#94a3b8" font-size="9" font-weight="700" text-anchor="end" xml:space="preserve">2.6%</text>
 <rect x="766" y="970" width="300" height="42" rx="7" fill="#08111f" stroke="#233044" stroke-width="1"/>
