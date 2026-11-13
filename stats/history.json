@@ -1,15 +1,6 @@
 {
   "days": [
     {
-      "date": "2025-10-09",
-      "repos_checked": 35,
-      "commits": 24,
-      "lines_added": 0,
-      "lines_deleted": 0,
-      "net_lines": 0,
-      "active_repos": 1
-    },
-    {
       "date": "2025-10-10",
       "repos_checked": 35,
       "commits": 24,
@@ -3598,6 +3589,15 @@
       "lines_added": 19502,
       "lines_deleted": 861,
       "net_lines": 18641,
+      "active_repos": 2
+    },
+    {
+      "date": "2026-11-13",
+      "repos_checked": 39,
+      "commits": 10,
+      "lines_added": 2341,
+      "lines_deleted": 3613,
+      "net_lines": -1272,
       "active_repos": 2
     }
   ]
